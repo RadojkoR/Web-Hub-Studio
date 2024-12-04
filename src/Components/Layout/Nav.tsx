@@ -1,5 +1,5 @@
 import { NavLink } from "react-router"
-import NavLogo from "../../assets/Logos/Web Hub Studio Logo - Email Signature.png"
+import NavLogo from "../../assets/Logos/WebHubStudioLogo .png"
 
 function Nav() {
   return (
@@ -69,9 +69,6 @@ function Nav() {
           >
             Contact
           </NavLink>
-          <li>
-            
-          </li>
         </li>
       </ul>
     </nav>
