@@ -11,7 +11,6 @@ function Footer() {
   return (
     <footer className="bg-cyan-950">
       <h2 className="text-4xl text-center pt-10 pb-5 font-semibold text-zinc-100">
-        {/* {t("footerSlogan")} */}
         {t("footer.footerSlogan")}
       </h2>
       <SocialMedia />
