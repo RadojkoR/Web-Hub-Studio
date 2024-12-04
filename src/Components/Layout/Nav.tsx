@@ -89,9 +89,9 @@ function Nav() {
           </span>
         </button>
         {isDropDownOpen && (
-          <article className="absolute w-36 top-full left-0 mt-2 p-2 bg-slate-100 border border-gray-300 shadow-lg z-10">
+          <article className="absolute w-36 top-full left-0 mt-2 py-4 px-2 bg-slate-100 border border-gray-300 shadow-lg z-10">
             <button
-              className="w-6 mb-2"
+              className="w-6 mb-4"
               onClick={() => handleLanguageChange("sr")}
             >
               <span className="w-6 flex text-sm">
