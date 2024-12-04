@@ -1,0 +1,12 @@
+{
+    "home": "Početna",
+    "services": "Usluge",
+    "projects": "Projekti",
+    "contact": "Kontakt",
+    "language": "Jezik",
+    "languages": {
+    "serbian": "Srpski",
+    "english": "Engleski"
+  },
+   "footerSlogan": "Mesto gde web ideje postaju stvarnost. Hvala što ste nas posetili!"
+}
