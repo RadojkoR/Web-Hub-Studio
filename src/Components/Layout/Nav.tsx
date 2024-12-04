@@ -20,7 +20,7 @@ function Nav() {
   
   // const [selectedLanguage, setSelectedLanguage]= useState("English")
   return (
-    <nav className="w-full fixed flex items-center h-16 z-50 uppercase text-xl text-gray-600 font-semibold">
+    <nav className="w-full fixed flex items-center h-16 z-50 uppercase text-xl text-slate-100 font-semibold">
       <div className="">
         <NavLink to={"/"}>
           <img
