@@ -13,10 +13,10 @@ function HeroHome() {
           {t("heroHome.para")}
         </p>
         <div className="cta-buttons mx-auto mt-10 mb-10">
-          <button className="bg-cyan-400 w-36 text-lg font-bold px-5 py-2 me-5">
+          <button className="bg-cyan-300 w-36 text-lg font-bold text-gray-700 px-5 py-2 me-5">
             {t("heroHome.servicesBtn")}
           </button>
-          <button className="bg-cyan-400 w-36 text-lg font-bold px-5 py-2">
+          <button className="bg-cyan-300 w-36 text-lg font-bold text-gray-700 px-5 py-2">
             {t("heroHome.contactUsBtn")}
           </button>
         </div>
