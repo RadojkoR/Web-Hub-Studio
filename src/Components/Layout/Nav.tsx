@@ -1,11 +1,10 @@
 import { NavLink } from "react-router";
 import NavLogo from "../../assets/Logos/WebHubStudioLogoText-light.png";
-import SrbFlag from "../../assets/Flags/serbia256x256.webp";
-import EngFlag from "../../assets/Flags/united-kingdom256x256.webp";
+import SrbFlag from "../../assets/Flags/serbia128x128.webp";
+import EngFlag from "../../assets/Flags/united-kingdom128x128.webp";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
-// type Language = "English" | "Serbian"
 
 function Nav() {
   const {t, i18n} = useTranslation();
@@ -18,7 +17,6 @@ function Nav() {
     setIsDropDownOpen(false);
   }
   
-  // const [selectedLanguage, setSelectedLanguage]= useState("English")
   return (
     <nav className="w-full fixed flex items-center h-16 z-50 uppercase text-xl text-slate-100 font-semibold">
       <div className="">
