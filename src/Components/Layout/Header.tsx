@@ -5,7 +5,7 @@ function Header() {
   const {t} = useTranslation("header")
   return (
     <header className="header relative h-screen overflow-hidden">
-      <video src={video} className="w-full h-auto" loop autoPlay></video>
+      <video src={video} className="w-full h-auto" aria-hidden="true" loop autoPlay muted></video>
       <section className="absolute w-rem40 p-10 right-44 top-52 bg-gray-900 bg-opacity-70">
         <h1 className="text-teal-200 text-7xl font-bold">
           {t("header.headerSlogan")}
