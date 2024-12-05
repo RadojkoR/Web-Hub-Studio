@@ -4,8 +4,8 @@ import { useTranslation } from "react-i18next";
 function Header() {
   const {t} = useTranslation("header")
   return (
-    <header className="mainHeader relative w-full h-screen overflow-hidden">
-      <video src={video} className="w-full h-full object-cover" aria-hidden="true" loop autoPlay muted></video>
+    <header className="mainHeader relative w-full h-screen overflow-hidden -z-50">
+      <video src={video} className="w-full h-full object-cover fixed" aria-hidden="true" loop autoPlay muted></video>
       <section 
         className="
         absolute 

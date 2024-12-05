@@ -8,6 +8,10 @@ import enFooter from "./locales/en/translationFooter.json";
 import srFooter from "./locales/sr/translationFooter.json";
 import enHeader from "./locales/en/translationHeader.json";
 import srHeader from "./locales/sr/translationHeader.json";
+import enHeroHome from "./locales/en/translationHeroHome.json";
+import srHeroHome from "./locales/sr/translationHeroHome.json";
+import enHome from "./locales/en/translationHome.json";
+import srHome from "./locales/sr/translationHome.json";
 
 
 i18n
@@ -17,13 +21,16 @@ i18n
       en: {
         translation: enTranslation,
         footer: enFooter,
-        header: enHeader
-
+        header: enHeader,
+        heroHome: enHeroHome,
+        home: enHome
       },
       sr: {
         translation: srTranslation,
         footer: srFooter,
-        header: srHeader
+        header: srHeader,
+        heroHome: srHeroHome,
+        home: srHome
       },
     },
     fallbackLng: 'en', // Podrazumevani jezik

@@ -1,3 +1,4 @@
+import { AboutHome, HeroHome } from "../Components/Home";
 import { Header } from "../Components/Layout"
 
 
@@ -6,7 +7,8 @@ function Home() {
     <>
       <Header />
       <section className="mainHome">
-        <h1 className="text-teal-500 text-7xl">Ovo Je Home Page</h1>
+        <HeroHome />
+        <AboutHome />
       </section>
     </>
   );
