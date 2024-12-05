@@ -14,11 +14,18 @@ export default {
         brandColorTwo: "#04c2c9"
       },
       width: {
-        rem30: "30rem",
         rem40: "40rem",
+        rem35: "35rem",
+        rem30: "30rem",
       },
       height: {
         vh80: "80vh"
+      },
+      screens: {
+        xs: '490px',
+        xxs: '380px',
+        xxxs: '320px',
+        xxxxs: '280px'
       }
     },
   },

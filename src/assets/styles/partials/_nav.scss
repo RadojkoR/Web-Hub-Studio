@@ -1,0 +1,21 @@
+@use "./variables" as var;
+
+@media (max-width: 1024px) {
+    .navUlEl {
+        background-color: var.$mobileMenuBgColor;
+        width: 20rem;
+        height: 100vh;
+        padding: 2rem ;
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        transition: all 0.3s ease;
+        li {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .lngBtnContainer {
+        margin-left: auto;
+    }
+}
