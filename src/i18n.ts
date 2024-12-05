@@ -6,6 +6,8 @@ import enTranslation from './locales/en/translation.json';
 import srTranslation from './locales/sr/translation.json';
 import enFooter from "./locales/en/translationFooter.json";
 import srFooter from "./locales/sr/translationFooter.json";
+import enHeader from "./locales/en/translationHeader.json";
+import srHeader from "./locales/sr/translationHeader.json";
 
 
 i18n
@@ -15,11 +17,13 @@ i18n
       en: {
         translation: enTranslation,
         footer: enFooter,
+        header: enHeader
 
       },
       sr: {
         translation: srTranslation,
         footer: srFooter,
+        header: srHeader
       },
     },
     fallbackLng: 'en', // Podrazumevani jezik

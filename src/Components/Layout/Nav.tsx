@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import NavLogo from "../../assets/Logos/WebHubStudioLogo .png";
+import NavLogo from "../../assets/Logos/WebHubStudioLogoText-light.png";
 import SrbFlag from "../../assets/Flags/serbia256x256.webp";
 import EngFlag from "../../assets/Flags/united-kingdom256x256.webp";
 import { useState } from "react";
@@ -89,7 +89,7 @@ function Nav() {
           </span>
         </button>
         {isDropDownOpen && (
-          <article className="absolute w-36 top-full left-0 mt-2 py-4 px-2 bg-slate-100 border border-gray-300 shadow-lg z-10">
+          <article className="absolute text-gray-900 w-36 top-full left-0 mt-2 py-4 px-2 bg-slate-100 border border-gray-300 shadow-lg z-10">
             <button
               className="w-6 mb-4"
               onClick={() => handleLanguageChange("sr")}
