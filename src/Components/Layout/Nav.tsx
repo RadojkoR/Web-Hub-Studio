@@ -43,16 +43,19 @@ function Nav() {
           <li className="me-8">
             <NavLink
               to={"/"}
-              className="
-              hover:text-brandColor
-              focus:text-brandColor"
+              end
+              className={({ isActive }) =>
+                `${
+                  isActive ? "active" : ""
+                } hover:text-brandColor focus:text-brandColor focus:outline-none`
+              }
             >
               {t("home")}
             </NavLink>
           </li>
           <li className="me-8 ">
             <NavLink
-              to={"/"}
+              to={"/services"}
               className="
               hover:text-brandColor
               focus:text-brandColor"

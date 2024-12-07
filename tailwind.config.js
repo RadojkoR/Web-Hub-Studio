@@ -26,7 +26,12 @@ export default {
         xxs: '380px',
         xxxs: '320px',
         xxxxs: '280px'
-      }
+      },
+      rotate: {
+        6: '6deg',
+        45: '45deg'
+        // Dodaj druge vrednosti po potrebi
+      },
     },
   },
   plugins: [],

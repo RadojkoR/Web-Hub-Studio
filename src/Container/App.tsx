@@ -2,7 +2,7 @@
 import { Route, Routes } from 'react-router'
 import '../App.css';
 import '../assets/styles/main.scss';
-import { Home } from '../Pages'
+import { Home, Services } from '../Pages'
 import { Footer, Nav } from '../Components/Layout'
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
       <section>
         <Routes>
           <Route path='/' element={<Home />}></Route>
+          <Route path='/services' element={<Services />}></Route>
         </Routes>
       </section>
       <Footer />

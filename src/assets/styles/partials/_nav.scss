@@ -1,5 +1,9 @@
 @use "./variables" as var;
 
+.active {
+            color: theme('colors.brandColor');
+        }
+
 @media (max-width: 1024px) {
     .navUlEl {
         background-color: var.$mobileMenuBgColor;
@@ -18,4 +22,6 @@
     .lngBtnContainer {
         margin-left: auto;
     }
+
+    
 }
