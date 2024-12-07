@@ -12,7 +12,7 @@ function AboutHome() {
       AOS.init({ duration: 1000 });
     }, []);
   return (
-    <section className="bg-slate-200 py-20">
+    <section className="aboutUs py-20">
       <h1 className="text-4xl text-center font-bold text-cyan-800 uppercase mb-16">
         Web Hub Studio
       </h1>

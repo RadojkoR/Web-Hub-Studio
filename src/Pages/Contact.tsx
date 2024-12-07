@@ -1,8 +1,11 @@
+import { Header } from "../Components/Layout"
 
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <>
+      <Header />
+    </>
   )
 }
 

@@ -4,8 +4,14 @@
     background: linear-gradient(135deg, #00F0FF, #333333);
     background-size: cover;
     color: white;
-    
 }
+
+.aboutUs {
+    background: linear-gradient(135deg, #E2E8F0, #FFFFFF); /* Svetlo siva i bela */
+    color: #333; /* Tamnija boja za tekst */
+}
+
+
 
 @keyframes rotateZoomOut {
   0% {
