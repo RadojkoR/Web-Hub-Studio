@@ -3,6 +3,9 @@
   "services": "Usluge",
   "projects": "Projekti",
   "contact": "Kontakt",
+  "linkServices": "usluge",
+  "linkProjects": "projekti",
+  "linkContact": "kontakt",
   "language": "Jezik",
   "languages": {
     "serbian": "Srpski",

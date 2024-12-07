@@ -65,7 +65,7 @@ function Nav() {
           </li>
           <li className="me-8">
             <NavLink
-              to={"/"}
+              to={"/projects"}
               className="
               hover:text-brandColor
               focus:text-brandColor"
@@ -75,7 +75,7 @@ function Nav() {
           </li>
           <li className="me-8">
             <NavLink
-              to={"/"}
+              to={"/contact"}
               className="
               hover:text-brandColor
               focus:text-brandColor"
