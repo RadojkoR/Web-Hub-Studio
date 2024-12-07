@@ -1,0 +1,18 @@
+{
+    "whyItMatters": {
+        "title": "Why Your Website Matters",
+        "titleTwo": "Here’s why it matters:",
+        "para": "In today’s digital age, your website is often the first impression potential clients or customers have of your business. A modern, professional website is essential for standing out in a competitive online market.",
+        "firstImpressions": "First Impressions: ",
+        "liElOne": "First Impressions: A clean, responsive, and well-designed site creates a positive, lasting impression. 75% of people judge a company’s credibility based on its website design.",
+        "buildsCredibility":"Builds Credibility: ",
+        "liElTwo": "An outdated website can damage your reputation. A modern site shows you're reliable and professional. 38.5% of web designers believe outdated design is the primary reason visitors leave a website.",
+        "customerExperience":"Customer Experience: ",
+        "liElThree": "A user-friendly site makes it easier for customers to find information and connect with you. 47% of visitors expect a website to load in 2 seconds or less.",
+        "searchEngineVisibility":"Search Engine Visibility: ",
+        "liElFour": "A well-optimized website increases your chances of appearing higher in search results, driving more traffic. 61% of marketers say improving SEO and growing their organic presence is their top inbound marketing priority.",
+        "increasesConversions":"Increases Conversions: ",
+        "liElFive": "A site designed with the user in mind encourages more leads and sales. A website that works well across devices and browsers can increase conversions by up to 50%.",
+        "lastPara": "Investing in a modern website helps grow your business, improve customer trust, and make a lasting impact online."
+    }
+}

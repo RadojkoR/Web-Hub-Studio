@@ -1,4 +1,4 @@
-import { NavLink } from "react-router";
+import { NavLink } from "react-router-dom";
 import NavLogo from "../../assets/Logos/WebHubStudioLogoText-light.png";
 import SrbFlag from "../../assets/Flags/serbia128x128.webp";
 import EngFlag from "../../assets/Flags/united-kingdom128x128.webp";
@@ -12,6 +12,13 @@ function Nav() {
   const {t, i18n} = useTranslation();
   const [isDropDownOpen, setIsDropDownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  // const [lang, setLang] = useState(false)
+  // const {lang} = useParams();
+  // const navigate = useNavigate()
+  // // console.log("lang",lang);
+  // console.log("i18n",i18n.language);
+  // console.log("navigate",navigate);
+  
 
   const toggleDropdown = () => setIsDropDownOpen(!isDropDownOpen);
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -19,6 +26,7 @@ function Nav() {
   const handleLanguageChange = (language:string) => {
     i18n.changeLanguage(language);
     setIsDropDownOpen(false);
+    // navigate(`/${language}`)
   }
   
   return (

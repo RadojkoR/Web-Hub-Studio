@@ -1,4 +1,4 @@
-import { AboutHome, HeroHome } from "../Components/Home";
+import { AboutHome, HeroHome, WhyItMatters } from "../Components/Home";
 import { Header } from "../Components/Layout"
 
 
@@ -8,6 +8,7 @@ function Home() {
       <Header />
       <section className="mainHome">
         <HeroHome />
+        <WhyItMatters />
         <AboutHome />
       </section>
     </>

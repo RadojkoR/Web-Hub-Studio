@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 function HeroHome() {
     const {t} = useTranslation("heroHome")
@@ -13,12 +14,12 @@ function HeroHome() {
           {t("heroHome.para")}
         </p>
         <div className="cta-buttons mx-auto mt-10 mb-10">
-          <button className="bg-cyan-300 w-36 text-lg font-bold text-gray-700 px-5 py-2 me-5">
+          <Link to={"/services"} className="bg-cyan-300 w-36 text-lg font-bold text-gray-700 px-5 py-2 me-5">
             {t("heroHome.servicesBtn")}
-          </button>
-          <button className="bg-cyan-300 w-36 text-lg font-bold text-gray-700 px-5 py-2">
+          </Link>
+          <Link to={"/contact"} className="bg-cyan-300 w-36 text-lg font-bold text-gray-700 px-5 py-2">
             {t("heroHome.contactUsBtn")}
-          </button>
+          </Link>
         </div>
       </article>
     </section>
