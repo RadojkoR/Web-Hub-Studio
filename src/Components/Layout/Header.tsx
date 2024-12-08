@@ -7,7 +7,7 @@ function Header() {
     <header className="mainHeader relative w-full h-screen overflow-hidden -z-50">
       <video
         src={video}
-        className="w-full h-fit object-cover fixed"
+        className="w-full h-dvh object-cover fixed"
         aria-hidden="true"
         loop
         autoPlay
