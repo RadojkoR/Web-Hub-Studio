@@ -19,8 +19,8 @@ function AboutHome() {
         <h1 className="text-4xl text-center font-bold text-cyan-800 uppercase mb-16">
           Web Hub Studio
         </h1>
-        <article className="container flex justify-between">
-          <div className="w-3/6">
+        <article className="container lg:flex justify-between">
+          <div className="lg:w-3/6 w-full">
             <h2 className="text-3xl font-semibold text-gray-700 mt-10 mb-5 ">
               {t("home.aboutTitle")}
             </h2>
@@ -31,7 +31,7 @@ function AboutHome() {
               {t("home.aboutSummaryTxt")}
             </p>
           </div>
-          <div className="w-3/6 flex flex-col relative p-5">
+          <div className="lg:w-3/6 w-full flex flex-col relative p-5">
             <ParallaxProvider>
               <Parallax translateX={[50, 0, "easeOutQuint"]}>
                 <img
