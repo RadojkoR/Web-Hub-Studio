@@ -32,6 +32,9 @@ export default {
         45: '45deg'
         // Dodaj druge vrednosti po potrebi
       },
+      backgroundImage: {
+        "aboutMeParlaxImg": "url('./src/assets/Images/HomePageImages/aboutImg3.webp')"
+      },
     },
   },
   plugins: [],
