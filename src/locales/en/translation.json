@@ -11,5 +11,22 @@
     "languages": {
         "serbian": "Serbian",
         "english": "English"
-    }
+    },
+    "servicesHome": {
+        "title": "Our Services",
+        "para": "We offer a wide range of services to help you succeed online.",
+        "webDevelopmentCard": {
+            "cardTitle": "Web Development",
+            "cardPara": "Modern and responsive websites tailored to your needs."
+        },
+        "webDesignCard": {
+            "cardTitle": "Web Design",
+            "cardPara": "Creative designs that leave a lasting impression."
+        },
+        "seoOptimizationCard": {
+            "cardTitle": "SEO Optimization",
+            "cardPara": "Boost your online visibility with proven strategies."
+        }
+    },
+    "ourProjects": "Our Projects"
 }

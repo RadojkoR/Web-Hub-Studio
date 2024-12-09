@@ -1,4 +1,4 @@
-import { AboutHome, HeroHome, WhyItMatters } from "../Components/Home";
+import { AboutHome, HeroHome, ProjectsHome, ServicesHome, WhyItMatters } from "../Components/Home";
 import { Header } from "../Components/Layout"
 
 
@@ -10,6 +10,8 @@ function Home() {
         <HeroHome />
         <WhyItMatters />
         <AboutHome />
+        <ServicesHome />
+        <ProjectsHome />
       </section>
     </>
   );

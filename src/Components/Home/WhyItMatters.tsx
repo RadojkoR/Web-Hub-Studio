@@ -5,6 +5,7 @@ import { IoShieldCheckmarkSharp } from "react-icons/io5";
 import { FaSmile } from "react-icons/fa";
 import { FaChartLine } from "react-icons/fa";
 import { FaCoins } from "react-icons/fa";
+import { FaMobileAlt } from "react-icons/fa";
 import { useEffect } from "react";
 
 function WhyItMatters() {
@@ -14,7 +15,7 @@ function WhyItMatters() {
       AOS.init({duration: 1000})
     }, [])
   return (
-    <section className="bg-slate-200 py-20">
+    <section className="bg-slate-100 py-20">
       <div className="container">
         <h2 className="text-center text-5xl font-bold text-cyan-800 mb-12">
           {t("whyItMatters.title")}
@@ -51,7 +52,7 @@ function WhyItMatters() {
           </div>
 
           <div
-            className="flex flex-col items-center p-7 bg-yellow-50 shadow-lg rounded-lg"
+            className="flex flex-col items-center p-7 bg-orange-50 shadow-lg rounded-lg"
             data-aos="flip-right"
             data-aos-delay="400"
           >
@@ -79,7 +80,7 @@ function WhyItMatters() {
           </div>
 
           <div
-            className="flex flex-col items-center p-7 bg-gray-50 shadow-lg rounded-lg"
+            className="flex flex-col items-center p-7 bg-cyan-50 shadow-lg rounded-lg"
             data-aos="flip-right"
             data-aos-delay="700"
           >
@@ -93,11 +94,11 @@ function WhyItMatters() {
           </div>
 
           <div
-            className="flex flex-col items-center p-7 bg-gray-50 shadow-lg rounded-lg"
+            className="flex flex-col items-center p-7 bg-gray-200 shadow-lg rounded-lg"
             data-aos="flip-right"
             data-aos-delay="850"
           >
-            <FaCoins className="text-5xl text-amber-400" />
+            <FaMobileAlt className="text-5xl text-gray-500" />
             <h3 className="text-2xl font-bold text-gray-700 mt-3 mb-5">
               {t("whyItMatters.responsiveDesign")}
             </h3>

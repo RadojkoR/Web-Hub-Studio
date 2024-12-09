@@ -4,20 +4,15 @@ import SrbFlag from "../../assets/Flags/serbia128x128.webp";
 import EngFlag from "../../assets/Flags/united-kingdom128x128.webp";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RiCloseLargeLine } from "react-icons/ri";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 
 function Nav() {
   const {t, i18n} = useTranslation();
   const [isDropDownOpen, setIsDropDownOpen] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-  // const [lang, setLang] = useState(false)
-  // const {lang} = useParams();
-  // const navigate = useNavigate()
-  // // console.log("lang",lang);
-  // console.log("i18n",i18n.language);
-  // console.log("navigate",navigate);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+   const [hasScrolled, setHasScrolled] = useState(false);
   
 
   const toggleDropdown = () => setIsDropDownOpen(!isDropDownOpen);
@@ -26,12 +21,29 @@ function Nav() {
   const handleLanguageChange = (language:string) => {
     i18n.changeLanguage(language);
     setIsDropDownOpen(false);
-    // navigate(`/${language}`)
   }
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        console.log(window.scrollY);
+        setHasScrolled(true);
+      } else {
+        setHasScrolled(false);
+      }
+    };
+    
+    window.addEventListener("scroll", handleScroll);
+    
+  },[])
   
   return (
-    <nav className="w-full fixed h-16 z-50 ">
-      <div className="2xl:container h-full flex items-center uppercase text-2xl text-slate-100 font-semibold">
+    <nav
+      className={`mainNav w-full fixed z-50 text-2xl ${
+        hasScrolled ? "navHasScrolled" : ""
+      }`}
+    >
+      <div className="2xl:container h-full flex items-center uppercase text-slate-100 font-semibold">
         <div className="xxs:w-52 ms-5 xxxs:w-36 xxxxs:w-28">
           <NavLink to={"/"}>
             <img
@@ -116,15 +128,6 @@ function Nav() {
             <article className="absolute text-gray-900 w-36 top-full left-0 mt-2 py-4 px-2 bg-slate-100 border border-gray-300 shadow-lg z-10">
               <button
                 className="w-6 mb-4"
-                onClick={() => handleLanguageChange("sr")}
-              >
-                <span className="w-6 flex text-sm">
-                  <img src={SrbFlag} className="me-3" alt="Serbian Flag" />
-                  {i18n.language === "sr" ? <>Srpski</> : <>Serbian</>}
-                </span>
-              </button>
-              <button
-                className="w-6 flex"
                 onClick={() => handleLanguageChange("en")}
               >
                 <span className="w-6 flex text-sm">
@@ -135,6 +138,16 @@ function Nav() {
                   />
                   {i18n.language === "en" ? <>English</> : <>Engleski</>}
                 </span>
+              </button>
+              <button
+                className="w-6 flex"
+                onClick={() => handleLanguageChange("sr")}
+              >
+                <span className="w-6 flex text-sm">
+                  <img src={SrbFlag} className="me-3" alt="Serbian Flag" />
+                  {i18n.language === "sr" ? <>Srpski</> : <>Serbian</>}
+                </span>
+                
               </button>
             </article>
           )}

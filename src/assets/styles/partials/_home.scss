@@ -15,9 +15,10 @@
 }
 
 .aboutUs {
-    background: linear-gradient(135deg, #E2E8F0, #FFFFFF); /* Svetlo siva i bela */
+    background: linear-gradient(135deg,  #FFFFFF, #bac0c6); /* Svetlo siva i bela */
     color: #333; /* Tamnija boja za tekst */
 }
+
 
 
 
@@ -34,3 +35,14 @@
   animation: rotateZoomOut 1.5s ease-out forwards;
   animation-delay: 1s;  /* Ovdje postavi kašnjenje animacije */
 }
+
+.servicesHome {
+  // background: linear-gradient(135deg, #00A9FF, #005F73);
+// background: linear-gradient(135deg, #D1C7B7, #B69C72);
+// background: linear-gradient(135deg, #A8C0FF, #3F4C91);
+background: linear-gradient(135deg, #A7F3D0, #059669);
+
+
+}
+
+

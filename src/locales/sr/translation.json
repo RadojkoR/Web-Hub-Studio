@@ -10,5 +10,9 @@
   "languages": {
     "serbian": "Srpski",
     "english": "Engleski"
-  }
+  },
+  "servicesHome": {
+        "title": "Usluge"
+    },
+  "ourProjects": "Naši Projekti"
 }
