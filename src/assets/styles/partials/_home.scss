@@ -20,8 +20,6 @@
 }
 
 
-
-
 @keyframes rotateZoomOut {
   0% {
     transform: rotate(0deg) scale(1);
@@ -41,8 +39,12 @@
 // background: linear-gradient(135deg, #D1C7B7, #B69C72);
 // background: linear-gradient(135deg, #A8C0FF, #3F4C91);
 background: linear-gradient(135deg, #A7F3D0, #059669);
-
+ background-size: cover;
 
 }
 
+.ourProjects {
+  background: linear-gradient(135deg,  #FFFFFF, #bac0c6);
+  background-size: cover;
+}
 

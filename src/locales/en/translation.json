@@ -8,6 +8,7 @@
     "linkProjects": "projects",
     "linkContact": "contact",
     "language": "Language",
+    "learnMoreBtn": "Learn More",
     "languages": {
         "serbian": "Serbian",
         "english": "English"
@@ -28,5 +29,8 @@
             "cardPara": "Boost your online visibility with proven strategies."
         }
     },
-    "ourProjects": "Our Projects"
+    "ourProjects": {
+        "title": "Our Projects",
+        "para": "Explore our portfolio of successful projects"
+    } 
 }

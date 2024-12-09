@@ -72,16 +72,19 @@ function ServicesHome() {
             transition-all
             duration-300
             ease-in-out
-            w-36 
+            w-40 
             text-lg 
             font-bold 
             text-gray-700 
             px-5 
             py-2 
             mt-14
-            mx-auto"
+            mx-auto
+            flex
+            justify-center
+            items-center"
         >
-          Learn More
+          {t("learnMoreBtn")}
         </Link>
       </div>
     </section>

@@ -7,12 +7,30 @@
   "linkProjects": "projekti",
   "linkContact": "kontakt",
   "language": "Jezik",
+  "learnMoreBtn": "Saznajte više",
   "languages": {
     "serbian": "Srpski",
     "english": "Engleski"
   },
   "servicesHome": {
-        "title": "Usluge"
+        "title": "Naše Usluge",
+        "para": "We offer a wide range of services to help you succeed online.",
+        "webDevelopmentCard": {
+            "cardTitle": "Web Development",
+            "cardPara": "Moderne i responzivne veb sajtove prilagođene vašim potrebama."
+        },
+        "webDesignCard": {
+            "cardTitle": "Web Dizajin",
+            "cardPara": "Kreativni dizajni koji ostavljaju trajan utisak.."
+        },
+        "seoOptimizationCard": {
+            "cardTitle": "SEO Optimization",
+            "cardPara": "Povećajte svoju online vidljivost uz proverene strategije."
+        }
     },
-  "ourProjects": "Naši Projekti"
+    "ourProjects": {
+        "title": "Naši Projekti",
+        "para": "Istražite naš portfelj uspešnih projekata"
+    } 
+  
 }

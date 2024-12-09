@@ -68,7 +68,7 @@ function WhyItMatters() {
           <div
             className="flex flex-col items-center p-7 bg-green-50 shadow-lg rounded-lg"
             data-aos="flip-right"
-            data-aos-delay="550"
+            data-aos-delay="100"
           >
             <FaChartLine className="text-5xl text-green-500" />
             <h3 className="text-2xl font-bold text-gray-700 mt-3 mb-5">
@@ -82,7 +82,7 @@ function WhyItMatters() {
           <div
             className="flex flex-col items-center p-7 bg-cyan-50 shadow-lg rounded-lg"
             data-aos="flip-right"
-            data-aos-delay="700"
+            data-aos-delay="250"
           >
             <FaCoins className="text-5xl text-amber-400" />
             <h3 className="text-2xl font-bold text-gray-700 mt-3 mb-5">
@@ -96,7 +96,7 @@ function WhyItMatters() {
           <div
             className="flex flex-col items-center p-7 bg-gray-200 shadow-lg rounded-lg"
             data-aos="flip-right"
-            data-aos-delay="850"
+            data-aos-delay="400"
           >
             <FaMobileAlt className="text-5xl text-gray-500" />
             <h3 className="text-2xl font-bold text-gray-700 mt-3 mb-5">
