@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import projectOneImg from "../../assets/Images/HomePageImages/izoDecorGlassProjectMd.webp";
 import projectOneImgMobile from "../../assets/Images/HomePageImages/izoDecorGlassMobile.webp";
 import projectOneImgSpeed from "../../assets/Images/HomePageImages/izoDecorGlassSpeed.webp";
+import projectTwoImg from "../../assets/Images/HomePageImages/mesProjectImgMd.webp";
+import projectTwoImgMobile from "../../assets/Images/HomePageImages/mesProjectMob.webp";
 
 function ProjectsHome() {
     const {t} = useTranslation();
@@ -15,25 +17,45 @@ function ProjectsHome() {
         <p className="text-2xl font-semibold text-gray-600 mt-5">
           {t("ourProjects.para")}
         </p>
-        <article className="mt-14 grid grid-cols-1 md:grid-cols-2 gap-20">
+        <article className="mt-14 grid grid-cols-1 lg:grid-cols-2 gap-20">
           <div className="relative">
             <img src={projectOneImg} alt="Image of project one" />
             <img
               src={projectOneImgMobile}
-              className="absolute top-10 left-24 w-44"
+              className="absolute top-6 left-5  2xl:w-44 xl:w-40 lg:w-36 md:w-48 sm:w-44 xs:w-40 xxs:w-36 xxxs:w-32 xxxxs:w-28"
               alt="Mobile image of project one"
             />
             <img
               src={projectOneImgSpeed}
-              className="absolute -bottom-5 right-10 w-96"
+              className="absolute 
+              lg:-bottom-16 
+              md:-bottom-20
+              xs:-bottom-20
+              xxs:-bottom-14 
+              xxxs:-bottom-10 
+              xxxxs:-bottom-8
+              xl:right-10 
+              lg:right-5 
+              md:right-20 
+              sm:right-8
+              xxxs:right-5
+              xxxxs:right-4
+              2xl:w-96 
+              xl:w-80 
+              lg:w-64 
+              sm:w-96 
+              xs:w-72 
+              xxs:w-48
+              xxxs:w-36
+              xxxxs:w-32"
               alt="Mobile image of project one"
             />
           </div>
-          <div className="relative">
-            <img src={projectOneImg} alt="Image of project one" />
+          <div className="relative xxxxs:mt-20 xxxs:mt-28 lg:mt-0">
+            <img src={projectTwoImg} alt="Image of project one" />
             <img
-              src={projectOneImgMobile}
-              className="absolute top-10 left-24 w-44"
+              src={projectTwoImgMobile}
+              className="absolute top-6 left-5  2xl:w-44 xl:w-40 lg:w-36 md:w-48 sm:w-44 xs:w-40 xxs:w-36 xxxs:w-32 xxxxs:w-28"
               alt="Mobile image of project one"
             />
           </div>
@@ -55,7 +77,7 @@ function ProjectsHome() {
             text-gray-700 
             px-5 
             py-2 
-            mt-28
+            mt-48
             mx-auto
             justify-center
             items-center"
