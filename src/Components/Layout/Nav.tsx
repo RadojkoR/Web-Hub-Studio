@@ -106,7 +106,7 @@ function Nav() {
         </ul>
         <section className="lngBtnContainer w-28 lg:me-5 flex relative">
           <button className="dropdownButtonLng w-6" onClick={toggleDropdown}>
-            <span className="w-6 flex text-sm">
+            <span className="w-6 flex items-center text-sm">
               {i18n.language === "sr" ? (
                 <>
                   <img src={SrbFlag} className="me-3" alt="Serbian Flag" />
