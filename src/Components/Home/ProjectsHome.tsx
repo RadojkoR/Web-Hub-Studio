@@ -18,8 +18,16 @@ function ProjectsHome() {
           {t("ourProjects.para")}
         </p>
         <article className="mt-14 grid grid-cols-1 lg:grid-cols-2 gap-20">
-          <div className="relative">
-            <img src={projectOneImg} alt="Image of project one" />
+          <Link
+            to={"https://izodecorglass.rs/"}
+            className="projectHomeItm relative "
+            target="_blank"
+          >
+            <img
+              src={projectOneImg}
+              className=""
+              alt="Image of project one"
+            />
             <img
               src={projectOneImgMobile}
               className="absolute top-6 left-5  2xl:w-44 xl:w-40 lg:w-36 md:w-48 sm:w-44 xs:w-40 xxs:w-36 xxxs:w-32 xxxxs:w-28"
@@ -50,15 +58,19 @@ function ProjectsHome() {
               xxxxs:w-32"
               alt="Mobile image of project one"
             />
-          </div>
-          <div className="relative xxxxs:mt-20 xxxs:mt-28 lg:mt-0">
+          </Link>
+          <Link
+            to={"https://www.mes.rs/"}
+            className="projectHomeItm relative xxxxs:mt-20 xxxs:mt-28 lg:mt-0"
+            target="_blank"
+          >
             <img src={projectTwoImg} alt="Image of project one" />
             <img
               src={projectTwoImgMobile}
               className="absolute top-6 left-5  2xl:w-44 xl:w-40 lg:w-36 md:w-48 sm:w-44 xs:w-40 xxs:w-36 xxxs:w-32 xxxxs:w-28"
               alt="Mobile image of project one"
             />
-          </div>
+          </Link>
         </article>
 
         <Link

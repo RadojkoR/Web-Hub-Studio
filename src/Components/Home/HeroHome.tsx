@@ -6,7 +6,7 @@ function HeroHome() {
   return (
     <section className="heroHome">
       <article className="container xl:w-4/5 pt-14 flex flex-col">
-        <h2 className="text-center text-gray-50 text-4xl font-bold uppercase tracking-wide">
+        <h2 className="text-center text-gray-50 text-2xl xxs:text-3xl sm:text-4xl font-bold uppercase tracking-wide">
           {t("heroHome.heading")}
         </h2>
         <p className="text-center text-gray-50 tracking-wide text-xl font-semibold pt-5">

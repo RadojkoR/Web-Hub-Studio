@@ -46,5 +46,12 @@ background: linear-gradient(135deg, #A7F3D0, #059669);
 .ourProjects {
   background: linear-gradient(135deg,  #FFFFFF, #bac0c6);
   background-size: cover;
+
+  .projectHomeItm {
+     transition: filter 0.3s ease-in-out; 
+    &:hover {
+       filter: brightness(70%);
+    }
+  }
 }
 

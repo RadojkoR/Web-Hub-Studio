@@ -16,7 +16,7 @@ function Footer() {
       <SocialMedia />
       <ContantInfo />
       <img src={brandLogo} className="w-96 mx-auto my-10" alt="Brand Logo" />
-      <p className="text-center text-zinc-100 font-semibold pb-5">
+      <p className="text-center xs:text-lg xxs:text-sm text-xs  text-zinc-100 font-semibold pb-5">
         Copyright &copy; <span>{new Date().getFullYear()}</span>{" "}
         <span className="text-brandColor">Web Hub Studio</span> All rights
         reserved

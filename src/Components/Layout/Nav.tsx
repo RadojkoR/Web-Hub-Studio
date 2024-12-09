@@ -44,7 +44,7 @@ function Nav() {
       }`}
     >
       <div className="2xl:container h-full flex items-center uppercase text-slate-100 font-semibold">
-        <div className="xxs:w-52 ms-5 xxxs:w-36 xxxxs:w-28">
+        <div className="xxs:w-52 xs:ms-5 xxxs:w-36 xxxxs:w-28">
           <NavLink to={"/"}>
             <img
               src={NavLogo}
