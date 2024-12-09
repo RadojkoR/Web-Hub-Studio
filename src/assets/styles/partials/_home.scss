@@ -1,6 +1,12 @@
 @use "./variables";
 
-
+.aboutUsParallax {
+  background-image: url("../Images/HomePageImages/aboutImg3.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 .heroHome {
     background: linear-gradient(135deg, #00F0FF, #333333);

@@ -12,7 +12,7 @@ function AboutHome() {
   return (
     <>
       {/* PARALLAX SECTION */}
-      <section className="h-80 bg-aboutMeParlaxImg bg-fixed"></section>
+      <section className="aboutUsParallax h-80"></section>
 
       <section className="aboutUs py-20">
         <h1 className="text-4xl text-center font-bold text-cyan-800 uppercase mb-16">
