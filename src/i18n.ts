@@ -14,6 +14,8 @@ import enHome from "./locales/en/translationHome.json";
 import srHome from "./locales/sr/translationHome.json";
 import enWhyItMatters from "./locales/en/translationWhyItMatters.json";
 import srWhyItMatters from "./locales/sr/translationWhyItMatters.json";
+import enServices from "./locales/en/translationServices.json";
+import srServices from "./locales/sr/translationServices.json";
 
 
 i18n
@@ -26,7 +28,8 @@ i18n
         header: enHeader,
         heroHome: enHeroHome,
         home: enHome,
-        whyItMatters: enWhyItMatters
+        whyItMatters: enWhyItMatters,
+        services: enServices
       },
       sr: {
         translation: srTranslation,
@@ -34,7 +37,8 @@ i18n
         header: srHeader,
         heroHome: srHeroHome,
         home: srHome,
-        whyItMatters: srWhyItMatters
+        whyItMatters: srWhyItMatters,
+        services: srServices
       },
     },
     fallbackLng: 'en', // Podrazumevani jezik

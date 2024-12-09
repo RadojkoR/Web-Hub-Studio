@@ -1,8 +1,8 @@
-import video from "../../assets/videos/3129671-hd_1920_1080_30fps.mp4"
+import video from "../../assets/videos/3129671-hd_1920_1080_30fps.mp4";
 import { useTranslation } from "react-i18next";
 
 function Header() {
-  const {t} = useTranslation("header")
+  const {t} = useTranslation("header");
   return (
     <header className="mainHeader relative w-full h-screen overflow-hidden -z-50">
       <video
