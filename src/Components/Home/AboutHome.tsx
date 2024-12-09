@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import AOS from "aos";
-import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 import "../../../node_modules/aos/dist/aos.css";
 import aboutImg from "../../assets/Images/HomePageImages/izoSpeedTestImg.webp";
 import aboutImg2 from "../../assets/Images/HomePageImages/izoSpeedTestImgDesktop.webp";
@@ -32,24 +31,18 @@ function AboutHome() {
             </p>
           </div>
           <div className="lg:w-3/6 w-full flex flex-col relative p-5">
-            <ParallaxProvider>
-              <Parallax translateX={[50, 0, "easeOutQuint"]}>
+            
                 <img
                   src={aboutImg}
                   className="w-full mx-auto mb-5"
                   alt="About Us Image"
                 />
-              </Parallax>
-              <Parallax
-                translateX={[50, 0, "easeOutQuint"]}
-              >
+              
                 <img
                   src={aboutImg2}
                   className="w-full mx-auto"
                   alt="About Us Image"
                 />
-              </Parallax>
-            </ParallaxProvider>
           </div>
         </article>
       </section>
