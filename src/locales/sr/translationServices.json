@@ -10,7 +10,25 @@
         "ourServicesPara": "Pružamo moderna i prilagođena veb rešenja koristeći najnovije tehnologije. Bilo da vam je potrebna veb stranica, SEO optimizacija ili kreativni dizajn, naši usluge su osmišljene da unaprede vaš online nastup i poslovanje.",
 
         "webDevelopment": {
-            "title": "Web Development"
+            "title": "Web razvoj",
+
+            "paraOne": "Vaš web sajt je osnova vaše online prisutnosti, i mi smo tu da ga izgradimo na pravi način. Specijalizovani smo za kreiranje modernih, responzivnih sajtova koji funkcionišu besprekorno na svim uređajima—pametnim telefonima, tabletima i računarima.",
+
+            "paraTwo": "Bilo da vam je potreban jednostavan poslovni sajt, WordPress rešenje za lakše upravljanje, ili potpuno prilagođena web aplikacija, pokrićemo sve vaše zahteve.",
+
+            "liElOneTitle": "Razvoj na WordPress-u: ",
+            "liElOne": "Fleksibilni i lako upravljivi sajtovi izrađeni na najpopularnijem CMS-u.",
+
+            "liElTwoTitle": "Prilagođeni web razvoj: ",
+            "liElTwo": "Ovi sajtovi su potpuno prilagođeni vašim potrebama i ne zahtevaju redovna ažuriranja, kao što je to slučaj kod WordPress sajtova, pružajući vam stabilno i dugoročno rešenje. Kreiramo prilagođene sajtove koristeći HTML, CSS i JavaScript. Za kompleksnije i profesionalnije projekte koristimo napredne tehnologije kao što su React, Angular i Node.js kako bismo isporučili dinamična i skalabilna rešenja.",
+
+            "liElThreeTitle": "Responzivni dizajn: ",
+            "liElThree": "Osiguravamo da vaš sajt izgleda i funkcioniše savršeno na svim veličinama ekrana, od pametnih telefona do desktop računara.",
+
+            "liElFourTitle": "SEO Optimizacija: ",
+            "liElFour": "Optimizujemo vaš sajt kako bi bio bolje rangiran na pretraživačima poput Google-a, Bing-a i Yahoo-a. Takođe, implementiramo funkcionalnosti poput Google mapa i integracija sa drugim relevantnim servisima kako bismo osigurali da vaša publika lakše pronađe vašu lokaciju i informacije.",
+
+            "lastPara": "Let us help you create a website that reflects your vision and meets your business needs."
         }
         
     }

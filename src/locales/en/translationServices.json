@@ -11,7 +11,25 @@
         "ourServicesPara": "We provide modern and customized web solutions using the latest technologies. Whether you need a website, SEO optimization, or creative design, our services are designed to enhance your online presence and business performance.",
 
         "webDevelopment": {
-            "title": "Web Development"
+            "title": "Web Development",
+
+            "paraOne": "Your website is the foundation of your online presence, and we are here to build it right. We specialize in creating modern, responsive websites that work seamlessly across all devices—smartphones, tablets, and desktops.",
+
+            "paraTwo": "Whether you need a simple business website, a WordPress-based solution for easy management, or a fully custom web application, we’ve got you covered.",
+
+            "liElOneTitle": "WordPress Development: ",
+            "liElOne": "Flexible and easily manageable websites built with the most popular CMS.",
+
+            "liElTwoTitle": "Custom Web Development: ",
+            "liElTwo": "These websites are fully tailored to your needs and do not require regular updates, unlike WordPress sites, providing you with a stable and long-term solution. We create custom websites using HTML, CSS, and JavaScript. For more complex and professional projects, we utilize advanced technologies such as React, Angular, and Node.js to deliver dynamic and scalable solutions.",
+
+            "liElThreeTitle": "Responsive Design: ",
+            "liElThree": "Ensuring your site looks and works perfectly on all screen sizes, from smartphones to desktops.",
+
+            "liElFourTitle": "SEO Optimization:  ",
+            "liElFour": "We optimize your website to rank better on search engines like Google, Bing, and Yahoo. Additionally, we implement features such as Google Maps and integrations with other relevant services to ensure that your audience can easily find your location and information.",
+
+            "lastPara": "Let us help you create a website that reflects your vision and meets your business needs."
         }
        
     }
