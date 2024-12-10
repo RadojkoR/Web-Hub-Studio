@@ -1,10 +1,17 @@
 {
     "services": {
         "servicesHeaderTitle": "Technological solutions that enhance your business",
+        
         "hero": {
             "title": "Simple and efficient solutions for a better business future",
             "para": "We enable business modernization through process optimization, modern website creation, SEO strategies, and enhanced online presence – with minimal investment and maximum results."
+        },
 
+        "ourServicesTitle": "Our Services",
+        "ourServicesPara": "We provide modern and customized web solutions using the latest technologies. Whether you need a website, SEO optimization, or creative design, our services are designed to enhance your online presence and business performance.",
+
+        "webDevelopment": {
+            "title": "Web Development"
         }
        
     }

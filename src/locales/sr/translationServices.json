@@ -4,7 +4,13 @@
         "hero": {
             "title": "Jednostavna i efikasna rešenja za bolju poslovnu budućnost.",
             "para": "Omogućavamo modernizaciju poslovanja kroz optimizaciju procesa, izradu savremenih web sajtova, SEO strategije i poboljšanje online prisutnosti  uz minimalna ulaganja i maksimalne rezultate."
+        },
 
+        "ourServicesTitle": "Naše usluge",
+        "ourServicesPara": "Pružamo moderna i prilagođena veb rešenja koristeći najnovije tehnologije. Bilo da vam je potrebna veb stranica, SEO optimizacija ili kreativni dizajn, naši usluge su osmišljene da unaprede vaš online nastup i poslovanje.",
+
+        "webDevelopment": {
+            "title": "Web Development"
         }
         
     }
