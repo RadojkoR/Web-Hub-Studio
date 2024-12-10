@@ -50,7 +50,25 @@
 
             "titleTwo": "Why is SEO important?",
             "lastPara": "Without SEO optimization, your website might remain unnoticed and unappealing to users. Through SEO, we ensure that your site is easily accessible to those searching for services or products like yours, thus boosting organic traffic and increasing the chances for conversions."
-        }
-       
+        },
+
+        "webDesign": {
+            "title": "Web Design",
+            "para": "We create attractive, functional, and adaptable websites that meet the needs of your business and user experience. Our team focuses on providing solutions that are modern, scalable, and easy to use.",
+
+            "liElOneTitle": "Responsive Design",
+            "liElOne": "Our websites perform flawlessly on all devices, from desktop computers to mobile phones. Each page is designed to automatically adjust to different screen sizes, ensuring a great user experience no matter what device is used.",
+
+            "liElTwoTitle": "UI/UX Design",
+            "liElTwo": "We focus on user interface (UI) and user experience (UX) design, ensuring that your users can easily and intuitively navigate your site. Through detailed user needs analysis, we create websites that not only look great but also function seamlessly.",
+
+            "liElThreeTitle": "Custom Design",
+            "liElThree": "Each project is unique, and that’s why we create fully customized designs that reflect your brand and business goals. Whether you need specific functionalities or a custom look, our team will create a solution that aligns perfectly with your requirements.",
+
+             "liElFourTitle": "WordPress Design",
+            "liElFour": "WordPress is the most popular platform for creating websites, offering easy content management. Our team specializes in creating WordPress sites, including the installation and customization of themes like Elementor. Elementor lets you create and customize pages using drag-and-drop functionality, with no coding required.",
+
+            "lastPara": "Whether you're a small business, a medium-sized enterprise, or a large organization, our goal is to create a website that reflects your unique vision and user needs. With our design solutions, your business will be presented in the best possible way, focusing on simplicity, functionality, and aesthetic appeal."
+        }      
     }
 }

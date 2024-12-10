@@ -49,7 +49,26 @@
 
             "titleTwo": "Zašto je SEO važan?",
             "lastPara": "Bez SEO optimizacije, vaš sajt može ostati neprepoznatljiv i neprivlačan korisnicima. Kroz SEO, osiguravamo da vaš sajt bude lako dostupan onima koji traže usluge ili proizvode poput vaših, čime poboljšavamo organsku posetu i povećavamo šanse za konverzije."
-        }
+        },
+
+        "webDesign": {
+            "title": "Web Dizajn",
+            "para": "Kreiramo atraktivne, funkcionalne i prilagodljive web sajtove koji zadovoljavaju potrebe vašeg poslovanja i korisničkog iskustva. Naš tim se fokusira na pružanje rešenja koja su moderna, skalabilna i jednostavna za upotrebu.",
+
+            "liElOneTitle": "Responsive Dizajn",
+            "liElOne": "Naši sajtovi se besprekorno prikazuju na svim uređajima, od desktop računara do mobilnih telefona. Svaka stranica je dizajnirana da se automatski prilagodi različitim veličinama ekrana, čime obezbeđujemo sjajno korisničko iskustvo bez obzira na uređaj.",
+
+            "liElTwoTitle": "UI/UX Dizajn",
+            "liElTwo": "Fokusiramo se na dizajn korisničkog interfejsa (UI) i korisničkog iskustva (UX), osiguravajući da vaši korisnici lako i intuitivno koriste vaš sajt. Kroz detaljnu analizu potreba korisnika, kreiramo sajtove koji ne samo da izgledaju dobro, već i funkcionišu besprekorno.",
+
+            "liElThreeTitle": "Custom Design",
+            "liElThree": "Svaki projekat je jedinstven, i zato kreiramo potpuno prilagođene dizajne koji odražavaju vaš brend i poslovne ciljeve. Bilo da želite specifične funkcionalnosti ili izgled, naš tim će kreirati rešenje koje je u potpunosti u skladu sa vašim zahtevima.",
+
+             "liElFourTitle": "WordPress Dizajn",
+            "liElFour": "WordPress je najpopularnija platforma za izradu sajtova, koja omogućava jednostavno upravljanje sadržajem. Naš tim je specijalizovan za kreiranje WordPress sajtova, uključujući instalaciju i prilagođavanje tema kao što je Elementor. Elementor vam omogućava da kreirate i prilagodite stranice pomoću povuci-i-spusti funkcionalnosti, bez potrebe za kodiranjem.",
+
+            "lastPara": "Bez obzira na to da li ste mali preduzetnik, srednje preduzeće ili velika organizacija, naš cilj je da stvorimo web sajt koji odražava vašu jedinstvenu viziju i potrebe korisnika. Sa našim dizajnerskim rešenjima, vaše poslovanje će biti predstavljeno na najbolji mogući način, sa naglaskom na jednostavnost, funkcionalnost i estetski izgled."
+        } 
         
     }
 }
