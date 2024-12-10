@@ -30,6 +30,26 @@
             "liElFour": "We optimize your website to rank better on search engines like Google, Bing, and Yahoo. Additionally, we implement features such as Google Maps and integrations with other relevant services to ensure that your audience can easily find your location and information.",
 
             "lastPara": "Let us help you create a website that reflects your vision and meets your business needs."
+        },
+
+        "seoOptimization": {
+            "title": "SEO Optimization",
+            "para": "SEO (Search Engine Optimization) is key to your website’s visibility on search engines like Google, Bing, and Yahoo. Our SEO team uses the latest techniques and strategies to rank your site high on search engines and increase its organic traffic.",
+
+            "liElOneTitle": "On-page SEO Optimization:",
+            "liElOne": "Optimizing website content, including keywords, meta tags, URL structure, and images, to make your site more recognizable to search engines.",
+
+            "liElTwoTitle": "Technical SEO Optimization:",
+            "liElTwo": "Improving site speed, ensuring mobile optimization, fixing code errors, enhancing indexing, and enabling better site crawling by search engines.",
+
+            "liElThreeTitle": "SEO Analytics and Reporting:",
+            "liElThree": "Monitoring the performance of SEO strategies with advanced tools and providing regular reports on your site’s status on search engines.",
+
+            "liElFourTitle": "Google Maps and Other Service Integrations: ",
+            "liElFour": "Helping users find your location more easily through integrations with Google Maps and other search engines.",
+
+            "titleTwo": "Why is SEO important?",
+            "lastPara": "Without SEO optimization, your website might remain unnoticed and unappealing to users. Through SEO, we ensure that your site is easily accessible to those searching for services or products like yours, thus boosting organic traffic and increasing the chances for conversions."
         }
        
     }

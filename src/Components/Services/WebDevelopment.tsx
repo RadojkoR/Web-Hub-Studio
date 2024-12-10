@@ -27,7 +27,7 @@ function WebDevelopment() {
           {t("services.webDevelopment.liElTwo")}
         </p>
 
-        <h4 className="text-2xl font-semibold text-gray-700 mt-5 border-b-4 border-cyan-500 pb-2 w-fit">
+        {/* <h4 className="text-2xl font-semibold text-gray-700 mt-5 border-b-4 border-cyan-500 pb-2 w-fit">
           {t("services.webDevelopment.liElThreeTitle")}
         </h4>
         <p className="text-xl text-gray-700 mt-5 mb-10 font-semibold">
@@ -39,7 +39,7 @@ function WebDevelopment() {
         </h4>
         <p className="text-xl text-gray-700 mt-5 mb-10 font-semibold">
           {t("services.webDevelopment.liElFour")}
-        </p>
+        </p> */}
 
         <p className="text-xl text-gray-700 mt-5 pb-20 font-bold">
           {t("services.webDevelopment.lastPara")}
