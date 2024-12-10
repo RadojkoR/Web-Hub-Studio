@@ -6,12 +6,12 @@ interface ServiceHeader {
 }
 
 interface SecondaryHeaderProps {
-    servicesHeader: ServiceHeader[];
+    headerInfo: ServiceHeader[];
 }
 
-function SecondaryHeader({ servicesHeader }: SecondaryHeaderProps) {
-  const headerBgClass = servicesHeader[0].headerBgClass;
-  const headerSlogan = servicesHeader[0].headerSlogan;
+function SecondaryHeader({ headerInfo }: SecondaryHeaderProps) {
+  const headerBgClass = headerInfo[0].headerBgClass;
+  const headerSlogan = headerInfo[0].headerSlogan;
 //   const headerImg = servicesHeader[0].headerImg;
   
   return (

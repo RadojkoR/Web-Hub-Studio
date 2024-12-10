@@ -25,14 +25,10 @@ function Services() {
   
   return (
     <>
-      <SecondaryHeader servicesHeader={servicesHeader} />
+      <SecondaryHeader headerInfo={servicesHeader} />
       <section className="mainServices bg-slate-100">
         <Hero heroT={servicesHero}/>
         <OurServices />
-        {/* <OurServices />
-        <SeoOptimization />
-        <SeoOptimization />
-        <SeoOptimization /> */}
       </section>
     </>
   );
