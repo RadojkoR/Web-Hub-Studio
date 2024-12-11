@@ -26,7 +26,8 @@ function HeroHome() {
             duration-300
             ease-in-out
             w-36 
-            text-lg 
+            text-sm
+            xxs:text-lg 
             font-bold 
             text-gray-700 
             px-5 
@@ -46,7 +47,8 @@ function HeroHome() {
             duration-300
             ease-in-out
             w-36 
-            text-lg 
+            text-sm
+            xxs:text-lg 
             font-bold 
             text-gray-700 
             px-5 

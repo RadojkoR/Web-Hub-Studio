@@ -23,11 +23,7 @@ function ProjectsHome() {
             className="projectHomeItm relative "
             target="_blank"
           >
-            <img
-              src={projectOneImg}
-              className=""
-              alt="Image of project one"
-            />
+            <img src={projectOneImg} className="" alt="Image of project one" />
             <img
               src={projectOneImgMobile}
               className="absolute top-6 left-5  2xl:w-44 xl:w-40 lg:w-36 md:w-48 sm:w-44 xs:w-40 xxs:w-36 xxxs:w-32 xxxxs:w-28"
@@ -83,14 +79,16 @@ function ProjectsHome() {
             transition-all
             duration-300
             ease-in-out
-            w-40 
-            text-lg 
+            w-36 
+            text-sm
+            xxs:text-lg 
             font-bold 
             text-gray-700 
             px-5 
             py-2 
             mt-48
             mx-auto
+            flex
             justify-center
             items-center"
         >

@@ -72,8 +72,9 @@ function ServicesHome() {
             transition-all
             duration-300
             ease-in-out
-            w-40 
-            text-lg 
+            w-36 
+            text-sm
+            xxs:text-lg 
             font-bold 
             text-gray-700 
             px-5 

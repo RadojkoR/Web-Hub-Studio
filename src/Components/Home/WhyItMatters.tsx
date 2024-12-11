@@ -17,7 +17,7 @@ function WhyItMatters() {
   return (
     <section className="bg-slate-100 py-20">
       <div className="md:container-80 px-4 md:px-0">
-        <h2 className="text-center text-2xl xxs:text-3xl xs:text-4xl sm:text-5xl font-bold text-cyan-800 mb-12">
+        <h2 className="text-center text-3xl xs:text-4xl sm:text-5xl font-bold text-cyan-800 mb-12">
           {t("whyItMatters.title")}
         </h2>
         <p className="text-lg sm:text-2xl text-gray-700">
