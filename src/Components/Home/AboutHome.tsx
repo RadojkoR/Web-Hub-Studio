@@ -18,12 +18,12 @@ function AboutHome() {
         <h1 className="text-4xl text-center font-bold text-cyan-800 uppercase mb-16">
           Web Hub Studio
         </h1>
-        <article className="container lg:flex justify-between">
+        <article className="md:container-80 lg:flex justify-between px-4 md:px-0">
           <div className="lg:w-3/6 w-full">
             <h2 className="text-3xl font-semibold text-gray-700 mt-10 mb-5 ">
               {t("home.aboutTitle")}
             </h2>
-            <p className="text-xl text-gray-700 md:text-left text-center">
+            <p className="text-xl text-gray-700 md:text-left">
               {t("home.aboutTxt")}
             </p>
             <p className="text-2xl mt-5 text-cyan-700 md:text-left text-center">

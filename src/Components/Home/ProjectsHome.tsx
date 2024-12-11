@@ -10,7 +10,7 @@ function ProjectsHome() {
     const {t} = useTranslation();
   return (
     <section className="ourProjects bg-gray-50 py-20">
-      <div className="container flex flex-col">
+      <div className="md:container-80 px-4 md:px-0 flex flex-col">
         <h2 className="text-4xl font-bold text-gray-600 ">
           {t("ourProjects.title")}
         </h2>

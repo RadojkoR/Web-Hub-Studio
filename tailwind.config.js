@@ -31,8 +31,18 @@ export default {
         6: '6deg',
         45: '45deg'
         // Dodaj druge vrednosti po potrebi
-      },
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addComponents, theme}) {
+      addComponents({
+        '.container-80': {
+          width: '80%',
+          margin: ' 0 auto',
+          'max-width': "1500px"
+        }
+      })
+    }
+  ],
 }

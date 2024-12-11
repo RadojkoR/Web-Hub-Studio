@@ -18,7 +18,7 @@ function Projects() {
     <>
       <SecondaryHeader headerInfo={servicesHeader} />
       <section className="mainServices bg-slate-100">
-        <article className="container">
+        <article className="md:container-80 px-5 md:px-0 mx-auto">
           <h2 className="text-5xl text-gray-700 font-bold pt-20 pb-14">
             {t("projects.ourProjectsTitle")}
           </h2>
@@ -26,7 +26,7 @@ function Projects() {
             {t("projects.para")}
           </p>
         </article>
-        <section className="container">
+        <section className="md:container-80">
           <article>
             <img src={projectOneImg} alt="Image of project" />
           </article>

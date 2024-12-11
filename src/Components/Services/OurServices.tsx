@@ -6,7 +6,7 @@ function OurServices() {
     const { t } = useTranslation("services")
   return (
     <section className="pt-20">
-      <div className="container pb-20">
+      <div className="md:container-80 px-4 md:px-0 pb-20">
         <h2 className="text-5xl text-gray-700 font-bold">
           {t("services.ourServicesTitle")}
         </h2>

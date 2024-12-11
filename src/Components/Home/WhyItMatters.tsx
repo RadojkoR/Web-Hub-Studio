@@ -16,11 +16,11 @@ function WhyItMatters() {
     }, [])
   return (
     <section className="bg-slate-100 py-20">
-      <div className="container">
+      <div className="md:container-80 px-4 md:px-0">
         <h2 className="text-center text-5xl font-bold text-cyan-800 mb-12">
           {t("whyItMatters.title")}
         </h2>
-        <p className="text-2xl text-gray-700 font-semibold">
+        <p className="text-2xl text-gray-700">
           {t("whyItMatters.para")}
         </p>
         <p className="text-2xl font-bold text-blue-900 mt-6 mb-5">

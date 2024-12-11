@@ -18,7 +18,7 @@ function Hero({ heroT }: HeroProps) {
 
   return (
     <section className="heroHome">
-      <article className="container xl:w-4/5 pt-14 flex flex-col">
+      <article className="md:container-80 px-4 md:px-0 xl:w-4/5 pt-14 flex flex-col">
         <h2 className="text-center text-gray-50 text-2xl xxs:text-3xl sm:text-4xl font-bold uppercase tracking-wide">
           {heroTitle}
         </h2>

@@ -1,0 +1,15 @@
+@use "./variables" as var;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.mainNav {
+    font-family: var.$fontFamilyPrimary;
+}
+
+p {
+    font-family: var.$fontFamilyTertinary;
+}
