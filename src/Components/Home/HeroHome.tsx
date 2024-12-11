@@ -51,7 +51,8 @@ function HeroHome() {
             xxs:text-lg 
             font-bold 
             text-gray-700 
-            px-5 
+            px-4
+            xxxs:px-5 
             py-2 
             me-5"
           >
