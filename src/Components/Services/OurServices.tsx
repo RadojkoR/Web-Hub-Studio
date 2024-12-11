@@ -14,10 +14,12 @@ function OurServices() {
           {t("services.ourServicesPara")}
         </p>
       </div>
-      <article>
-        <WebDevelopment />
-        <SeoOptimization />
-        <WebDesign />
+      <article className="md:container-80 px-4 md:px-0 pb-20">
+        <div className="">
+          <WebDevelopment />
+          <SeoOptimization />
+          <WebDesign />
+        </div>
       </article>
     </section>
   );
