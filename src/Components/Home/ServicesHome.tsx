@@ -13,7 +13,7 @@ function ServicesHome() {
     }, [])
   return (
     <section className="servicesHome py-20">
-      <div className="md:container-80 flex flex-col">
+      <div className="md:container-80 px-4 md:px-0 flex flex-col">
         <h2 className="text-4xl font-bold text-gray-100 text-center">
           {t("servicesHome.title")}
         </h2>
