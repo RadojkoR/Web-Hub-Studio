@@ -3,6 +3,24 @@
         "projectsHeaderTitle": "Donosimo kvalitet u svaki projekat.",
 
         "ourProjectsTitle": "Naši Projekti",
-        "para": "Naši projekti odražavaju našu posvećenost kvalitetu i inovacijama. Iako je naš portfelj još uvek u fazi rasta, ponosni smo na projekte koje smo realizovali i posvećenost koju ulažemo u svaki rad."
+        "para": "Naši projekti odražavaju našu posvećenost kvalitetu i inovacijama. Iako je naš portfelj još uvek u fazi rasta, ponosni smo na projekte koje smo realizovali i posvećenost koju ulažemo u svaki rad.",
+
+        "viewLiveBtn": "Pogledaj uživo",
+
+        "projectsSectionOne": {
+            "title": "Web Sajt za Preduzetnike",
+            "para": "Kreirali smo profesionalne sajtove za male preduzetnike, fokusirajući se na jednostavnost i funkcionalnost, kako bi klijent imao lakši način za predstavljanje svojih usluga."
+        },
+
+         "projectsSectionTwo": {
+            "title": "Blog u WordPressu",
+            "para": "Kreirali smo moderan i funkcionalan blog za putovanja koristeći WordPress platformu. Fokusirali smo se na privlačan dizajn i jednostavno upravljanje sadržajem, omogućavajući klijentu da deli svoje priče i fotografije na profesionalan način."
+        },
+
+        "projectsSectionThree": {
+            "title": "Demo Web Sajtovi",
+            "para": "Kreirali smo nekoliko demo web sajtova sa modernim funkcionalnostima i prilagođenim dizajnom. Ovi sajtovi su spremni za prilagođavanje specifičnim potrebama budućih klijenata, pružajući kvalitetna rešenja za različite tipove biznisa."
+        }
+
     }
 }

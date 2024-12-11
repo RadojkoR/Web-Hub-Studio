@@ -3,6 +3,23 @@
         "projectsHeaderTitle": "Delivering excellence through every project.",
 
         "ourProjectsTitle": "Our Projects",
-        "para": "Our projects reflect our commitment to quality and innovation. While our portfolio is still growing, we take pride in the projects we've completed and the dedication we put into every piece of work."
+        "para": "Our projects reflect our commitment to quality and innovation. While our portfolio is still growing, we take pride in the projects we've completed and the dedication we put into every piece of work.",
+
+        "viewLiveBtn": "View Live",
+        "projectsSectionOne": {
+            "title": "Website for an Entrepreneur",
+            "para": "We created professional websites for small business owners, focusing on simplicity and functionality, allowing the client to easily present their services."
+        },
+
+        "projectsSectionTwo": {
+            "title": "WordPress Blog",
+            "para": "We developed a modern and functional travel blog using the WordPress platform. We focused on an attractive design and easy content management, allowing the client to share their stories and photos in a professional way."
+        },
+
+         "projectsSectionThree": {
+            "title": "Demo Websites",
+            "para": "We developed several demo websites featuring modern functionalities and customized designs. These websites are ready to be tailored to the specific needs of future clients, offering high-quality solutions for various types of businesses."
+        }
+        
     }
 }

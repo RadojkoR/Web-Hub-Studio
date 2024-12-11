@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { SecondaryHeader } from "../Components/Layout";
-import projectOneImg from "../assets/Images/ProjectsPageImg/izoDecorGlassProjectOne.webp";
+import { ProjectsSectionOne, ProjectsSectionThree, ProjectsSectionTwo } from "../Components/Projects";
 
 
 function Projects() {
@@ -26,14 +26,9 @@ function Projects() {
             {t("projects.para")}
           </p>
         </article>
-        <section className="md:container-80">
-          <article>
-            <img src={projectOneImg} alt="Image of project" />
-          </article>
-          <article>
-            <img src={projectOneImg} alt="Image of project" />
-          </article>
-        </section>
+        <ProjectsSectionOne />
+        <ProjectsSectionTwo />
+        <ProjectsSectionThree />
       </section>
     </>
   );
