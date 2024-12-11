@@ -22,7 +22,7 @@ function Projects() {
           <h2 className="text-5xl text-gray-700 font-bold pt-20 pb-14">
             {t("projects.ourProjectsTitle")}
           </h2>
-          <p className="text-2xl text-gray-700 font-semibold pb-20">
+          <p className="text-xl sm:text-2xl text-gray-700 font-semibold pb-20">
             {t("projects.para")}
           </p>
         </article>

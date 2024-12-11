@@ -30,7 +30,7 @@ function ServicesHome() {
             <h3 className="text-2xl font-bold mt-3 mb-5">
               {t("servicesHome.webDevelopmentCard.cardTitle")}
             </h3>
-            <p className="text-xl font-semibold mb-5">
+            <p className="text-lg sm:text-xl font-semibold mb-5">
               {t("servicesHome.webDevelopmentCard.cardPara")}
             </p>
           </div>
@@ -44,7 +44,7 @@ function ServicesHome() {
             <h3 className="text-2xl font-bold mt-3 mb-5">
               {t("servicesHome.seoOptimizationCard.cardTitle")}
             </h3>
-            <p className="text-xl font-semibold mb-5">
+            <p className="text-lg sm:text-xl font-semibold mb-5">
               {t("servicesHome.seoOptimizationCard.cardPara")}
             </p>
           </div>
@@ -57,7 +57,7 @@ function ServicesHome() {
             <h3 className="text-2xl font-bold mt-3 mb-5">
               {t("servicesHome.webDesignCard.cardTitle")}
             </h3>
-            <p className="text-xl font-semibold mb-5">
+            <p className="text-lg sm:text-xl font-semibold mb-5">
               {t("servicesHome.webDesignCard.cardPara")}
             </p>
           </div>

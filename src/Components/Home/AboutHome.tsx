@@ -23,7 +23,7 @@ function AboutHome() {
             <h2 className="text-3xl font-semibold text-gray-700 mt-10 mb-5 ">
               {t("home.aboutTitle")}
             </h2>
-            <p className="text-xl text-gray-700 md:text-left">
+            <p className="text-lg sm:text-xl text-gray-700 md:text-left">
               {t("home.aboutTxt")}
             </p>
             <p className="text-2xl mt-5 text-cyan-700 md:text-left text-center">
@@ -31,18 +31,17 @@ function AboutHome() {
             </p>
           </div>
           <div className="lg:w-3/6 w-full flex flex-col relative p-5">
-            
-                <img
-                  src={aboutImg}
-                  className="w-full mx-auto mb-5"
-                  alt="About Us Image"
-                />
-              
-                <img
-                  src={aboutImg2}
-                  className="w-full mx-auto"
-                  alt="About Us Image"
-                />
+            <img
+              src={aboutImg}
+              className="w-full mx-auto mb-5"
+              alt="About Us Image"
+            />
+
+            <img
+              src={aboutImg2}
+              className="w-full mx-auto"
+              alt="About Us Image"
+            />
           </div>
         </article>
       </section>

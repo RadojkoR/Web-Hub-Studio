@@ -10,7 +10,7 @@ function OurServices() {
         <h2 className="text-5xl text-gray-700 font-bold">
           {t("services.ourServicesTitle")}
         </h2>
-        <p className="text-2xl font-semibold text-gray-700 mt-10">
+        <p className="text-xl sm:text-2xl font-semibold text-gray-700 mt-10">
           {t("services.ourServicesPara")}
         </p>
       </div>

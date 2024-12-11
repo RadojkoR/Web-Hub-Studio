@@ -17,13 +17,13 @@ function WhyItMatters() {
   return (
     <section className="bg-slate-100 py-20">
       <div className="md:container-80 px-4 md:px-0">
-        <h2 className="text-center text-5xl font-bold text-cyan-800 mb-12">
+        <h2 className="text-center text-2xl xxs:text-3xl xs:text-4xl sm:text-5xl font-bold text-cyan-800 mb-12">
           {t("whyItMatters.title")}
         </h2>
-        <p className="text-2xl text-gray-700">
+        <p className="text-lg sm:text-2xl text-gray-700">
           {t("whyItMatters.para")}
         </p>
-        <p className="text-2xl font-bold text-blue-900 mt-6 mb-5">
+        <p className="text-lg sm:text-2xl font-bold text-blue-900 mt-6 mb-5">
           {t("whyItMatters.titleTwo")}
         </p>
         <article className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -36,7 +36,9 @@ function WhyItMatters() {
             <h3 className="text-2xl font-bold text-gray-700 mt-3 mb-5">
               {t("whyItMatters.firstImpressions")}
             </h3>
-            <p className="text-xl text-gray-700">{t("whyItMatters.liElOne")}</p>
+            <p className="text-lg sm:text-xl text-gray-700">
+              {t("whyItMatters.liElOne")}
+            </p>
           </div>
 
           <div
@@ -48,7 +50,9 @@ function WhyItMatters() {
             <h3 className="text-2xl font-bold text-gray-700 mt-3 mb-5">
               {t("whyItMatters.buildsCredibility")}
             </h3>
-            <p className="text-xl text-gray-700">{t("whyItMatters.liElTwo")}</p>
+            <p className="text-lg sm:text-xl text-gray-700">
+              {t("whyItMatters.liElTwo")}
+            </p>
           </div>
 
           <div
@@ -60,7 +64,7 @@ function WhyItMatters() {
             <h3 className="text-2xl font-bold text-gray-700 mt-3 mb-5">
               {t("whyItMatters.customerExperience")}
             </h3>
-            <p className="text-xl text-gray-700">
+            <p className="text-lg sm:text-xl text-gray-700">
               {t("whyItMatters.liElThree")}
             </p>
           </div>
@@ -74,7 +78,7 @@ function WhyItMatters() {
             <h3 className="text-2xl font-bold text-gray-700 mt-3 mb-5">
               {t("whyItMatters.searchEngineVisibility")}
             </h3>
-            <p className="text-xl text-gray-700">
+            <p className="text-lg sm:text-xl text-gray-700">
               {t("whyItMatters.liElFour")}
             </p>
           </div>
@@ -88,7 +92,7 @@ function WhyItMatters() {
             <h3 className="text-2xl font-bold text-gray-700 mt-3 mb-5">
               {t("whyItMatters.increasesConversions")}
             </h3>
-            <p className="text-xl text-gray-700">
+            <p className="text-lg sm:text-xl text-gray-700">
               {t("whyItMatters.liElFive")}
             </p>
           </div>
@@ -102,7 +106,9 @@ function WhyItMatters() {
             <h3 className="text-2xl font-bold text-gray-700 mt-3 mb-5">
               {t("whyItMatters.responsiveDesign")}
             </h3>
-            <p className="text-xl text-gray-700">{t("whyItMatters.liElSix")}</p>
+            <p className="text-lg sm:text-xl text-gray-700">
+              {t("whyItMatters.liElSix")}
+            </p>
           </div>
         </article>
         <p className="mt-16 text-2xl font-bold text-cyan-700">
