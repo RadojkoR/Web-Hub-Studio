@@ -1,13 +1,13 @@
-import Hero from "../Components/Hero/Hero";
+// import Hero from "../Components/Hero/Hero";
 import { SecondaryHeader } from "../Components/Layout"
 import { useTranslation } from "react-i18next";
-import { OurServices} from "../Components/Services";
+import { SeoOptimizationCard, WebDesignCard, WebDevelopmentCard} from "../Components/Services";
 
 function Services() {
   const { t } = useTranslation("services");
   const servicesT = t("services.servicesHeaderTitle");
-  const servicesHeroTitle = t("services.hero.title");
-  const servicesHeroPara = t("services.hero.para");
+  // const servicesHeroTitle = t("services.hero.title");
+  // const servicesHeroPara = t("services.hero.para");
   
   const servicesHeader = [
     {
@@ -15,20 +15,29 @@ function Services() {
       headerSlogan: servicesT,
     },
   ];
-  const servicesHero = [
-    {
-      title: servicesHeroTitle,
-      para: servicesHeroPara,
-    },
-  ];
+  // const servicesHero = [
+  //   {
+  //     title: servicesHeroTitle,
+  //     para: servicesHeroPara,
+  //   },
+  // ];
   // console.log(servicesHero);
   
   return (
     <>
       <SecondaryHeader headerInfo={servicesHeader} />
-      <section className="mainServices bg-slate-100">
-        <Hero heroT={servicesHero}/>
-        <OurServices />
+      <section className="mainProjects bg-slate-100">
+        <article className="mainServices md:container-80 px-5 md:px-0 mx-auto">
+          <h2 className="text-5xl text-gray-700 font-bold pt-20 pb-14">
+            {t("services.ourServicesTitle")}
+          </h2>
+          <p className="text-xl sm:text-2xl text-gray-700 font-semibold pb-20">
+            {t("services.ourServicesPara")}
+          </p>
+        </article>
+        <WebDevelopmentCard />
+        <SeoOptimizationCard />
+        <WebDesignCard />
       </section>
     </>
   );

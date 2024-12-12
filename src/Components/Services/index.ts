@@ -1,6 +1,5 @@
-import OurServices from "./OurServices";
-import WebDevelopment from "./WebDevelopment";
-import SeoOptimization from "./SeoOptimization";
-import WebDesign from "./WebDesign";
+import WebDevelopmentCard from "./WebDevelopmentCard";
+import SeoOptimizationCard from "./SeoOptimizationCard";
+import WebDesignCard from "./WebDesignCard";
 
-export {OurServices, WebDevelopment, SeoOptimization, WebDesign}
+export { WebDevelopmentCard, SeoOptimizationCard, WebDesignCard}

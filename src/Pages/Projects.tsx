@@ -7,7 +7,7 @@ function Projects() {
   const { t } = useTranslation("projects");
   const projectsT = t("projects.projectsHeaderTitle");
 
-  const servicesHeader = [
+  const projectsHeader = [
     {
       headerBgClass: "projectsHeader",
       headerSlogan: projectsT,
@@ -16,8 +16,8 @@ function Projects() {
 
   return (
     <>
-      <SecondaryHeader headerInfo={servicesHeader} />
-      <section className="mainServices bg-slate-100">
+      <SecondaryHeader headerInfo={projectsHeader} />
+      <section className="mainProjects bg-slate-100">
         <article className="md:container-80 px-5 md:px-0 mx-auto">
           <h2 className="text-5xl text-gray-700 font-bold pt-20 pb-14">
             {t("projects.ourProjectsTitle")}

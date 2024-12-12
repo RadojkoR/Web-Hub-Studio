@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 
-function SeoOptimization() {
+function SeoOptimizationCard() {
     const { t } = useTranslation("services")
   return (
-    <section className="seoOptimization px-4 md:px-0 text-gray-700 py-10 mb-10">
+    <section className="seoOptimizationCard md:container-80 px-4 md:px-0 text-gray-700 py-10 pt-16">
       <div className="px-10">
         <h3 className="text-3xl xxs:text-4xl font-bold ">
           {t("services.seoOptimization.title")}
@@ -30,7 +30,7 @@ function SeoOptimization() {
               {t("services.seoOptimization.liElTwo")}
             </p>
           </article>
-         
+
           <article className="p-5 bg-orange-100 shadow-lg rounded-lg mt-5">
             <h4 className="text-2xl font-semibold mt-5 border-b-4 border-cyan-500 pb-2 w-fit">
               {t("services.seoOptimization.liElThreeTitle")}
@@ -60,4 +60,4 @@ function SeoOptimization() {
   );
 }
 
-export default SeoOptimization
+export default SeoOptimizationCard

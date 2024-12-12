@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next"
 
-function WebDevelopment() {
+function WebDevelopmentCard() {
     const { t } = useTranslation("services")
   return (
-    <section className="webDevelopment mb-10">
+    <section className="webDevelopment md:container-80 px-4 md:px-0">
       <div className="px-10">
         <h3 className="text-3xl xxs:text-4xl font-bold text-gray-700 pt-10">
           {t("services.webDevelopment.title")}
@@ -41,4 +41,4 @@ function WebDevelopment() {
   );
 }
 
-export default WebDevelopment
+export default WebDevelopmentCard

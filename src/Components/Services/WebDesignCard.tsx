@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 
-function WebDesign() {
+function WebDesignCard() {
     const { t } = useTranslation("services")
   return (
-    <section className="webDesign text-gray-700 py-10">
+    <section className="webDesignCard text-gray-700 md:container-80 px-4 md:px-0 py-10">
       <div className="px-10">
         <h3 className="text-3xl xxs:text-4xl font-bold ">
           {t("services.webDesign.title")}
@@ -56,4 +56,4 @@ function WebDesign() {
   );
 }
 
-export default WebDesign
+export default WebDesignCard
