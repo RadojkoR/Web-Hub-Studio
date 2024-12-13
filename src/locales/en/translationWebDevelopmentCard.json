@@ -1,0 +1,11 @@
+{
+    "webDevelopmentCard": {
+        "title": "Web Development",
+        "description": "We create websites that work seamlessly across all devices, using modern technologies like React, Angular, and WordPress.",
+        "services": [
+            {"name":"Custom Web Development" },
+            {"name":"WordPress Development" }
+            
+        ]
+    }
+}

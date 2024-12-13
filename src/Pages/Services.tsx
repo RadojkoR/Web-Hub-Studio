@@ -37,8 +37,8 @@ function Services() {
           </p>
         </article>
         <WebDevelopmentCard />
-        <SeoOptimizationCard />
-        <WebDesignCard />
+        {/* <SeoOptimizationCard />
+        <WebDesignCard /> */}
       </section>
       <Outlet />
     </>

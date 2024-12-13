@@ -1,0 +1,10 @@
+{
+    "webDevelopmentCard": {
+        "title": "Web Razvoj",
+        "description": "Razvijamo sajtove koji funkcionišu besprekorno na svim uređajima, koristeći moderne tehnologije kao što su React, Angular, i WordPress.",
+        "services": [
+            "Prilagođeni web razvoj",
+            "Razvoj na WordPress-u"
+        ]
+    }
+}

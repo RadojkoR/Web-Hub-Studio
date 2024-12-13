@@ -1,68 +1,63 @@
 {
     "services": {
+        "learnMoreBtn": "Learn More",
         "servicesHeaderTitle": "Technological solutions that enhance your business",
-        
         "hero": {
             "title": "Simple and efficient solutions for a better business future",
             "para": "We enable business modernization through process optimization, modern website creation, SEO strategies, and enhanced online presence – with minimal investment and maximum results."
         },
-
         "ourServicesTitle": "Our Services",
         "ourServicesPara": "We provide modern and customized web solutions using the latest technologies. Whether you need a website, SEO optimization, or creative design, our services are designed to enhance your online presence and business performance.",
 
+        "webDevelopmentCard": {
+            "title": "Web Development",
+            "description": "We create websites that work seamlessly across all devices, using modern technologies like React, Angular, and WordPress.",
+            "services": [
+                {
+                    "name": "Custom Web Development"
+                },
+                {
+                    "name": "WordPress Development"
+                }
+            ],
+            "lastPara": "These services offer tailored solutions for your website needs."
+        },
         "webDevelopment": {
             "title": "Web Development",
-
             "paraOne": "Your website is the foundation of your online presence, and we are here to build it right. We specialize in creating modern, responsive websites that work seamlessly across all devices—smartphones, tablets, and desktops.",
-
             "paraTwo": "Whether you need a simple business website, a WordPress-based solution for easy management, or a fully custom web application, we’ve got you covered.",
-
             "liElOneTitle": "WordPress Development: ",
             "liElOne": "WordPress is the most popular content management system (CMS), enabling the creation of flexible and easily manageable websites. It is an ideal solution for those who want to set up a website quickly with minimal maintenance. Our WordPress solutions are user-friendly, allowing clients to update content on their own without the need for technical expertise. Whether it's a blog, a business website, or even an eCommerce platform, WordPress offers a wide range of options and plugins to meet your specific needs. With constant updates and a large community, WordPress provides security and long-term sustainability for your site.",
-
             "liElTwoTitle": "Custom Web Development: ",
             "liElTwo": "These websites are fully tailored to your needs and do not require regular updates, unlike WordPress sites, providing you with a stable and long-term solution. We create custom websites using HTML, CSS, and JavaScript. For more complex and professional projects, we utilize advanced technologies such as React, Angular, and Node.js to deliver dynamic and scalable solutions.",
-
             "lastPara": "Let us help you create a website that reflects your vision and meets your business needs."
         },
-
         "seoOptimization": {
             "title": "SEO Optimization",
             "para": "SEO (Search Engine Optimization) is key to your website’s visibility on search engines like Google, Bing, and Yahoo. Our SEO team uses the latest techniques and strategies to rank your site high on search engines and increase its organic traffic.",
-
             "liElOneTitle": "On-page SEO Optimization:",
             "liElOne": "Optimizing website content, including keywords, meta tags, URL structure, and images, to make your site more recognizable to search engines.",
-
             "liElTwoTitle": "Technical SEO Optimization:",
             "liElTwo": "Improving site speed, ensuring mobile optimization, fixing code errors, enhancing indexing, and enabling better site crawling by search engines.",
-
             "liElThreeTitle": "SEO Analytics and Reporting:",
             "liElThree": "Monitoring the performance of SEO strategies with advanced tools and providing regular reports on your site’s status on search engines.",
-
             "liElFourTitle": "Google Maps and Other Service Integrations: ",
             "liElFour": "Helping users find your location more easily through integrations with Google Maps and other search engines.",
-
             "titleTwo": "Why is SEO important?",
             "lastPara": "Without SEO optimization, your website might remain unnoticed and unappealing to users. Through SEO, we ensure that your site is easily accessible to those searching for services or products like yours, thus boosting organic traffic and increasing the chances for conversions."
         },
-
         "webDesign": {
             "title": "Web Design",
             "para": "We create attractive, functional, and adaptable websites that meet the needs of your business and user experience. Our team focuses on providing solutions that are modern, scalable, and easy to use.",
-
             "liElOneTitle": "Responsive Design",
             "liElOne": "Our websites perform flawlessly on all devices, from desktop computers to mobile phones. Each page is designed to automatically adjust to different screen sizes, ensuring a great user experience no matter what device is used.",
-
             "liElTwoTitle": "UI/UX Design",
             "liElTwo": "We focus on user interface (UI) and user experience (UX) design, ensuring that your users can easily and intuitively navigate your site. Through detailed user needs analysis, we create websites that not only look great but also function seamlessly.",
-
             "liElThreeTitle": "Custom Design",
             "liElThree": "Each project is unique, and that’s why we create fully customized designs that reflect your brand and business goals. Whether you need specific functionalities or a custom look, our team will create a solution that aligns perfectly with your requirements.",
-
-             "liElFourTitle": "WordPress Design",
+            "liElFourTitle": "WordPress Design",
             "liElFour": "WordPress is the most popular platform for creating websites, offering easy content management. Our team specializes in creating WordPress sites, including the installation and customization of themes like Elementor. Elementor lets you create and customize pages using drag-and-drop functionality, with no coding required.",
-
             "lastPara": "Whether you're a small business, a medium-sized enterprise, or a large organization, our goal is to create a website that reflects your unique vision and user needs. With our design solutions, your business will be presented in the best possible way, focusing on simplicity, functionality, and aesthetic appeal."
-        }      
+        }
     }
 }

@@ -18,6 +18,8 @@ import enServices from "./locales/en/translationServices.json";
 import srServices from "./locales/sr/translationServices.json";
 import enProjects from "./locales/en/translationProjects.json";
 import srProjects from "./locales/sr/translationProjects.json";
+import enWebDevelopmentCard from "./locales/en/translationWebDevelopmentCard.json";
+import srWebDevelopmentCard from "./locales/sr/translationWebDevelopmentCard.json";
 
 
 i18n
@@ -32,7 +34,8 @@ i18n
         home: enHome,
         whyItMatters: enWhyItMatters,
         services: enServices,
-        projects: enProjects
+        projects: enProjects,
+        webDevelopmentCard: enWebDevelopmentCard
       },
       sr: {
         translation: srTranslation,
@@ -42,7 +45,8 @@ i18n
         home: srHome,
         whyItMatters: srWhyItMatters,
         services: srServices,
-        projects: srProjects
+        projects: srProjects,
+        webDevelopmentCard: srWebDevelopmentCard
       },
     },
     fallbackLng: 'en', // Podrazumevani jezik
