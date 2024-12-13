@@ -17,8 +17,7 @@ function Nav() {
 
 
   const toggleDropdown = () => setIsDropDownOpen((prevState) => !prevState);
-  const toggleServicesDropDown = () =>
-    setIsServicesDropDownOpen((prevState) => !prevState);
+  const toggleServicesDropDown = () => setIsServicesDropDownOpen((prevState) => !prevState);
   const toggleMobileMenu = () => setIsMobileMenuOpen((prevState) => !prevState);
 
  
@@ -32,20 +31,16 @@ function Nav() {
       ) {
         setIsServicesDropDownOpen(false);
         setIsMobileMenuOpen(false);
+        
+      }
+       if (!target.closest("#langBtn")) {
+        setIsDropDownOpen(false);
       }
     };
     document.addEventListener("click", handleClickOutsideDropdown);
   }, []);
 
-  // const handleClickOutsideDropdown = (e: MouseEvent) => {
-  //   e.preventDefault();
-
-  //   const target = e.target as HTMLElement;
-  //   if (!target.closest("#dropdownBtn") && !target.closest("#hamburgerIcon")) {
-  //     setIsServicesDropDownOpen(false);
-  //     setIsMobileMenuOpen(false)
-  //   }
-  // };
+ 
 
   const handleLanguageChange = (language: string) => {
     i18n.changeLanguage(language);
@@ -163,7 +158,7 @@ function Nav() {
           </li>
         </ul>
         <section className="lngBtnContainer w-28 lg:me-5 flex relative">
-          <button className="dropdownButtonLng w-6" onClick={toggleDropdown}>
+          <button id="langBtn" className="dropdownButtonLng w-6" onClick={toggleDropdown}>
             <span className="w-6 flex items-center text-sm">
               {i18n.language === "sr" ? (
                 <>
