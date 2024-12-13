@@ -1,6 +1,12 @@
 {
     "home": "Home",
     "services": "Services",
+    "servicesDropdownMenu": {
+        "webDevelopment": "Web Development",    
+        "seoOptimization": "Seo Optimization",
+        "webDesign": "Web Design"
+
+    },
     "projects": "Projects",
     "contact": "Contact",
     "linkHome": "home",

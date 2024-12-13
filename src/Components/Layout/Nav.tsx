@@ -1,29 +1,43 @@
+import { useEffect, useState} from "react";
+import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import NavLogo from "../../assets/Logos/WebHubStudioLogoText-light.png";
 import SrbFlag from "../../assets/Flags/serbia128x128.webp";
 import EngFlag from "../../assets/Flags/united-kingdom128x128.webp";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RiCloseLargeLine } from "react-icons/ri";
-import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
-
+import { IoIosArrowDown } from "react-icons/io";
 
 function Nav() {
-  const {t, i18n} = useTranslation();
+  const { t, i18n } = useTranslation();
   const [isDropDownOpen, setIsDropDownOpen] = useState(false);
+  const [isServicesDropDownOpen, setIsServicesDropDownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-   const [hasScrolled, setHasScrolled] = useState(false);
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  const toggleDropdown = () => setIsDropDownOpen((prevState) => !prevState);
+  const toggleServicesDropDown = () => setIsServicesDropDownOpen(prevState => !prevState);
+  const toggleMobileMenu = () => setIsMobileMenuOpen((prevState) => !prevState);
+
   
+  const handleClickOutsideDropdown = (e: MouseEvent) => {
+    e.preventDefault();
 
-  const toggleDropdown = () => setIsDropDownOpen(!isDropDownOpen);
-  const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
+    const target = e.target as HTMLElement;
+    if (!target.closest("#dropdownBtn") && !target.closest("#hamburgerIcon")) {
+      setIsServicesDropDownOpen(false);
+      setIsMobileMenuOpen(false)
+    }
+  };
 
-  const handleLanguageChange = (language:string) => {
+  const handleLanguageChange = (language: string) => {
     i18n.changeLanguage(language);
     setIsDropDownOpen(false);
-  }
+  };
 
   useEffect(() => {
+    document.addEventListener("click", handleClickOutsideDropdown);
+
     const handleScroll = () => {
       if (window.scrollY > 10) {
         setHasScrolled(true);
@@ -31,11 +45,10 @@ function Nav() {
         setHasScrolled(false);
       }
     };
-    
+
     window.addEventListener("scroll", handleScroll);
-    
-  },[])
-  
+  }, []);
+
   return (
     <nav
       className={`mainNav w-full fixed z-50 text-2xl ${
@@ -72,15 +85,46 @@ function Nav() {
               {t("home")}
             </NavLink>
           </li>
-          <li className="me-8 ">
+          <li className="dropdown me-8 flex ease-linear duration-200 relative ">
             <NavLink
               to={"/services"}
-              className="
-              hover:text-brandColor
-              focus:text-brandColor"
+              className="hover:text-brandColor
+              focus:text-brandColor servicesBtn"
             >
               {t("services")}
             </NavLink>
+            <button
+              onClick={toggleServicesDropDown}
+              className="dropdownServicesBtn ms-3 my-auto"
+            >
+              <IoIosArrowDown
+                id="dropdownBtn"
+                className={`${
+                  isServicesDropDownOpen ? "!text-brandColor !rotate-180" : ""
+                } servicesDropdownIcon ease-linear duration-100`}
+              />
+            </button>
+            <ul
+              className={`servicesDropdownMenu absolute top-14 p-5 !bg-cyan-950 lg:!cyan-950-opacity w-80 ${
+                isServicesDropDownOpen ? "block" : "hidden"
+              }`}
+            >
+              <li className="hover:text-brandColor focus:text-brandColor mb-3">
+                <NavLink to={"/services/web-development"}>
+                  {t("servicesDropdownMenu.webDevelopment")}
+                </NavLink>
+              </li>
+              <li className="hover:text-brandColor focus:text-brandColor mb-3">
+                <NavLink to={"/services/seo-optimization"}>
+                  {t("servicesDropdownMenu.seoOptimization")}
+                </NavLink>
+              </li>
+              <li className="hover:text-brandColor focus:text-brandColor">
+                <NavLink to={"/services/web-design"}>
+                  {t("servicesDropdownMenu.webDesign")}
+                </NavLink>
+              </li>
+            </ul>
           </li>
           <li className="me-8">
             <NavLink
@@ -146,7 +190,6 @@ function Nav() {
                   <img src={SrbFlag} className="me-3" alt="Serbian Flag" />
                   {i18n.language === "sr" ? <>Srpski</> : <>Serbian</>}
                 </span>
-                
               </button>
             </article>
           )}
@@ -158,7 +201,11 @@ function Nav() {
             className="lg:hidden inline-flex items-center justify-center p-2 rounded-md text-2xl text-white hover:text-gray-400 focus:text-gray-400 me-4"
           >
             <span className="sr-only">Open main menu</span>
-            {!isMobileMenuOpen ? <GiHamburgerMenu /> : <RiCloseLargeLine />}
+            {!isMobileMenuOpen ? (
+              <GiHamburgerMenu id="hamburgerIcon" />
+            ) : (
+              <RiCloseLargeLine />
+            )}
           </button>
         </section>
       </div>
@@ -166,4 +213,4 @@ function Nav() {
   );
 }
 
-export default Nav
+export default Nav;

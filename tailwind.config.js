@@ -11,7 +11,8 @@ export default {
     extend: {
       colors: {
         brandColor: "#00AEE6",
-        brandColorTwo: "#04c2c9"
+        brandColorTwo: "#04c2c9",
+        "cyan-950-opacity": "#083344c5"
       },
       width: {
         rem40: "40rem",

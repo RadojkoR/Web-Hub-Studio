@@ -18,16 +18,10 @@
             "paraTwo": "Whether you need a simple business website, a WordPress-based solution for easy management, or a fully custom web application, we’ve got you covered.",
 
             "liElOneTitle": "WordPress Development: ",
-            "liElOne": "Flexible and easily manageable websites built with the most popular CMS.",
+            "liElOne": "WordPress is the most popular content management system (CMS), enabling the creation of flexible and easily manageable websites. It is an ideal solution for those who want to set up a website quickly with minimal maintenance. Our WordPress solutions are user-friendly, allowing clients to update content on their own without the need for technical expertise. Whether it's a blog, a business website, or even an eCommerce platform, WordPress offers a wide range of options and plugins to meet your specific needs. With constant updates and a large community, WordPress provides security and long-term sustainability for your site.",
 
             "liElTwoTitle": "Custom Web Development: ",
             "liElTwo": "These websites are fully tailored to your needs and do not require regular updates, unlike WordPress sites, providing you with a stable and long-term solution. We create custom websites using HTML, CSS, and JavaScript. For more complex and professional projects, we utilize advanced technologies such as React, Angular, and Node.js to deliver dynamic and scalable solutions.",
-
-            "liElThreeTitle": "Responsive Design: ",
-            "liElThree": "Ensuring your site looks and works perfectly on all screen sizes, from smartphones to desktops.",
-
-            "liElFourTitle": "SEO Optimization:  ",
-            "liElFour": "We optimize your website to rank better on search engines like Google, Bing, and Yahoo. Additionally, we implement features such as Google Maps and integrations with other relevant services to ensure that your audience can easily find your location and information.",
 
             "lastPara": "Let us help you create a website that reflects your vision and meets your business needs."
         },

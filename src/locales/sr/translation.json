@@ -1,6 +1,11 @@
 {
   "home": "Početna",
   "services": "Usluge",
+  "servicesDropdownMenu": {
+        "webDevelopment": "Web Razvoj",
+        "seoOptimization": "SEO Optimzacija"
+
+    },
   "projects": "Projekti",
   "contact": "Kontakt",
   "linkServices": "usluge",

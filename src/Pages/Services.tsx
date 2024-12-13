@@ -2,6 +2,7 @@
 import { SecondaryHeader } from "../Components/Layout"
 import { useTranslation } from "react-i18next";
 import { SeoOptimizationCard, WebDesignCard, WebDevelopmentCard} from "../Components/Services";
+import { Outlet } from "react-router-dom";
 
 function Services() {
   const { t } = useTranslation("services");
@@ -39,6 +40,7 @@ function Services() {
         <SeoOptimizationCard />
         <WebDesignCard />
       </section>
+      <Outlet />
     </>
   );
 }
