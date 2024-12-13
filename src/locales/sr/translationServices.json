@@ -34,6 +34,27 @@
             "liElTwo": "Ovi sajtovi su potpuno prilagođeni vašim potrebama i ne zahtevaju redovna ažuriranja, kao što je to slučaj kod WordPress sajtova, pružajući vam stabilno i dugoročno rešenje. Kreiramo prilagođene sajtove koristeći HTML, CSS i JavaScript. Za kompleksnije i profesionalnije projekte koristimo napredne tehnologije kao što su React, Angular i Node.js kako bismo isporučili dinamična i skalabilna rešenja.",
             "lastPara": "Let us help you create a website that reflects your vision and meets your business needs."
         },
+
+         "seoOptimizationCard": {
+            "title": "SEO Optimization",
+            "description": "Optimizujemo vaš sajt kako bi se pojavljivao na vrhu pretraga na Google-u, Bing-u i drugim pretraživačima, koristeći najsavremenije SEO tehnike",
+            "services": [
+                {
+                    "name": "SEO Optimizacija na stranici"
+                },
+                {
+                    "name": "Tehnička SEO optimizacija"
+                },
+                {
+                    "name": "SEO analitika i izveštaji"
+                },
+                {
+                    "name": "Integracije sa Google Mapama i drugim relevantnim servisima"
+                }
+            ],
+            "lastPara": "These services offer tailored solutions for your website needs."
+        },
+
         "seoOptimization": {
             "title": "SEO Optimzacija",
             "para": "SEO (Search Engine Optimization) je ključ za vidljivost vašeg sajta na pretraživačima kao što su Google, Bing i Yahoo. Naš SEO tim koristi najnovije tehnike i strategije kako bi vaš sajt postavio visoko na pretraživačima i povećao njegovu organsku posetu..",
@@ -48,6 +69,27 @@
             "titleTwo": "Zašto je SEO važan?",
             "lastPara": "Bez SEO optimizacije, vaš sajt može ostati neprepoznatljiv i neprivlačan korisnicima. Kroz SEO, osiguravamo da vaš sajt bude lako dostupan onima koji traže usluge ili proizvode poput vaših, čime poboljšavamo organsku posetu i povećavamo šanse za konverzije."
         },
+
+         "webDesignCard": {
+            "title": "Web Dizajn",
+            "description": "Kreiramo prilagođene sajtove koji su jednostavni za korišćenje i funkcionišu besprekorno na svim uređajima. Bilo da vam je potrebna jednostavna odredišna stranica ili kompletan e-commerce sajt, fokusiramo se na ispunjavanje vaših poslovnih potreba",
+            "services": [
+                {
+                    "name": "Responsive Dizajn"
+                },
+                {
+                    "name": "UI/UX Dizajn"
+                },
+                {
+                    "name": "Prilagođeni Dizajn"
+                },
+                {
+                    "name": "WordPress Dizajn"
+                }
+            ],
+            "lastPara": "These services offer tailored solutions for your website needs."
+        },
+
         "webDesign": {
             "title": "Web Dizajn",
             "para": "Kreiramo atraktivne, funkcionalne i prilagodljive web sajtove koji zadovoljavaju potrebe vašeg poslovanja i korisničkog iskustva. Naš tim se fokusira na pružanje rešenja koja su moderna, skalabilna i jednostavna za upotrebu.",

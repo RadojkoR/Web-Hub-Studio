@@ -32,6 +32,27 @@
             "liElTwo": "These websites are fully tailored to your needs and do not require regular updates, unlike WordPress sites, providing you with a stable and long-term solution. We create custom websites using HTML, CSS, and JavaScript. For more complex and professional projects, we utilize advanced technologies such as React, Angular, and Node.js to deliver dynamic and scalable solutions.",
             "lastPara": "Let us help you create a website that reflects your vision and meets your business needs."
         },
+
+        "seoOptimizationCard": {
+            "title": "SEO Optimization",
+            "description": "We optimize your website to rank higher in search results on Google, Bing, and other search engines using the latest SEO techniques.",
+            "services": [
+                {
+                    "name": "On-page SEO"
+                },
+                {
+                    "name": "Technical SEO Optimization"
+                },
+                {
+                    "name": "SEO Analytics and Reporting"
+                },
+                {
+                    "name": "Google Maps and Other Service Integrations"
+                }
+            ],
+            "lastPara": "These services offer tailored solutions for your website needs."
+        },
+
         "seoOptimization": {
             "title": "SEO Optimization",
             "para": "SEO (Search Engine Optimization) is key to your website’s visibility on search engines like Google, Bing, and Yahoo. Our SEO team uses the latest techniques and strategies to rank your site high on search engines and increase its organic traffic.",
@@ -46,6 +67,27 @@
             "titleTwo": "Why is SEO important?",
             "lastPara": "Without SEO optimization, your website might remain unnoticed and unappealing to users. Through SEO, we ensure that your site is easily accessible to those searching for services or products like yours, thus boosting organic traffic and increasing the chances for conversions."
         },
+
+        "webDesignCard": {
+            "title": "Web Design",
+            "description": "We create custom, user-friendly websites that adapt seamlessly to any device. Whether you need a landing page or a full e-commerce site, we design with your business goals in mind.",
+            "services": [
+                {
+                    "name": "Responsive Design"
+                },
+                {
+                    "name": "UI/UX Design"
+                },
+                {
+                    "name": "Custom Design"
+                },
+                {
+                    "name": "WordPress Design"
+                }
+            ],
+            "lastPara": "These services offer tailored solutions for your website needs."
+        },
+
         "webDesign": {
             "title": "Web Design",
             "para": "We create attractive, functional, and adaptable websites that meet the needs of your business and user experience. Our team focuses on providing solutions that are modern, scalable, and easy to use.",
