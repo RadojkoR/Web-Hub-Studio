@@ -6,11 +6,11 @@ import Footer from "./Footer"
 function Layout() {
   return (
     <>
-        <Nav />
-        <Outlet />
-        <Footer />
+      <Nav />
+      <Outlet />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default Layout

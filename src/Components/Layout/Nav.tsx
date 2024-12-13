@@ -15,20 +15,37 @@ function Nav() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [hasScrolled, setHasScrolled] = useState(false);
 
+
   const toggleDropdown = () => setIsDropDownOpen((prevState) => !prevState);
-  const toggleServicesDropDown = () => setIsServicesDropDownOpen(prevState => !prevState);
+  const toggleServicesDropDown = () =>
+    setIsServicesDropDownOpen((prevState) => !prevState);
   const toggleMobileMenu = () => setIsMobileMenuOpen((prevState) => !prevState);
 
-  
-  const handleClickOutsideDropdown = (e: MouseEvent) => {
-    e.preventDefault();
+ 
 
-    const target = e.target as HTMLElement;
-    if (!target.closest("#dropdownBtn") && !target.closest("#hamburgerIcon")) {
-      setIsServicesDropDownOpen(false);
-      setIsMobileMenuOpen(false)
-    }
-  };
+  useEffect(() => {
+    const handleClickOutsideDropdown = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      if (
+        !target.closest("#dropdownBtn") &&
+        !target.closest("#hamburgerIcon")
+      ) {
+        setIsServicesDropDownOpen(false);
+        setIsMobileMenuOpen(false);
+      }
+    };
+    document.addEventListener("click", handleClickOutsideDropdown);
+  }, []);
+
+  // const handleClickOutsideDropdown = (e: MouseEvent) => {
+  //   e.preventDefault();
+
+  //   const target = e.target as HTMLElement;
+  //   if (!target.closest("#dropdownBtn") && !target.closest("#hamburgerIcon")) {
+  //     setIsServicesDropDownOpen(false);
+  //     setIsMobileMenuOpen(false)
+  //   }
+  // };
 
   const handleLanguageChange = (language: string) => {
     i18n.changeLanguage(language);
@@ -36,8 +53,6 @@ function Nav() {
   };
 
   useEffect(() => {
-    document.addEventListener("click", handleClickOutsideDropdown);
-
     const handleScroll = () => {
       if (window.scrollY > 10) {
         setHasScrolled(true);

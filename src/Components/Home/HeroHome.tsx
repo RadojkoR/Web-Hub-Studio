@@ -38,7 +38,7 @@ function HeroHome() {
           </Link>
           <Link
             to={"/contact"}
-            className=" bg-cyan-300 
+            className=" 
              bg-cyan-300 
             hover:bg-cyan-700 
             focus:bg-cyan-700 

@@ -52,7 +52,7 @@ function ProjectsSectionThree() {
             alt="Image of project"
           />
           <a
-            href="https://izodecorglass.rs/"
+            href="https://coachingjs.netlify.app/"
             className=" bg-cyan-300 
             hover:bg-cyan-700 
             focus:bg-cyan-700 

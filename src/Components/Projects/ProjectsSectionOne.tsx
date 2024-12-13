@@ -19,7 +19,7 @@ function ProjectsSectionOne() {
             alt="Image of project"
           />
           <a
-            href="https://izodecorglass.rs/"
+            href="https://izodecorglass.rs"
             className=" bg-cyan-300 
             hover:bg-cyan-700 
             focus:bg-cyan-700 
@@ -42,6 +42,7 @@ function ProjectsSectionOne() {
             justify-center
             items-center"
             target="_blank"
+            rel="noopener noreferrer"
           >
             {t("projects.viewLiveBtn")}
           </a>
@@ -53,7 +54,7 @@ function ProjectsSectionOne() {
             alt="Image of project"
           />
           <a
-            href="https://izodecorglass.rs/"
+            href="https://www.mes.rs/"
             className=" bg-cyan-300 
             hover:bg-cyan-700 
             focus:bg-cyan-700 
@@ -76,6 +77,7 @@ function ProjectsSectionOne() {
             justify-center
             items-center"
             target="_blank"
+            rel="noopener noreferrer"
           >
             {t("projects.viewLiveBtn")}
           </a>
