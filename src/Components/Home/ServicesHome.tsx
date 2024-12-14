@@ -1,13 +1,16 @@
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
 import AOS from "aos"
 import { FaCode, FaSearch } from "react-icons/fa";
 import { FaPaintbrush } from "react-icons/fa6";
 import { useEffect } from "react";
+import { LearnMoreBtn } from "../Buttons";
 
 
 function ServicesHome() {
     const { t } = useTranslation();
+
+    const learnMoreServicesBtnLink = "/services";
+    
     useEffect(() => {
         AOS.init({duration: 1000})
     }, [])
@@ -62,31 +65,8 @@ function ServicesHome() {
             </p>
           </div>
         </article>
-        <Link
-          to={"/services"}
-          className=" bg-cyan-300 
-            hover:bg-cyan-700 
-            focus:bg-cyan-700 
-            hover:text-gray-200 
-            focus:text-gray-200 
-            transition-all
-            duration-300
-            ease-in-out
-            w-36 
-            text-sm
-            xxs:text-lg 
-            font-bold 
-            text-gray-700 
-            px-5 
-            py-2 
-            mt-14
-            mx-auto
-            flex
-            justify-center
-            items-center"
-        >
-          {t("learnMoreBtn")}
-        </Link>
+        
+        <LearnMoreBtn btnLink={learnMoreServicesBtnLink}/>
       </div>
     </section>
   );
