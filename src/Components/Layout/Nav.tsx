@@ -158,7 +158,11 @@ function Nav() {
           </li>
         </ul>
         <section className="lngBtnContainer w-28 lg:me-5 flex relative">
-          <button id="langBtn" className="dropdownButtonLng w-6" onClick={toggleDropdown}>
+          <button
+            id="langBtn"
+            className="dropdownButtonLng w-6"
+            onClick={toggleDropdown}
+          >
             <span className="w-6 flex items-center text-sm">
               {i18n.language === "sr" ? (
                 <>
@@ -204,17 +208,17 @@ function Nav() {
             </article>
           )}
         </section>
-        <section>
+        <section className="flex justify-center items-center me-4">
           {/* Hamburger Menu Icon (Mobile Only) */}
           <button
             onClick={toggleMobileMenu}
-            className="lg:hidden inline-flex items-center justify-center p-2 rounded-md text-2xl text-white hover:text-gray-400 focus:text-gray-400 me-4"
+            className="lg:hidden inline-flex items-center justify-center text-5xl text-white hover:text-gray-400 focus:text-white"
           >
             <span className="sr-only">Open main menu</span>
             {!isMobileMenuOpen ? (
-              <GiHamburgerMenu id="hamburgerIcon" />
+              <GiHamburgerMenu id="hamburgerIcon" className="p-2" />
             ) : (
-              <RiCloseLargeLine />
+              <RiCloseLargeLine className="p-2" />
             )}
           </button>
         </section>
