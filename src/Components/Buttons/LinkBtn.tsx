@@ -1,14 +1,11 @@
 import { Link } from "react-router-dom";
-import { useTranslation } from "react-i18next";
 
-interface LearnMoreBtnProps {
+interface LinkBtnProps {
     btnLink: string;
+    btnTxt: string;
 }
 
-function LearnMoreBtn({btnLink}: LearnMoreBtnProps) {
-    const { t } = useTranslation();
-
-    
+function LinkBtn({btnLink, btnTxt}: LinkBtnProps) {
   return (
     <Link
       to={btnLink}
@@ -20,22 +17,20 @@ function LearnMoreBtn({btnLink}: LearnMoreBtnProps) {
             transition-all
             duration-300
             ease-in-out
-            w-36 
+            w-40 
             text-sm
             xxs:text-lg 
             font-bold 
             text-gray-700 
             px-5 
-            py-2 
-            mt-14
-            mx-auto
+            py-2
             flex
             justify-center
             items-center"
     >
-      {t("learnMoreBtn")}
+      {btnTxt}
     </Link>
   );
 }
 
-export default LearnMoreBtn
+export default LinkBtn

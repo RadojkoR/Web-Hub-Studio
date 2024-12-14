@@ -1,4 +1,4 @@
 import ViewLiveBtn from "./ViewLiveBtn";
-import LearnMoreBtn from "./LearnMoreBtn";
+import LinkBtn from "./LinkBtn";
 
-export {ViewLiveBtn, LearnMoreBtn};
+export {ViewLiveBtn, LinkBtn};

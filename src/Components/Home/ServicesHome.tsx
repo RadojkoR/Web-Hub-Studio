@@ -3,13 +3,14 @@ import AOS from "aos"
 import { FaCode, FaSearch } from "react-icons/fa";
 import { FaPaintbrush } from "react-icons/fa6";
 import { useEffect } from "react";
-import { LearnMoreBtn } from "../Buttons";
+import { LinkBtn } from "../Buttons";
 
 
 function ServicesHome() {
     const { t } = useTranslation();
 
     const learnMoreServicesBtnLink = "/services";
+    const learnMoreServicesBtnTxt = t("learnMoreBtn");
     
     useEffect(() => {
         AOS.init({duration: 1000})
@@ -65,8 +66,12 @@ function ServicesHome() {
             </p>
           </div>
         </article>
-        
-        <LearnMoreBtn btnLink={learnMoreServicesBtnLink}/>
+        <div className="mx-auto mt-14">
+          <LinkBtn
+            btnLink={learnMoreServicesBtnLink}
+            btnTxt={learnMoreServicesBtnTxt}
+          />
+        </div>
       </div>
     </section>
   );
