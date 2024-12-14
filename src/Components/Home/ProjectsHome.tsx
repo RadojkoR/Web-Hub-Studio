@@ -10,7 +10,7 @@ function ProjectsHome() {
   return (
     <section className="ourProjects bg-gray-50 py-20">
       <div className="md:container-80 px-4 md:px-0 flex flex-col">
-        <h2 className="text-4xl font-bold text-gray-600 ">
+        <h2 className="text-4xl font-bold text-gray-600 border-l-4 border-brandColor ps-4">
           {t("ourProjects.title")}
         </h2>
         <p className="text-2xl font-semibold text-gray-600 mt-5">

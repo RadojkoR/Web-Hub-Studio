@@ -15,12 +15,12 @@ function AboutHome() {
       <section className="aboutUsParallax lg:h-80 h-48"></section>
 
       <section className="aboutUs py-20">
-        <h1 className="text-4xl text-center font-bold text-cyan-800 uppercase mb-16">
+        <h1 className="text-5xl text-center font-bold text-cyan-800 uppercase mb-16">
           Web Hub Studio
         </h1>
         <article className="md:container-80 lg:flex justify-between px-4 md:px-0">
           <div className="lg:w-3/6 w-full">
-            <h2 className="text-3xl font-semibold text-gray-700 mt-10 mb-5 ">
+            <h2 className="text-4xl font-semibold text-gray-700 mt-10 mb-5 border-l-4 border-brandColor ps-4">
               {t("home.aboutTitle")}
             </h2>
             <p className="text-lg sm:text-xl text-gray-700 md:text-left">

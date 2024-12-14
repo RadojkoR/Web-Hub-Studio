@@ -16,7 +16,7 @@ function WebDesignCard() {
     }) as Service;
   return (
     <section className="seoOptimizationCard">
-      <article className="border-2 flex flex-col justify-between h-full p-3 bg-orange-50">
+      <article className="flex flex-col justify-between h-full p-3 bg-orange-50 shadow-lg rounded-lg">
         <GiPalette className="mx-auto text-5xl text-gradient-r text-violet-500" />
         <h2 className="mx-auto my-2 text-2xl font-bold text-gray-700">
           {servicesTitle}

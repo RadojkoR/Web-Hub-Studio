@@ -30,13 +30,13 @@ function Services() {
     <>
       <SecondaryHeader headerInfo={servicesHeader} />
       <Hero heroT={servicesHero} />
-      <section className="mainProjects bg-slate-100">
+      <section className="mainProjects bg-slate-100 pt-16">
         <div className="md:container-80 px-5 md:px-0 ">
           <article className="mainServices mx-auto">
-            <h2 className="text-5xl text-gray-700 font-bold pt-20 pb-14">
+            <h2 className="text-5xl text-gray-700 font-bold border-l-4 border-brandColor ps-5">
               {t("services.ourServicesTitle")}
             </h2>
-            <p className="text-xl sm:text-2xl text-gray-700 font-semibold pb-20">
+            <p className="text-xl sm:text-2xl text-gray-700 font-semibold mt-10 pb-20">
               {t("services.ourServicesPara")}
             </p>
           </article>

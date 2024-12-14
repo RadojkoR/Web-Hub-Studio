@@ -18,10 +18,10 @@ function ServicesHome() {
   return (
     <section className="servicesHome py-20">
       <div className="md:container-80 px-4 md:px-0 flex flex-col">
-        <h2 className="text-4xl font-bold text-gray-100 text-center">
+        <h2 className="text-4xl font-bold text-gray-100 border-l-4 border-brandColor ps-4">
           {t("servicesHome.title")}
         </h2>
-        <p className="text-2xl font-semibold text-gray-100 text-center mt-5">
+        <p className="text-2xl font-semibold text-gray-100 mt-5">
           {t("servicesHome.para")}
         </p>
         <article className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">

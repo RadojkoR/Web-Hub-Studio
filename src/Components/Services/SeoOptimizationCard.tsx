@@ -17,7 +17,7 @@ function SeoOptimizationCard() {
     }) as Service;
   return (
     <section className="seoOptimizationCard flex h-full">
-      <article className="border-2 flex flex-col justify-between p-3 bg-blue-100">
+      <article className="flex flex-col justify-between p-3 bg-blue-100 shadow-lg rounded-lg">
         <FaChartLine className="mx-auto text-5xl text-green-500" />
         <h2 className="mx-auto my-2 text-2xl font-bold text-gray-700">
           {servicesTitle}

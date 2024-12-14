@@ -9,8 +9,8 @@ function ProjectsSectionThree() {
     const btnInteriorDesignLink = "https://interiordesign-or.netlify.app/";
     const btnCoachingLink = "https://coachingjs.netlify.app/";
   return (
-    <section className="md:container-80 px-4 md:px-0 pt-14">
-      <h3 className="text-3xl text-gray-700 font-semibold mb-4">
+    <section className="md:container-80 px-4 md:px-0 pt-14 border-b-2 border-brandColor">
+      <h3 className="text-3xl text-gray-700 font-semibold mb-4 border-l-4 border-brandColor ps-4">
         {t("projects.projectsSectionThree.title")}
       </h3>
       <p className="text-xl mb-7">{t("projects.projectsSectionThree.para")}</p>

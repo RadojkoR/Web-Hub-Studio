@@ -14,7 +14,7 @@ function WebDevelopmentCard() {
     const learnMoreBtnTxt = t("services.learnMoreBtn");
   return (
     <section className="webDevelopmentCard flex h-full">
-      <article className="border-2 flex flex-col justify-between p-3 bg-yellow-50">
+      <article className="flex flex-col justify-between p-3 bg-yellow-50 shadow-lg rounded-lg">
         <FaLaptopCode className="mx-auto text-5xl text-brandColor" />
         <h2 className="mx-auto my-2 text-2xl font-bold text-gray-700">
           {servicesTitle}

@@ -28,9 +28,9 @@
             "title": "Web razvoj",
             "paraOne": "Vaš web sajt je osnova vaše online prisutnosti, i mi smo tu da ga izgradimo na pravi način. Specijalizovani smo za kreiranje modernih, responzivnih sajtova koji funkcionišu besprekorno na svim uređajima—pametnim telefonima, tabletima i računarima.",
             "paraTwo": "Bilo da vam je potreban jednostavan poslovni sajt, WordPress rešenje za lakše upravljanje, ili potpuno prilagođena web aplikacija, pokrićemo sve vaše zahteve.",
-            "liElOneTitle": "Razvoj na WordPress-u: ",
+            "liElOneTitle": "Razvoj na WordPress-u",
             "liElOne": "WordPress je najpopularniji sistem za upravljanje sadržajem (CMS) i omogućava kreiranje fleksibilnih i lako upravljivih web sajtova. Idealno je rešenje za one koji žele brzo postavljanje sajta uz mogućnost lakog održavanja. Naša WordPress rešenja su jednostavna za upotrebu, omogućavajući korisnicima da sami ažuriraju sadržaj bez potrebe za tehničkim znanjem. Bilo da se radi o blogovima, poslovnim sajtovima ili čak eCommerce platformama, WordPress nudi širok spektar opcija i dodataka za prilagođavanje vaših potreba. Takođe, sa stalnim ažuriranjima i velikom zajednicom, WordPress pruža sigurnost i dugoročnu održivost za vaš sajt",
-            "liElTwoTitle": "Prilagođeni web razvoj: ",
+            "liElTwoTitle": "Prilagođeni web razvoj",
             "liElTwo": "Ovi sajtovi su potpuno prilagođeni vašim potrebama i ne zahtevaju redovna ažuriranja, kao što je to slučaj kod WordPress sajtova, pružajući vam stabilno i dugoročno rešenje. Kreiramo prilagođene sajtove koristeći HTML, CSS i JavaScript. Za kompleksnije i profesionalnije projekte koristimo napredne tehnologije kao što su React, Angular i Node.js kako bismo isporučili dinamična i skalabilna rešenja.",
             "lastPara": "Let us help you create a website that reflects your vision and meets your business needs."
         },
@@ -57,14 +57,14 @@
 
         "seoOptimization": {
             "title": "SEO Optimzacija",
-            "para": "SEO (Search Engine Optimization) je ključ za vidljivost vašeg sajta na pretraživačima kao što su Google, Bing i Yahoo. Naš SEO tim koristi najnovije tehnike i strategije kako bi vaš sajt postavio visoko na pretraživačima i povećao njegovu organsku posetu..",
-            "liElOneTitle": "SEO Optimizacija na stranici:",
+            "para": "SEO (Search Engine Optimization) je ključ za vidljivost vašeg sajta na pretraživačima kao što su Google, Bing i Yahoo. Naš SEO tim koristi najnovije tehnike i strategije kako bi vaš sajt postavio visoko na pretraživačima i povećao njegovu organsku posetu.",
+            "liElOneTitle": "SEO Optimizacija na stranici",
             "liElOne": "Optimizacija sadržaja na sajtu, uključujući ključne reči, meta tagove, strukturu URL-a, i slike, kako bi vaš sajt bio lakše prepoznatljiv pretraživačima.",
-            "liElTwoTitle": "Tehnička SEO optimizacija:",
+            "liElTwoTitle": "Tehnička SEO optimizacija",
             "liElTwo": "Povećavamo brzinu sajta, omogućavamo optimizaciju za mobilne uređaje, popravku grešaka u kodu, poboljšanje indeksa i omogućavanje boljeg skeniranja vašeg sajta od strane pretraživača.",
-            "liElThreeTitle": "SEO analitika i izveštaji:",
+            "liElThreeTitle": "SEO analitika i izveštaji",
             "liElThree": "Pratimo učinak SEO strategija uz pomoć naprednih alata i pružamo redovne izveštaje o stanju vašeg sajta na pretraživačima.",
-            "liElFourTitle": "Integracije sa Google Mapama i drugim relevantnim servisima: ",
+            "liElFourTitle": "Integracije sa Google Mapama i drugim relevantnim servisima",
             "liElFour": "Pomažemo korisnicima da lakše pronađu vašu lokaciju putem integracija sa Google Maps i drugim pretraživačima.",
             "titleTwo": "Zašto je SEO važan?",
             "lastPara": "Bez SEO optimizacije, vaš sajt može ostati neprepoznatljiv i neprivlačan korisnicima. Kroz SEO, osiguravamo da vaš sajt bude lako dostupan onima koji traže usluge ili proizvode poput vaših, čime poboljšavamo organsku posetu i povećavamo šanse za konverzije."

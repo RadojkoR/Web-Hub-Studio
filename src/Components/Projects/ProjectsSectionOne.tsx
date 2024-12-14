@@ -13,7 +13,7 @@ function ProjectsSectionOne() {
 
   return (
     <section className="md:container-80 px-4 md:px-0">
-      <h3 className="text-3xl text-gray-700 font-semibold mb-4">
+      <h3 className="text-3xl text-gray-700 font-semibold mb-4 border-l-4 border-brandColor ps-4">
         {t("projects.projectsSectionOne.title")}
       </h3>
       <p className="text-xl mb-7">{t("projects.projectsSectionOne.para")}</p>
