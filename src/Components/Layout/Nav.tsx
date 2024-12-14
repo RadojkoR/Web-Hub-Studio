@@ -106,6 +106,7 @@ function Nav() {
             <button
               onClick={toggleServicesDropDown}
               className="dropdownServicesBtn ms-3 my-auto"
+              aria-label="Show Services"
             >
               <IoIosArrowDown
                 id="dropdownBtn"
@@ -162,6 +163,7 @@ function Nav() {
             id="langBtn"
             className="dropdownButtonLng w-6"
             onClick={toggleDropdown}
+            aria-label="Show Languages"
           >
             <span className="w-6 flex items-center text-sm">
               {i18n.language === "sr" ? (
@@ -186,6 +188,7 @@ function Nav() {
               <button
                 className="w-6 mb-4"
                 onClick={() => handleLanguageChange("en")}
+                aria-label="En Button"
               >
                 <span className="w-6 flex text-sm">
                   <img
@@ -199,6 +202,7 @@ function Nav() {
               <button
                 className="w-6 flex"
                 onClick={() => handleLanguageChange("sr")}
+                aria-label="Sr Button"
               >
                 <span className="w-6 flex text-sm">
                   <img src={SrbFlag} className="me-3" alt="Serbian Flag" />
@@ -213,6 +217,7 @@ function Nav() {
           <button
             onClick={toggleMobileMenu}
             className="lg:hidden inline-flex items-center justify-center text-5xl text-white hover:text-gray-400 focus:text-white"
+            aria-label="Show Hamburger Menu"
           >
             <span className="sr-only">Open main menu</span>
             {!isMobileMenuOpen ? (
