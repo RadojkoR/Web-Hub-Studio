@@ -32,6 +32,7 @@ function ViewLiveBtn({btnLink}: ViewliveBtnProps) {
             items-center"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label={t("viewLiveBtn")}
     >
       {t("viewLiveBtn")}
     </a>
