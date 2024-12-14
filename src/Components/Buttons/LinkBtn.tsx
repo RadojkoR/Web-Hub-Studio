@@ -27,6 +27,7 @@ function LinkBtn({btnLink, btnTxt}: LinkBtnProps) {
             flex
             justify-center
             items-center"
+      aria-label={btnTxt}
     >
       {btnTxt}
     </Link>
