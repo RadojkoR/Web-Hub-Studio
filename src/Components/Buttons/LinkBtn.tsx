@@ -19,7 +19,7 @@ function LinkBtn({btnLink, btnTxt}: LinkBtnProps) {
             ease-in-out
             w-40 
             text-sm
-            xxs:text-lg 
+            xxs:text-base 
             font-bold 
             text-gray-700 
             px-5 

@@ -3,12 +3,14 @@ import { SecondaryHeader } from "../Components/Layout"
 import { useTranslation } from "react-i18next";
 import { SeoOptimizationCard, WebDesignCard, WebDevelopmentCard} from "../Components/Services";
 import { Outlet } from "react-router-dom";
+import Hero from "../Components/Hero/Hero";
 
 function Services() {
   const { t } = useTranslation("services");
   const servicesT = t("services.servicesHeaderTitle");
-  // const servicesHeroTitle = t("services.hero.title");
-  // const servicesHeroPara = t("services.hero.para");
+  const servicesHeroTitle = t("services.hero.title");
+  const servicesHeroPara = t("services.hero.para");
+  
   
   const servicesHeader = [
     {
@@ -16,17 +18,18 @@ function Services() {
       headerSlogan: servicesT,
     },
   ];
-  // const servicesHero = [
-  //   {
-  //     title: servicesHeroTitle,
-  //     para: servicesHeroPara,
-  //   },
-  // ];
+  const servicesHero = [
+    {
+      title: servicesHeroTitle,
+      para: servicesHeroPara,
+    },
+  ];
   // console.log(servicesHero);
   
   return (
     <>
       <SecondaryHeader headerInfo={servicesHeader} />
+      <Hero heroT={servicesHero} />
       <section className="mainProjects bg-slate-100">
         <div className="md:container-80 px-5 md:px-0 ">
           <article className="mainServices mx-auto">
