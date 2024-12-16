@@ -24,3 +24,11 @@
 .contactHeader {
     background-image: url("../Images/HeaderImg/contactHeader.webp");   
 }
+
+@media (max-width: 767.999px) {
+.contactHeader {
+    background-image: url("../Images/HeaderImg/contactHeaderMobileMd.webp");  
+    background-position: center; 
+    height: 70vh;
+}
+}

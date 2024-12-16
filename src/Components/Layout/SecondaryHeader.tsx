@@ -30,7 +30,8 @@ function SecondaryHeader({ headerInfo }: SecondaryHeaderProps) {
         xs:w-rem30
         xxs:w-96
         xxxs:w-72
-        p-10
+        xs:p-10
+        p-5
         absolute
         right-0
         -bottom-10
@@ -42,10 +43,10 @@ function SecondaryHeader({ headerInfo }: SecondaryHeaderProps) {
         data-aos-duration="1500"
         data-aos-delay="400"
       >
-        <h1 className=" lg:text-7xl sm:text-6xl xs:text-6xl xxs:text-5xl text-4xl font-bold"data-aos="fade-up">
+        <h1 className=" lg:text-7xl sm:text-6xl xxs:text-5xl text-4xl font-bold"data-aos="fade-up">
           {headerSloganBold}
         </h1>
-        <p className="text-5xl mt-5 font-semibold">{headerSloganRegular}</p>
+        <p className="lg:text-5xl sm:text-4xl xxs:text-3xl text-3xl mt-5 font-semibold">{headerSloganRegular}</p>
       </section>
     </header>
   );

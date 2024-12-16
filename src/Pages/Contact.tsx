@@ -33,7 +33,7 @@ function Contact({ metaTitle, metaDescription }: MetaProps) {
       </Helmet>
       <SecondaryHeader headerInfo={contactHeader} />
       <section className="mainProjects bg-slate-100 pt-16 pb-20">
-        <div className="md:container-80 px-5 md:px-0">
+        <div className="md:container-80 px-3 md:px-0">
           <article className="border-b-2 border-brandColor">
             <h2
               className="text-5xl text-gray-700 font-bold border-l-4 border-brandColor ps-5"
@@ -49,7 +49,7 @@ function Contact({ metaTitle, metaDescription }: MetaProps) {
           </article>
           <article className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-10 border-b-2 border-brandColor pb-16">
             <div
-              className="flex flex-col justify-between bg-gradient-to-r from-slate-200 via-slate-300 to-slate-400 p-10"
+              className="flex flex-col justify-between bg-gradient-to-r from-slate-200 via-slate-300 to-slate-400 xs:p-10 xxs:p-5 p-3"
               data-aos="zoom-in"
               data-aos-duration="1500"
               data-aos-delay="300"
@@ -71,19 +71,21 @@ function Contact({ metaTitle, metaDescription }: MetaProps) {
                   focus:ring-offset-brandColor
                   focus:ring-offset-4
                   mt-10
-                  text-2xl
+                  xs:text-2xl
+                  xxs:text-lg
+                  text-sm
                   font-semibold
                   mx-auto"
               >
                 <MdOutlineEmail
                   className="
-                    text-5xl me-4 "
+                    text-5xl xxs:me-4 me-1"
                 />
                 radulovicradojko@gmail.com
               </a>
             </div>
             <div
-              className="flex flex-col justify-between bg-gradient-to-l from-slate-200 via-slate-300 to-slate-400 p-10"
+              className="flex flex-col justify-between bg-gradient-to-l from-slate-200 via-slate-300 to-slate-400 xs:p-10 xxs:p-5 p-3"
               data-aos="zoom-in"
               data-aos-duration="1500"
               data-aos-delay="300"
@@ -104,7 +106,9 @@ function Contact({ metaTitle, metaDescription }: MetaProps) {
                   focus:ring-offset-brandColor
                   focus:ring-offset-4
                   mt-10
-                  text-2xl
+                  xs:text-2xl
+                  xxs:text-lg
+                  text-sm
                   font-semibold
                   mx-auto"
               >
@@ -114,9 +118,7 @@ function Contact({ metaTitle, metaDescription }: MetaProps) {
             </div>
           </article>
           <article className="border-b-2 border-brandColor pb-16">
-            <h2
-              className="text-4xl text-gray-700 font-bold text-center my-16"
-            >
+            <h2 className="text-4xl text-gray-700 font-bold text-center my-16">
               {t("contactPage.socialMediaTxt")}
             </h2>
             <div className="!text-gray-700">
