@@ -22,7 +22,7 @@ import srProjects from "./locales/sr/translationProjects.json";
 
 i18n
   .use(initReactI18next).init({
-    debug: true,
+    // debug: true,
     resources: {
       en: {
         translation: enTranslation,
