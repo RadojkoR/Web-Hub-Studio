@@ -25,9 +25,6 @@
     },
   "projects": "Projekti",
   "contact": "Kontakt",
-  "linkServices": "usluge",
-  "linkProjects": "projekti",
-  "linkContact": "kontakt",
   "language": "Jezik",
   "learnMoreBtn": "Saznajte više",
   "viewLiveBtn": "Pogledaj uživo",
@@ -37,7 +34,7 @@
   },
   "servicesHome": {
         "title": "Naše Usluge",
-        "para": "We offer a wide range of services to help you succeed online.",
+        "para": "Nudimo širok spektar usluga kako bismo vam pomogli da ostvarite uspeh na internetu.",
         "webDevelopmentCard": {
             "cardTitle": "Web Development",
             "cardPara": "Moderne i responzivne veb sajtove prilagođene vašim potrebama."

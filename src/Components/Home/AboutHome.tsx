@@ -15,7 +15,7 @@ function AboutHome() {
       <section className="aboutUsParallax lg:h-80 h-48"></section>
 
       <section className="aboutUs py-20">
-        <h1 className="text-5xl text-center font-bold text-cyan-800 uppercase mb-16">
+        <h1 className="sm:text-5xl text-4xl text-center font-bold text-cyan-800 uppercase mb-16">
           Web Hub Studio
         </h1>
         <article className="md:container-80 lg:flex justify-between px-4 md:px-0">
