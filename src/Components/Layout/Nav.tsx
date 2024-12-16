@@ -1,4 +1,4 @@
-import { useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import NavLogo from "../../assets/Logos/WebHubStudioLogoText-light.png";
@@ -15,12 +15,9 @@ function Nav() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [hasScrolled, setHasScrolled] = useState(false);
 
-
   const toggleDropdown = () => setIsDropDownOpen((prevState) => !prevState);
   const toggleServicesDropDown = () => setIsServicesDropDownOpen((prevState) => !prevState);
   const toggleMobileMenu = () => setIsMobileMenuOpen((prevState) => !prevState);
-
- 
 
   useEffect(() => {
     const handleClickOutsideDropdown = (e: MouseEvent) => {
@@ -31,16 +28,13 @@ function Nav() {
       ) {
         setIsServicesDropDownOpen(false);
         setIsMobileMenuOpen(false);
-        
       }
-       if (!target.closest("#langBtn")) {
+      if (!target.closest("#langBtn")) {
         setIsDropDownOpen(false);
       }
     };
     document.addEventListener("click", handleClickOutsideDropdown);
   }, []);
-
- 
 
   const handleLanguageChange = (language: string) => {
     i18n.changeLanguage(language);
@@ -55,15 +49,13 @@ function Nav() {
         setHasScrolled(false);
       }
     };
-
     window.addEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <nav
-      className={`mainNav w-full fixed z-50 text-2xl ${
-        hasScrolled ? "navHasScrolled" : ""
-      }`}
+      className={`mainNav w-full fixed z-50 text-2xl ${hasScrolled ? "navHasScrolled" : ""
+        }`}
     >
       <div className="2xl:md:container-80 h-full flex items-center uppercase text-slate-100 font-semibold">
         <div className="xxs:w-52 xs:ms-5 xxxs:w-36 xxxxs:w-28">
@@ -75,20 +67,17 @@ function Nav() {
             />
           </NavLink>
         </div>
-
         {/* Desktop menu */}
         <ul
-          className={`navUlEl lg:flex mx-auto [&>li>a]:ease-linear [&>li>a]:duration-200 ${
-            isMobileMenuOpen ? "!right-0" : ""
-          }`}
+          className={`navUlEl lg:flex mx-auto [&>li>a]:ease-linear [&>li>a]:duration-200 ${isMobileMenuOpen ? "!right-0" : ""
+            }`}
         >
           <li className="me-8">
             <NavLink
               to={"/"}
               end
               className={({ isActive }) =>
-                `${
-                  isActive ? "active" : ""
+                `${isActive ? "active" : ""
                 } hover:text-brandColor focus:text-brandColor focus:outline-none`
               }
             >
@@ -110,15 +99,13 @@ function Nav() {
             >
               <IoIosArrowDown
                 id="dropdownBtn"
-                className={`${
-                  isServicesDropDownOpen ? "!text-brandColor !rotate-180" : ""
-                } servicesDropdownIcon ease-linear duration-100`}
+                className={`${isServicesDropDownOpen ? "!text-brandColor !rotate-180" : ""
+                  } servicesDropdownIcon ease-linear duration-100`}
               />
             </button>
             <ul
-              className={`servicesDropdownMenu absolute top-14 p-5 !bg-cyan-950 lg:!cyan-950-opacity w-80 ${
-                isServicesDropDownOpen ? "block" : "hidden"
-              }`}
+              className={`servicesDropdownMenu absolute top-14 p-5 !bg-cyan-950 lg:!cyan-950-opacity w-80 ${isServicesDropDownOpen ? "block" : "hidden"
+                }`}
             >
               <li className="hover:text-brandColor focus:text-brandColor mb-3">
                 <NavLink to={"/services/web-development"}>

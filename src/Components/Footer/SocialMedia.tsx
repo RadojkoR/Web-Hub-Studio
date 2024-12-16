@@ -7,7 +7,7 @@ interface SocialMediaProps {
   socialMediaTxtColor: string
 }
 
-function SocialMedia({socialMediaTxtColor}: SocialMediaProps) {
+function SocialMedia({ socialMediaTxtColor }: SocialMediaProps) {
   return (
     <ul
       className={`${socialMediaTxtColor} flex justify-center 

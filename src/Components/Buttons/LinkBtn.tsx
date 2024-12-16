@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
 interface LinkBtnProps {
-    btnLink: string;
-    btnTxt: string;
+  btnLink: string;
+  btnTxt: string;
 }
 
-function LinkBtn({btnLink, btnTxt}: LinkBtnProps) {
+function LinkBtn({ btnLink, btnTxt }: LinkBtnProps) {
   return (
     <Link
       to={btnLink}

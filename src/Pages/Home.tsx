@@ -3,13 +3,12 @@ import { AboutHome, HeroHome, ProjectsHome, ServicesHome, WhyItMatters } from ".
 import { Header } from "../Components/Layout"
 import { MetaProps } from "../types/interfaces";
 
-
 function Home({ metaTitle, metaDescription }: MetaProps) {
   return (
     <>
       <Helmet>
         <title>Web Hub Studio - {metaTitle}</title>
-        <meta name="description" content={metaDescription}/>
+        <meta name="description" content={metaDescription} />
       </Helmet>
       <Header />
       <section className="mainHome">

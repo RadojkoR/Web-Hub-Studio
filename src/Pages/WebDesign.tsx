@@ -3,16 +3,16 @@ import { SecondaryHeader } from "../Components/Layout";
 import { MetaProps } from "../types/interfaces";
 import { Helmet } from "react-helmet";
 
-function WebDesign({metaTitle, metaDescription}: MetaProps) {
-    const { t } = useTranslation("services");
+function WebDesign({ metaTitle, metaDescription }: MetaProps) {
+  const { t } = useTranslation("services");
 
-    const servicesHeader = [
-      {
-        headerBgClass: "servicesHeader ",
-        headerSloganBold:t("services.webDesign.headerSloganBold"),
-        headerSloganRegular:t("services.webDesign.headerSloganRegular"),
-      },
-    ];
+  const servicesHeader = [
+    {
+      headerBgClass: "servicesHeader ",
+      headerSloganBold: t("services.webDesign.headerSloganBold"),
+      headerSloganRegular: t("services.webDesign.headerSloganRegular"),
+    },
+  ];
   return (
     <>
       <Helmet>

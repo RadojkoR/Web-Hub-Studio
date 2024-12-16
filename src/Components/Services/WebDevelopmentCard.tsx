@@ -1,17 +1,15 @@
 import { useTranslation } from "react-i18next"
 import { FaLaptopCode } from "react-icons/fa";
 import { LinkBtn } from "../Buttons";
+import { Service } from "../../types/interfaces";
 
-interface Service {
-  name: string;
-}
 
 function WebDevelopmentCard() {
-    const { t } = useTranslation('services');
-    const servicesTitle = t("services.webDevelopmentCard.title");
-    const services = t("services.webDevelopmentCard.services", {returnObjects: true}) as Service;
-    const learnMoreBtnLink = "/services/web-development";
-    const learnMoreBtnTxt = t("services.learnMoreBtn");
+  const { t } = useTranslation('services');
+  const servicesTitle = t("services.webDevelopmentCard.title");
+  const services = t("services.webDevelopmentCard.services", { returnObjects: true }) as Service;
+  const learnMoreBtnLink = "/services/web-development";
+  const learnMoreBtnTxt = t("services.learnMoreBtn");
   return (
     <section className="webDevelopmentCard flex h-full">
       <article className="flex flex-col justify-between p-3 bg-yellow-50 shadow-lg rounded-lg">

@@ -4,10 +4,9 @@ import { Outlet } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { MetaProps } from "../types/interfaces";
 
-
-function SeoOptimization({metaTitle, metaDescription}: MetaProps) {
+function SeoOptimization({ metaTitle, metaDescription }: MetaProps) {
   const { t } = useTranslation("services");
-  
+
   const servicesHeader = [
     {
       headerBgClass: "servicesHeader ",

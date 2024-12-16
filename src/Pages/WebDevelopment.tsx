@@ -4,22 +4,21 @@ import { Outlet } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { MetaProps } from "../types/interfaces";
 
-
-function WebDevelopment({metaTitle, metaDescription}: MetaProps) {
-    const { t } = useTranslation("services");
-    const servicesHeader = [
-      {
-        headerBgClass: "servicesHeader ",
-        headerSloganBold: t("services.webDevelopment.headerSloganBold"),
-        headerSloganRegular: t("services.webDevelopment.headerSloganRegular"),
-      },
-    ];
+function WebDevelopment({ metaTitle, metaDescription }: MetaProps) {
+  const { t } = useTranslation("services");
+  const servicesHeader = [
+    {
+      headerBgClass: "servicesHeader ",
+      headerSloganBold: t("services.webDevelopment.headerSloganBold"),
+      headerSloganRegular: t("services.webDevelopment.headerSloganRegular"),
+    },
+  ];
   return (
     <>
-    <Helmet>
-      <title>Web Hub Studio - {metaTitle}</title>
-      <meta name="description" content={metaDescription} />
-    </Helmet>
+      <Helmet>
+        <title>Web Hub Studio - {metaTitle}</title>
+        <meta name="description" content={metaDescription} />
+      </Helmet>
       <SecondaryHeader headerInfo={servicesHeader} />
       <section className="webDevelopment bg-slate-100">
         <div className="md:container-80 px-5 md:px-0 py-10">

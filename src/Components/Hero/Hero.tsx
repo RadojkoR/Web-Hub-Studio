@@ -2,8 +2,8 @@ import { useTranslation } from "react-i18next";
 import { LinkBtn } from "../Buttons";
 
 interface serviceHero {
-    title: string,
-    para: string
+  title: string,
+  para: string
 }
 
 interface HeroProps {
@@ -27,7 +27,6 @@ function Hero({ heroT }: HeroProps) {
           {heroPara}
         </p>
         <div className="mx-auto mt-10 mb-10">
-          
           <LinkBtn btnLink={contacBtnLink} btnTxt={contacBtnTxt} />
         </div>
       </article>

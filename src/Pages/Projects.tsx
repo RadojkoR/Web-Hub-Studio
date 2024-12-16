@@ -4,7 +4,7 @@ import { ProjectsSectionOne, ProjectsSectionThree, ProjectsSectionTwo } from "..
 import { MetaProps } from "../types/interfaces";
 import { Helmet } from "react-helmet";
 
-function Projects({metaTitle, metaDescription}: MetaProps) {
+function Projects({ metaTitle, metaDescription }: MetaProps) {
   const { t } = useTranslation("projects");
 
   const projectsHeader = [
@@ -17,13 +17,13 @@ function Projects({metaTitle, metaDescription}: MetaProps) {
 
   return (
     <>
-    <Helmet>
-      <title>Web Hub Studio - {metaTitle}</title>
-      <meta name="description" content={metaDescription} />
-    </Helmet>
+      <Helmet>
+        <title>Web Hub Studio - {metaTitle}</title>
+        <meta name="description" content={metaDescription} />
+      </Helmet>
       <SecondaryHeader headerInfo={projectsHeader} />
       <section className="mainProjects bg-slate-100 pt-16 pb-20">
-        <article className="md:container-80 px-5 md:px-0 mx-auto">
+        <article className="md:container-80 px-5 md:px-0">
           <h2 className="text-5xl text-gray-700 font-bold border-l-4 border-brandColor ps-5">
             {t("projects.ourProjectsTitle")}
           </h2>

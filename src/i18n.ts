@@ -45,14 +45,14 @@ i18n
         projects: srProjects
       },
     },
-    fallbackLng: 'en', // Podrazumevani jezik
+    fallbackLng: 'en',
     supportedLngs: ['en', 'sr'],
     interpolation: {
-      escapeValue: false, // React već "escapuje" HTML
+      escapeValue: false, 
     },
     detection: {
-      order: ['localStorage', 'cookie', 'navigator'], // Redosled detekcije jezika
-      caches: ['localStorage', 'cookie'], // Gde da se čuva jezik
+      order: ['localStorage', 'cookie', 'navigator'],
+      caches: ['localStorage', 'cookie'],
     },
   });
 

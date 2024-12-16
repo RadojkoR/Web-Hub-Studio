@@ -1,19 +1,17 @@
 import { useTranslation } from "react-i18next";
 import { GiPalette } from "react-icons/gi";
 import { LinkBtn } from "../Buttons";
+import { Service } from "../../types/interfaces";
 
-interface Service {
-  name: string;
-}
 
 function WebDesignCard() {
-    const { t } = useTranslation("services");
-    const servicesTitle = t("services.webDesignCard.title");
-    const learnMoreBtnLink = "/services/web-design";
-    const learnMoreBtnTxt = t("services.learnMoreBtn");
-    const services = t("services.webDesignCard.services", {
-      returnObjects: true,
-    }) as Service;
+  const { t } = useTranslation("services");
+  const servicesTitle = t("services.webDesignCard.title");
+  const learnMoreBtnLink = "/services/web-design";
+  const learnMoreBtnTxt = t("services.learnMoreBtn");
+  const services = t("services.webDesignCard.services", {
+    returnObjects: true,
+  }) as Service;
   return (
     <section className="seoOptimizationCard">
       <article className="flex flex-col justify-between h-full p-3 bg-orange-50 shadow-lg rounded-lg">

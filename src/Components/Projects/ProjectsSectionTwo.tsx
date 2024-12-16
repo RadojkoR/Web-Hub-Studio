@@ -3,8 +3,8 @@ import projectOneImg from "../../assets/Images/ProjectsPageImg/travelsProjectsIm
 import { ViewLiveBtn } from "../Buttons";
 
 function ProjectsSectionTwo() {
-    const { t } = useTranslation("projects");
-    const btnTravelsWithDreaLink = "https://travelswithdrea.com/";
+  const { t } = useTranslation("projects");
+  const btnTravelsWithDreaLink = "https://travelswithdrea.com/";
   return (
     <section className="md:container-80 px-4 md:px-0 pt-14">
       <h3 className="text-3xl text-gray-700 font-semibold mb-4 border-l-4 border-brandColor ps-4">

@@ -32,7 +32,6 @@ export default {
       rotate: {
         6: '6deg',
         45: '45deg'
-        // Dodaj druge vrednosti po potrebi
       }
     },
   },

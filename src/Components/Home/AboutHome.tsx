@@ -13,7 +13,6 @@ function AboutHome() {
     <>
       {/* PARALLAX SECTION */}
       <section className="aboutUsParallax lg:h-80 h-48"></section>
-
       <section className="aboutUs py-20">
         <h1 className="sm:text-5xl text-4xl text-center font-bold text-cyan-800 uppercase mb-16">
           Web Hub Studio
@@ -36,7 +35,6 @@ function AboutHome() {
               className="w-full mx-auto mb-5"
               alt="About Us Image"
             />
-
             <img
               src={aboutImg2}
               className="w-full mx-auto"

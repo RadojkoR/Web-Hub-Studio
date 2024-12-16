@@ -2,9 +2,9 @@ import { useTranslation } from "react-i18next";
 import { LinkBtn } from "../Buttons";
 
 function HeroHome() {
-    const {t} = useTranslation("heroHome");
-    const servicesBtnTxt = t("heroHome.servicesBtn");
-    const contactBtnTxt = t("heroHome.contactUsBtn");
+  const { t } = useTranslation("heroHome");
+  const servicesBtnTxt = t("heroHome.servicesBtn");
+  const contactBtnTxt = t("heroHome.contactUsBtn");
   return (
     <section className="heroHome">
       <article className="md:container-80 px-3 md:px-0 xl:w-4/5 pt-14 flex flex-col">

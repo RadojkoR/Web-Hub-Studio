@@ -5,11 +5,11 @@ import { ViewLiveBtn } from "../Buttons";
 
 
 function ProjectsSectionOne() {
-    const { t } = useTranslation("projects");
+  const { t } = useTranslation("projects");
 
-    const btnMesLink = "https://www.mes.rs/";
-    const btnIzoDecorGlassLink = "https://izodecorglass.rs";
-    
+  const btnMesLink = "https://www.mes.rs/";
+  const btnIzoDecorGlassLink = "https://izodecorglass.rs";
+
 
   return (
     <section className="md:container-80 px-4 md:px-0">
@@ -24,7 +24,7 @@ function ProjectsSectionOne() {
             className="py-5 px-3"
             alt="Image of project"
           />
-          
+
           <ViewLiveBtn btnLink={btnIzoDecorGlassLink} />
         </article>
         <article className="flex flex-col items-center justify-center bg-blue-100 shadow-lg rounded-lg">
@@ -32,7 +32,7 @@ function ProjectsSectionOne() {
             src={projectTwoImg}
             className="py-5 px-3"
             alt="Image of project"
-          />        
+          />
           <ViewLiveBtn btnLink={btnMesLink} />
         </article>
       </div>

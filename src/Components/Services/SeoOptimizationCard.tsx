@@ -1,20 +1,18 @@
 import { useTranslation } from "react-i18next";
 import { FaChartLine } from "react-icons/fa";
 import { LinkBtn } from "../Buttons";
+import {Service }from "../../types/interfaces"
 
 
-interface Service {
-  name: string;
-}
 
 function SeoOptimizationCard() {
-    const { t } = useTranslation("services");
-    const servicesTitle = t("services.seoOptimizationCard.title");
-    const learnMoreBtnLink = "/services/web-development";
-    const learnMoreBtnTxt = t("services.learnMoreBtn");
-    const services = t("services.seoOptimizationCard.services", {
-      returnObjects: true,
-    }) as Service;
+  const { t } = useTranslation("services");
+  const servicesTitle = t("services.seoOptimizationCard.title");
+  const learnMoreBtnLink = "/services/web-development";
+  const learnMoreBtnTxt = t("services.learnMoreBtn");
+  const services = t("services.seoOptimizationCard.services", {
+    returnObjects: true,
+  }) as Service;
   return (
     <section className="seoOptimizationCard flex h-full">
       <article className="flex flex-col justify-between p-3 bg-blue-100 shadow-lg rounded-lg">

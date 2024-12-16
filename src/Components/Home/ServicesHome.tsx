@@ -7,14 +7,14 @@ import { LinkBtn } from "../Buttons";
 
 
 function ServicesHome() {
-    const { t } = useTranslation();
+  const { t } = useTranslation();
 
-    const learnMoreServicesBtnLink = "/services";
-    const learnMoreServicesBtnTxt = t("learnMoreBtn");
-    
-    useEffect(() => {
-        AOS.init({duration: 1000})
-    }, [])
+  const learnMoreServicesBtnLink = "/services";
+  const learnMoreServicesBtnTxt = t("learnMoreBtn");
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 })
+  }, [])
   return (
     <section className="servicesHome py-20">
       <div className="md:container-80 px-4 md:px-0 flex flex-col">
@@ -38,7 +38,6 @@ function ServicesHome() {
               {t("servicesHome.webDevelopmentCard.cardPara")}
             </p>
           </div>
-
           <div
             className=" flex flex-col items-center text-gray-700 bg-green-100 p-5"
             data-aos="flip-up"

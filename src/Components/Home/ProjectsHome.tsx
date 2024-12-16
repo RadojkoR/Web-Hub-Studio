@@ -4,9 +4,9 @@ import projectTwoImg from "../../assets/Images/ProjectsPageImg/mesProjectImgOne.
 import { LinkBtn } from "../Buttons";
 
 function ProjectsHome() {
-    const {t} = useTranslation();
-    const learnMoreProjectsBtnLink = "/projects";
-    const learnMoreProjectsBtnTxt = t("learnMoreBtn");
+  const { t } = useTranslation();
+  const learnMoreProjectsBtnLink = "/projects";
+  const learnMoreProjectsBtnTxt = t("learnMoreBtn");
   return (
     <section className="ourProjects bg-gray-50 py-20">
       <div className="md:container-80 px-4 md:px-0 flex flex-col">
@@ -22,7 +22,6 @@ function ProjectsHome() {
               <img src={projectOneImg} alt="Image of project one" />
             </a>
           </div>
-
           <a
             href={"https://www.mes.rs/"}
             className="projectHomeItm relative xxxxs:mt-20 xxxs:mt-28 lg:mt-0"

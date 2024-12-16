@@ -1,11 +1,11 @@
 import { useTranslation } from "react-i18next";
 
 interface ViewliveBtnProps {
-    btnLink: string;
+  btnLink: string;
 }
 
-function ViewLiveBtn({btnLink}: ViewliveBtnProps) {
-    const { t } = useTranslation();
+function ViewLiveBtn({ btnLink }: ViewliveBtnProps) {
+  const { t } = useTranslation();
   return (
     <a
       href={btnLink}

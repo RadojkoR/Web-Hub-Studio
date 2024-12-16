@@ -1,26 +1,17 @@
 import AOS from "aos";
 import { useEffect } from "react";
+import { SecondaryHeaderProps } from "../../types/interfaces";
 
-interface ContactHeader {
-  headerBgClass: string;
-  headerSlogan?: string;
-  headerSloganBold?: string;
-  headerSloganRegular?: string;
-}
-
-interface SecondaryHeaderProps {
-    headerInfo: ContactHeader[];
-}
 
 function SecondaryHeader({ headerInfo }: SecondaryHeaderProps) {
   const headerBgClass = headerInfo[0].headerBgClass;
   const headerSloganBold = headerInfo[0].headerSloganBold;
   const headerSloganRegular = headerInfo[0].headerSloganRegular;
-   useEffect(() => {
-        AOS.init({duration: 1000})
-      }, [])
+  useEffect(() => {
+    AOS.init({ duration: 1000 })
+  }, [])
 
-  
+
   return (
     <header className={`${headerBgClass} relative w-full flex text-teal-200`}>
       <section
@@ -43,7 +34,7 @@ function SecondaryHeader({ headerInfo }: SecondaryHeaderProps) {
         data-aos-duration="1500"
         data-aos-delay="400"
       >
-        <h1 className=" lg:text-7xl sm:text-6xl xxs:text-5xl text-4xl font-bold"data-aos="fade-up">
+        <h1 className=" lg:text-7xl sm:text-6xl xxs:text-5xl text-4xl font-bold" data-aos="fade-up">
           {headerSloganBold}
         </h1>
         <p className="lg:text-5xl sm:text-4xl xxs:text-3xl text-3xl mt-5 font-semibold">{headerSloganRegular}</p>

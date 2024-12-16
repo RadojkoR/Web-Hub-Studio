@@ -1,19 +1,16 @@
-// import Hero from "../Components/Hero/Hero";
 import { SecondaryHeader } from "../Components/Layout"
 import { useTranslation } from "react-i18next";
-import { SeoOptimizationCard, WebDesignCard, WebDevelopmentCard} from "../Components/Services";
+import { SeoOptimizationCard, WebDesignCard, WebDevelopmentCard } from "../Components/Services";
 import { Outlet } from "react-router-dom";
 import Hero from "../Components/Hero/Hero";
 import { Helmet } from "react-helmet";
 import { MetaProps } from "../types/interfaces";
 
-
-function Services({metaTitle, metaDescription}: MetaProps) {
+function Services({ metaTitle, metaDescription }: MetaProps) {
   const { t } = useTranslation("services");
   const servicesHeroTitle = t("services.hero.title");
   const servicesHeroPara = t("services.hero.para");
-  
-  
+
   const servicesHeader = [
     {
       headerBgClass: "servicesHeader ",
@@ -27,7 +24,7 @@ function Services({metaTitle, metaDescription}: MetaProps) {
       para: servicesHeroPara,
     },
   ];
-  
+
   return (
     <>
       <Helmet>
@@ -50,7 +47,6 @@ function Services({metaTitle, metaDescription}: MetaProps) {
             <div className="flex h-full">
               <WebDevelopmentCard />
             </div>
-
             <SeoOptimizationCard />
             <WebDesignCard />
           </article>

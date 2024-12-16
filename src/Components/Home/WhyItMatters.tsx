@@ -9,11 +9,11 @@ import { FaMobileAlt } from "react-icons/fa";
 import { useEffect } from "react";
 
 function WhyItMatters() {
-    const { t } = useTranslation("whyItMatters");
+  const { t } = useTranslation("whyItMatters");
 
-    useEffect(() => {
-      AOS.init({duration: 1000})
-    }, [])
+  useEffect(() => {
+    AOS.init({ duration: 1000 })
+  }, [])
   return (
     <section className="bg-slate-100 py-20">
       <div className="md:container-80 px-4 md:px-0">
