@@ -17,7 +17,8 @@ function LinkBtn({btnLink, btnTxt}: LinkBtnProps) {
             transition-all
             duration-300
             ease-in-out
-            w-40 
+            xxs:w-40 
+            xxxs:w-32
             text-sm
             xxs:text-base 
             font-bold 

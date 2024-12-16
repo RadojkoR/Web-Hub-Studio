@@ -52,7 +52,7 @@ function SocialMedia({socialMediaTxtColor}: SocialMediaProps) {
       </li>
       <li>
         <a
-          href="www.linkedin.com/in/radojkoradulovic"
+          href="https://www.linkedin.com/in/radojkoradulovic"
           aria-label="LinkedIn Icon"
           target="_blank"
         >
