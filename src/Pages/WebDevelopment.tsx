@@ -1,10 +1,11 @@
 import { useTranslation } from "react-i18next";
 import { SecondaryHeader } from "../Components/Layout";
-// import { WebDevelopmentCard } from "../Components/Services";
 import { Outlet } from "react-router-dom";
+import { Helmet } from "react-helmet";
+import { MetaProps } from "../types/interfaces";
 
 
-function WebDevelopment() {
+function WebDevelopment({metaTitle, metaDescription}: MetaProps) {
     const { t } = useTranslation("services");
     const servicesT = t("services.servicesHeaderTitle");
     const servicesHeader = [
@@ -15,6 +16,10 @@ function WebDevelopment() {
 ]
   return (
     <>
+    <Helmet>
+      <title>Web Hub Studio - {metaTitle}</title>
+      <meta name="description" content={metaDescription} />
+    </Helmet>
       <SecondaryHeader headerInfo={servicesHeader} />
       <section className="webDevelopment bg-slate-100">
         <div className="md:container-80 px-5 md:px-0 py-10">

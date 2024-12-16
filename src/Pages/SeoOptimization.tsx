@@ -1,8 +1,11 @@
 import { useTranslation } from "react-i18next";
 import { SecondaryHeader } from "../Components/Layout";
 import { Outlet } from "react-router-dom";
+import { Helmet } from "react-helmet";
+import { MetaProps } from "../types/interfaces";
 
-function SeoOptimization() {
+
+function SeoOptimization({metaTitle, metaDescription}: MetaProps) {
   const { t } = useTranslation("services")
   const servicesT = t("services.servicesHeaderTitle");
   
@@ -14,6 +17,10 @@ function SeoOptimization() {
   ];
   return (
     <>
+      <Helmet>
+        <title>Web Hub Studio - {metaTitle}</title>
+        <meta name="description" content={metaDescription} />
+      </Helmet>
       <SecondaryHeader headerInfo={servicesHeader} />
       <section className="seoOptimization bg-slate-100">
         <div className="md:container-80 px-5 md:px-0 py-10">

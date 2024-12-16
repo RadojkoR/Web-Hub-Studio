@@ -1,7 +1,9 @@
 import { useTranslation } from "react-i18next";
 import { SecondaryHeader } from "../Components/Layout";
+import { MetaProps } from "../types/interfaces";
+import { Helmet } from "react-helmet";
 
-function WebDesign() {
+function WebDesign({metaTitle, metaDescription}: MetaProps) {
     const { t } = useTranslation("services");
     const servicesT = t("services.servicesHeaderTitle");
 
@@ -13,6 +15,10 @@ function WebDesign() {
     ];
   return (
     <>
+      <Helmet>
+        <title>Web Hub Studio - {metaTitle}</title>
+        <meta name="description" content={metaDescription} />
+      </Helmet>
       <SecondaryHeader headerInfo={servicesHeader} />
       <section className="webDesign bg-slate-100">
         <div className="md:container-80 px-5 md:px-0 py-10">
@@ -58,7 +64,6 @@ function WebDesign() {
             </p>
           </article>
 
-         
           <p className="text-lg text-gray-800 sm:text-2xl mt-10 mb-10 font-bold">
             {t("services.webDesign.lastPara")}
           </p>

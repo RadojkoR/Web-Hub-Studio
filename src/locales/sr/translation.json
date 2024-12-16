@@ -1,4 +1,21 @@
 {
+    "meta": {
+        "homeTitle": "Početna | Web Development, Design, and SEO",
+        "homeDescription": "Dobrodošli u Web Hub Studio - vašeg partnera za web dizajn, razvoj i SEO optimizaciju. Zajedno gradimo vaš digitalni uspeh.",
+        "servicesTitle": "Usluge | Web Dizajn, Razvoj i SEO Usluge",
+        "servicesDescription": "Web Hub Studio nudi prilagođene usluge razvoja web sajtova koristeći tehnologije kao što su HTML, CSS, JavaScript, TypeScript, React, Angular, Node.js, i WordPress za kreiranje inovativnih rešenja za vaš biznis.",
+        "webDevelopmentTitle": "Web Development | Profesionalne Web Razvojne Usluge",
+        "webDevelopmentDescription": "Web Hub Studio nudi stručne usluge web razvoja prilagođene potrebama vašeg biznisa. Od prilagođenih sajtova do eCommerce rešenja, pružamo visokokvalitetan web razvoj koji će pomoći vašem biznisu da uspe na mreži.",
+        "seoOptimizationTitle": "Seo Optimzacija | Za Bolje Rangiranje na Pretraživačimas",
+        "seoOptimizationDescription": "Povećajte vidljivost svog sajta uz SEO optimizaciju od Web Hub Studio. Nudimo stručne on-page i off-page SEO strategije koje će vam pomoći da postignete bolje rangiranje na pretraživačima i privuče organski saobraćaj na vaš sajt.",
+        "webDesignTitle": "Web Design | Usluge Web Dizajna za Impresivne Sajtove",
+        "webDesignDescription": "Kreirajte impresivnu online prisutnost uz profesionalne usluge web dizajna Web Hub Studio. Naš tim se specijalizuje za kreiranje prilagođenih, responzivnih sajtova koji angažuju korisnike i podstiču rast vašeg biznisa.",
+        "projectsTitle": "Naši Projekti | Inovativna Web Rešenja",
+        "projectsDescription": "Istražite naš portfolio uspešnih projekata u Web Hub Studio, uključujući prilagođeni web dizajn koristeći HTML, CSS, JavaScript, TypeScript, React, Angular, Node.js, i WordPress.",
+        "contactTitle": "Kontaktirajte nas |  Get in Touch for Custom Web Solutionsn",
+        "contactDescription": "Stupite u kontakt sa Web Hub Studio da biste diskutovali o vašem sledećem web razvoju. Nudimo prilagođena rešenja koristeći HTML, CSS, JavaScript, React, Angular, Node.js i WordPress. Kontaktirajte nas danas!"
+    },
+
   "home": "Početna",
   "services": "Usluge",
   "servicesDropdownMenu": {

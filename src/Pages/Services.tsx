@@ -4,8 +4,11 @@ import { useTranslation } from "react-i18next";
 import { SeoOptimizationCard, WebDesignCard, WebDevelopmentCard} from "../Components/Services";
 import { Outlet } from "react-router-dom";
 import Hero from "../Components/Hero/Hero";
+import { Helmet } from "react-helmet";
+import { MetaProps } from "../types/interfaces";
 
-function Services() {
+
+function Services({metaTitle, metaDescription}: MetaProps) {
   const { t } = useTranslation("services");
   const servicesT = t("services.servicesHeaderTitle");
   const servicesHeroTitle = t("services.hero.title");
@@ -24,10 +27,13 @@ function Services() {
       para: servicesHeroPara,
     },
   ];
-  // console.log(servicesHero);
   
   return (
     <>
+      <Helmet>
+        <title>Web Hub Studio -  {metaTitle}</title>
+        <meta name="description" content={metaDescription} />
+      </Helmet>
       <SecondaryHeader headerInfo={servicesHeader} />
       <Hero heroT={servicesHero} />
       <section className="mainProjects bg-slate-100 pt-16">

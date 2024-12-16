@@ -1,9 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { SecondaryHeader } from "../Components/Layout";
 import { ProjectsSectionOne, ProjectsSectionThree, ProjectsSectionTwo } from "../Components/Projects";
+import { MetaProps } from "../types/interfaces";
+import { Helmet } from "react-helmet";
 
-
-function Projects() {
+function Projects({metaTitle, metaDescription}: MetaProps) {
   const { t } = useTranslation("projects");
   const projectsT = t("projects.projectsHeaderTitle");
 
@@ -16,6 +17,10 @@ function Projects() {
 
   return (
     <>
+    <Helmet>
+      <title>Web Hub Studio - {metaTitle}</title>
+      <meta name="description" content={metaDescription} />
+    </Helmet>
       <SecondaryHeader headerInfo={projectsHeader} />
       <section className="mainProjects bg-slate-100 pt-16 pb-20">
         <article className="md:container-80 px-5 md:px-0 mx-auto">
