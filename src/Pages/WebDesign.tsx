@@ -5,12 +5,12 @@ import { Helmet } from "react-helmet";
 
 function WebDesign({metaTitle, metaDescription}: MetaProps) {
     const { t } = useTranslation("services");
-    const servicesT = t("services.servicesHeaderTitle");
 
     const servicesHeader = [
       {
         headerBgClass: "servicesHeader ",
-        headerSlogan: servicesT,
+        headerSloganBold:t("services.webDesign.headerSloganBold"),
+        headerSloganRegular:t("services.webDesign.headerSloganRegular"),
       },
     ];
   return (

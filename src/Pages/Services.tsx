@@ -10,7 +10,6 @@ import { MetaProps } from "../types/interfaces";
 
 function Services({metaTitle, metaDescription}: MetaProps) {
   const { t } = useTranslation("services");
-  const servicesT = t("services.servicesHeaderTitle");
   const servicesHeroTitle = t("services.hero.title");
   const servicesHeroPara = t("services.hero.para");
   
@@ -18,7 +17,8 @@ function Services({metaTitle, metaDescription}: MetaProps) {
   const servicesHeader = [
     {
       headerBgClass: "servicesHeader ",
-      headerSlogan: servicesT,
+      headerSloganBold: t("services.headerSloganBold"),
+      headerSloganRegular: t("services.headerSloganRegular"),
     },
   ];
   const servicesHero = [

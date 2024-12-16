@@ -20,7 +20,8 @@ export default {
         rem30: "30rem",
       },
       height: {
-        vh80: "80vh"
+        vh80: "80vh",
+        vh70: "70vh"
       },
       screens: {
         xs: '490px',

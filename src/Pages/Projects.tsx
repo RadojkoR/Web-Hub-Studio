@@ -6,12 +6,12 @@ import { Helmet } from "react-helmet";
 
 function Projects({metaTitle, metaDescription}: MetaProps) {
   const { t } = useTranslation("projects");
-  const projectsT = t("projects.projectsHeaderTitle");
 
   const projectsHeader = [
     {
       headerBgClass: "projectsHeader",
-      headerSlogan: projectsT,
+      headerSloganBold: t("projects.headerSloganBold"),
+      headerSloganRegular: t("projects.headerSloganRegular"),
     },
   ];
 

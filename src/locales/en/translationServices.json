@@ -1,7 +1,8 @@
 {
     "services": {
         "learnMoreBtn": "Learn More",
-        "servicesHeaderTitle": "Technological solutions that enhance your business",
+        "headerSloganBold": "Reach More!",
+        "headerSloganRegular": "Together, we’ll find the solutions.",
         "hero": {
             "title": "Simple and efficient solutions for a better business future",
             "para": "We enable business modernization through process optimization, modern website creation, SEO strategies, and enhanced online presence – with minimal investment and maximum results."
@@ -23,6 +24,8 @@
             "lastPara": "These services offer tailored solutions for your website needs."
         },
         "webDevelopment": {
+            "headerSloganBold": "Crafting Web Experiences",
+            "headerSloganRegular": "Building digital solutions tailored to you.",
             "title": "Web Development",
             "paraOne": "Your website is the foundation of your online presence, and we are here to build it right. We specialize in creating modern, responsive websites that work seamlessly across all devices—smartphones, tablets, and desktops.",
             "paraTwo": "Whether you need a simple business website, a WordPress-based solution for easy management, or a fully custom web application, we’ve got you covered.",
@@ -54,6 +57,8 @@
         },
 
         "seoOptimization": {
+            "headerSloganBold": "Rank Higher",
+            "headerSloganRegular": "Effective SEO solutions for growth.",
             "title": "SEO Optimization",
             "para": "SEO (Search Engine Optimization) is key to your website’s visibility on search engines like Google, Bing, and Yahoo. Our SEO team uses the latest techniques and strategies to rank your site high on search engines and increase its organic traffic.",
             "liElOneTitle": "On-page SEO Optimization",
@@ -89,6 +94,8 @@
         },
 
         "webDesign": {
+            "headerSloganBold": "Design That Converts",
+            "headerSloganRegular": "Creative websites that drive results.",
             "title": "Web Design",
             "para": "We create attractive, functional, and adaptable websites that meet the needs of your business and user experience. Our team focuses on providing solutions that are modern, scalable, and easy to use.",
             "liElOneTitle": "Responsive Design",

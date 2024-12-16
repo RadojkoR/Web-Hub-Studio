@@ -1,41 +1,51 @@
+import AOS from "aos";
+import { useEffect } from "react";
 
-
-interface ServiceHeader {
+interface ContactHeader {
   headerBgClass: string;
-  headerSlogan: string;
+  headerSlogan?: string;
+  headerSloganBold?: string;
+  headerSloganRegular?: string;
 }
 
 interface SecondaryHeaderProps {
-    headerInfo: ServiceHeader[];
+    headerInfo: ContactHeader[];
 }
 
 function SecondaryHeader({ headerInfo }: SecondaryHeaderProps) {
   const headerBgClass = headerInfo[0].headerBgClass;
-  const headerSlogan = headerInfo[0].headerSlogan;
-//   const headerImg = servicesHeader[0].headerImg;
+  const headerSloganBold = headerInfo[0].headerSloganBold;
+  const headerSloganRegular = headerInfo[0].headerSloganRegular;
+   useEffect(() => {
+        AOS.init({duration: 1000})
+      }, [])
+
   
   return (
-    <header
-      className={`${headerBgClass} relative w-full overflow-hidden -z-50`}
-    >
+    <header className={`${headerBgClass} relative w-full flex text-teal-200`}>
       <section
         className="
-        fixed 
         lg:w-rem40
         sm:w-rem35
         xs:w-rem30
         xxs:w-96
         xxxs:w-72
-        p-10 
+        p-10
+        absolute
         right-0
-        top-40 
+        -bottom-10
+        !z-40
         bg-gray-900 
         bg-opacity-70
         "
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="400"
       >
-        <h1 className="text-teal-200 lg:text-7xl sm:text-6xl xs:text-6xl xxs:text-5xl text-4xl font-bold">
-          {headerSlogan}
+        <h1 className=" lg:text-7xl sm:text-6xl xs:text-6xl xxs:text-5xl text-4xl font-bold"data-aos="fade-up">
+          {headerSloganBold}
         </h1>
+        <p className="text-5xl mt-5 font-semibold">{headerSloganRegular}</p>
       </section>
     </header>
   );

@@ -1,11 +1,18 @@
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { AiFillGithub } from "react-icons/ai";
+// import { AiFillGithub } from "react-icons/ai";
 
-function SocialMedia() {
+interface SocialMediaProps {
+  socialMediaTxtColor: string
+}
+
+function SocialMedia({socialMediaTxtColor}: SocialMediaProps) {
   return (
-    <ul className="flex justify-center py-10 [&>li>a>svg]:ease-linear [&>li>a>svg]:duration-200">
+    <ul
+      className={`${socialMediaTxtColor} flex justify-center 
+                 py-10 [&>li>a>svg]:ease-linear [&>li>a>svg]:duration-200`}
+    >
       <li className="w-3/6 border-b-4 border-brandColor mb-4 mx-3"></li>
       <li>
         <a
@@ -16,7 +23,6 @@ function SocialMedia() {
           <FaFacebookF
             className="
                 text-4xl me-4
-                text-zinc-100
                 hover:text-brandColor
                  focus:text-brandColor
                 focus:outline-none
@@ -35,7 +41,6 @@ function SocialMedia() {
           <FaInstagram
             className="
             text-4xl me-4 
-            text-zinc-100
             hover:text-brandColor
             focus:text-brandColor
             focus:outline-none
@@ -54,7 +59,6 @@ function SocialMedia() {
           <FaLinkedinIn
             className="
             text-4xl me-4 
-            text-zinc-100
             hover:text-brandColor
             focus:text-brandColor
             focus:outline-none
@@ -64,7 +68,7 @@ function SocialMedia() {
           />
         </a>
       </li>
-      <li>
+      {/* <li>
         <a
           href="https://github.com/RadojkoR"
           aria-label="GitHub Icon"
@@ -73,7 +77,6 @@ function SocialMedia() {
           <AiFillGithub
             className="
             text-4xl me-4 
-            text-zinc-100
             hover:text-brandColor
             focus:text-brandColor
             focus:outline-none
@@ -82,7 +85,7 @@ function SocialMedia() {
             focus:ring-offset-4"
           />
         </a>
-      </li>
+      </li> */}
       <li className="w-3/6 border-b-4 border-brandColor mb-4 mx-3"></li>
     </ul>
   );

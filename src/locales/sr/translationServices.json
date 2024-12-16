@@ -1,7 +1,8 @@
 {
     "services": {
         "learnMoreBtn": "Saznajte više",
-        "servicesHeaderTitle": "Tehnološka rešenja koja unapređuju vaš biznis",
+        "headerSloganBold": "Postignite više!",
+        "headerSloganRegular": "Zajedno do digitalnih rešenja.",
         "hero": {
             "title": "Jednostavna i efikasna rešenja za bolju poslovnu budućnost.",
             "para": "Omogućavamo modernizaciju poslovanja kroz optimizaciju procesa, izradu savremenih web sajtova, SEO strategije i poboljšanje online prisutnosti  uz minimalna ulaganja i maksimalne rezultate."
@@ -25,6 +26,8 @@
 
        
         "webDevelopment": {
+            "headerSloganBold": "Kreiramo web iskustva",
+            "headerSloganRegular": "Izrađujemo digitalna rešenja prilagođena vama.",
             "title": "Web razvoj",
             "paraOne": "Vaš web sajt je osnova vaše online prisutnosti, i mi smo tu da ga izgradimo na pravi način. Specijalizovani smo za kreiranje modernih, responzivnih sajtova koji funkcionišu besprekorno na svim uređajima—pametnim telefonima, tabletima i računarima.",
             "paraTwo": "Bilo da vam je potreban jednostavan poslovni sajt, WordPress rešenje za lakše upravljanje, ili potpuno prilagođena web aplikacija, pokrićemo sve vaše zahteve.",
@@ -56,6 +59,8 @@
         },
 
         "seoOptimization": {
+            "headerSloganBold": "Postanite viši u pretragama",
+            "headerSloganRegular": "SEO koji vas stavlja na vrh.",
             "title": "SEO Optimzacija",
             "para": "SEO (Search Engine Optimization) je ključ za vidljivost vašeg sajta na pretraživačima kao što su Google, Bing i Yahoo. Naš SEO tim koristi najnovije tehnike i strategije kako bi vaš sajt postavio visoko na pretraživačima i povećao njegovu organsku posetu.",
             "liElOneTitle": "SEO Optimizacija na stranici",
@@ -91,6 +96,8 @@
         },
 
         "webDesign": {
+            "headerSloganBold": "Dizajn koji donosi rezultate",
+            "headerSloganRegular": "Kreativni sajtovi koji ostvaruju ciljeve.",
             "title": "Web Dizajn",
             "para": "Kreiramo atraktivne, funkcionalne i prilagodljive web sajtove koji zadovoljavaju potrebe vašeg poslovanja i korisničkog iskustva. Naš tim se fokusira na pružanje rešenja koja su moderna, skalabilna i jednostavna za upotrebu.",
             "liElOneTitle": "Responsive Dizajn",

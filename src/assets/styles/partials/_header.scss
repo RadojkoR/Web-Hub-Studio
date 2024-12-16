@@ -1,21 +1,27 @@
 @use "./variables.scss" as var;
 
+.servicesHeader,
+.projectsHeader,
+.contactHeader {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-attachment: fixed;
+    height: 70vh;
+}
+
 // SERVICES HEADER
 .servicesHeader {
-    background-image: url("../Images/ServicesPageImg/servicesHeader1920x700.webp");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
-    height: 75vh;       
+    background-image: url("../Images/ServicesPageImg/servicesHeader1920x700.webp");  
 }
+
 
 // PROJECTS HEADER
 .projectsHeader {
-    background-image: url("../Images/ProjectsPageImg/projectsHeader1920x700.webp");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
-    height: 75vh;       
+    background-image: url("../Images/ProjectsPageImg/projectsHeader1920x700.webp");       
+}
+
+// CONTACT HEADER
+.contactHeader {
+    background-image: url("../Images/HeaderImg/contactHeader.webp");   
 }

@@ -7,13 +7,13 @@ import { MetaProps } from "../types/interfaces";
 
 function WebDevelopment({metaTitle, metaDescription}: MetaProps) {
     const { t } = useTranslation("services");
-    const servicesT = t("services.servicesHeaderTitle");
     const servicesHeader = [
-    {
-      headerBgClass: "servicesHeader ",
-      headerSlogan: servicesT,
-    },
-]
+      {
+        headerBgClass: "servicesHeader ",
+        headerSloganBold: t("services.webDevelopment.headerSloganBold"),
+        headerSloganRegular: t("services.webDevelopment.headerSloganRegular"),
+      },
+    ];
   return (
     <>
     <Helmet>

@@ -6,13 +6,13 @@ import { MetaProps } from "../types/interfaces";
 
 
 function SeoOptimization({metaTitle, metaDescription}: MetaProps) {
-  const { t } = useTranslation("services")
-  const servicesT = t("services.servicesHeaderTitle");
+  const { t } = useTranslation("services");
   
   const servicesHeader = [
     {
       headerBgClass: "servicesHeader ",
-      headerSlogan: servicesT,
+      headerSloganBold: t("services.seoOptimization.headerSloganBold"),
+      headerSloganRegular: t("services.seoOptimization.headerSloganRegular"),
     },
   ];
   return (
