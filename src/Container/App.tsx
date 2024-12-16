@@ -21,14 +21,7 @@ const { t, i18n } = useTranslation();
       <Helmet>
         <html lang={i18n.language} />
 
-        <meta
-          name="description"
-          content="Web Hub Studio - Professional Web Development Services"
-        />
         <meta name="robots" content="index, follow" />
-
-        <link rel="alternate" hrefLang="en" href="https://webhubstudio.netlify.app/en" />
-        <link rel="alternate" hrefLang="sr" href="http://https://webhubstudio.netlify.app/sr" />
       </Helmet>
 
       <Routes>
