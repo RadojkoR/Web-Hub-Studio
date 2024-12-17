@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 interface LinkBtnProps {
   btnLink: string;
@@ -7,7 +7,7 @@ interface LinkBtnProps {
 
 function LinkBtn({ btnLink, btnTxt }: LinkBtnProps) {
   return (
-    <Link
+    <NavLink
       to={btnLink}
       className=" bg-cyan-300 
             hover:bg-cyan-700 
@@ -30,8 +30,8 @@ function LinkBtn({ btnLink, btnTxt }: LinkBtnProps) {
             items-center"
             aria-label="Learn more about our services"
     >
-      {btnTxt}<span className="hidden">about our Services</span>
-    </Link>
+      {btnTxt}
+    </NavLink>
   );
 }
 
