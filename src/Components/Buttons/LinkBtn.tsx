@@ -30,7 +30,7 @@ function LinkBtn({ btnLink, btnTxt }: LinkBtnProps) {
             items-center"
             aria-label={`Learn more about our ${btnLink}`}
     >
-      {btnTxt}
+      {btnTxt} about services
     </Link>
   );
 }
