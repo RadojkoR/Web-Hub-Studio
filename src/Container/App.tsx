@@ -6,6 +6,7 @@ import { Contact, Home, Projects, SeoOptimization, Services, WebDesign, WebDevel
 import Layout from '../Components/Layout/Layout';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -15,7 +16,7 @@ function App() {
         <html lang={i18n.language} />
         <meta name="robots" content="index, follow" />
       </Helmet>
-
+      <ScrollToTop />
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home metaTitle={t("meta.homeTitle")} metaDescription={t("meta.homeDescription")} />} />
