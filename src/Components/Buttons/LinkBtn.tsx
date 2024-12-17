@@ -28,9 +28,9 @@ function LinkBtn({ btnLink, btnTxt }: LinkBtnProps) {
             flex
             justify-center
             items-center"
-            aria-label={`Learn more about our ${btnLink}`}
+            aria-label="Learn more about our services"
     >
-      {btnTxt} about services
+      {btnTxt}
     </Link>
   );
 }
