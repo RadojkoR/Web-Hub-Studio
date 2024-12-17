@@ -58,7 +58,7 @@ function Contact({ metaTitle, metaDescription }: MetaProps) {
                 {t("contactPage.emailTxt")}
               </p>
               <a
-                href="mailto:radulovicradojko@gmail.com"
+                href="mailto:admin@webhubstudio.com"
                 className="
                 transition-all 
                 duration-300
@@ -81,7 +81,7 @@ function Contact({ metaTitle, metaDescription }: MetaProps) {
                   className="
                     text-5xl xxs:me-4 me-1"
                 />
-                radulovicradojko@gmail.com
+                admin@webhubstudio.com
               </a>
             </div>
             <div
