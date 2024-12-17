@@ -29,4 +29,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/ # Lokacija build foldera
-          server-dir: webhubstudio.com/ # FTP folder gde ide aplikacijaa
+          server-dir: / # FTP folder gde ide aplikacijaa
