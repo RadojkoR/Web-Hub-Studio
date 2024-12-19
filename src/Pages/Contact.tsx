@@ -7,6 +7,8 @@ import { useEffect } from "react";
 import { LuPhoneOutgoing } from "react-icons/lu";
 import { MdOutlineEmail } from "react-icons/md";
 import { SocialMedia } from "../Components/Footer";
+import { FaViber } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Contact({ metaTitle, metaDescription }: MetaProps) {
   const { t } = useTranslation();
@@ -58,7 +60,7 @@ function Contact({ metaTitle, metaDescription }: MetaProps) {
                 {t("contactPage.emailTxt")}
               </p>
               <a
-                href="mailto:admin@webhubstudio.com"
+                href="mailto:info@webhubstudio.com"
                 className="
                 transition-all 
                 duration-300
@@ -81,7 +83,7 @@ function Contact({ metaTitle, metaDescription }: MetaProps) {
                   className="
                     text-5xl xxs:me-4 me-1"
                 />
-                admin@webhubstudio.com
+                info@webhubstudio.com
               </a>
             </div>
             <div
@@ -93,6 +95,17 @@ function Contact({ metaTitle, metaDescription }: MetaProps) {
               <p className="text-2xl text-gray-700">
                 {t("contactPage.phoneTxt")}
               </p>
+              <div className="mt-10 flex justify-center">
+                <div className="flex flex-col items-center justify-center me-10">
+                  <FaViber className="text-4xl text-[#7360F2] mx-auto" />
+                  <p className="font-semibold">Viber</p>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <FaWhatsapp className="text-4xl text-[#25D366] mx-auto" />
+                  <p className="font-semibold">WhatsApp</p>
+                </div>
+              </div>
+
               <a
                 href="tel:+16473239043"
                 className="flex items-center

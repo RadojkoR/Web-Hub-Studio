@@ -18,7 +18,7 @@ function ContantInfo() {
         +1 647 323 9043
       </a>
       <a
-        href="mailto:admin@webhubstudio.com"
+        href="mailto:info@webhubstudio.com"
         className="flex items-center  hover:text-brandColor
             focus:text-brandColor
             focus:outline-none
@@ -32,7 +32,7 @@ function ContantInfo() {
           className="
             text-5xl me-4 "
         />
-        admin@webhubstudio.com
+        info@webhubstudio.com
       </a>
     </section>
   );
