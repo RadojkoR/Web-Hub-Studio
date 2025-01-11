@@ -145,6 +145,7 @@ function Nav() {
             </NavLink>
           </li>
         </ul>
+        {/* LANGUAGE DROPDOWN */}
         <section className="lngBtnContainer w-28 lg:me-5 flex relative">
           <button
             id="langBtn"
