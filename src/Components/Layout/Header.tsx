@@ -12,6 +12,8 @@ function Header() {
         loop
         autoPlay
         muted
+        playsInline
+        preload="auto"
       ></video>
       <section
         className="
