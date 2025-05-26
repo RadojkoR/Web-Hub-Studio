@@ -3,37 +3,37 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://www.urosmilos.rs/</loc>
+    <loc>https://www.webhubstudio.com/</loc>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://www.urosmilos.rs/services</loc>
+    <loc>https://www.webhubstudio.com/services</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.urosmilos.rs/projects</loc>
+    <loc>https://www.webhubstudio.com/projects</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.urosmilos.rs/services/web-development</loc>
+    <loc>https:/www.webhubstudio.com/services/web-development</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.urosmilos.rs/services/seo-optimization</loc>
+    <loc>https://www.webhubstudio.com/services/seo-optimization</loc>
     <priority>0.8</priority>
   </url>
 
    <url>
-    <loc>https://www.urosmilos.rs/services/web-design</loc>
+    <loc>https://www.webhubstudio.com/services/web-design</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.urosmilos.rs/contact</loc>
+    <loc>https://www.webhubstudio.com/contact</loc>
     <priority>0.7</priority>
   </url>
 
