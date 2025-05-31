@@ -21,3 +21,15 @@ export interface SecondaryHeaderProps {
 export interface Service {
   name: string;
 }
+
+export interface ServiceCardType {
+  title: string;
+  description: string;
+  services: { name: string }[];
+  lastPara: string;
+  icon?: string;
+  learnMoreBtnLink: string;
+  learnMoreBtnTxt: string;
+  cardBgColor: string;
+  cardIconColor: string;
+};

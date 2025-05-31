@@ -9,7 +9,6 @@
         },
         "ourServicesTitle": "Our Services",
         "ourServicesPara": "We provide modern and customized web solutions using the latest technologies. Whether you need a website, SEO optimization, or creative design, our services are designed to enhance your online presence and business performance.",
-
         "webDevelopmentCard": {
             "title": "Web Development",
             "description": "We create websites that work seamlessly across all devices, using modern technologies like React, Angular, and WordPress.",
@@ -35,7 +34,6 @@
             "liElTwo": "These websites are fully tailored to your needs and do not require regular updates, unlike WordPress sites, providing you with a stable and long-term solution. We create custom websites using HTML, CSS, and JavaScript. For more complex and professional projects, we utilize advanced technologies such as React, Angular, and Node.js to deliver dynamic and scalable solutions.",
             "lastPara": "Let us help you create a website that reflects your vision and meets your business needs."
         },
-
         "seoOptimizationCard": {
             "title": "SEO Optimization",
             "description": "We optimize your website to rank higher in search results on Google, Bing, and other search engines using the latest SEO techniques.",
@@ -55,7 +53,6 @@
             ],
             "lastPara": "These services offer tailored solutions for your website needs."
         },
-
         "seoOptimization": {
             "headerSloganBold": "Rank Higher",
             "headerSloganRegular": "Effective SEO solutions for growth.",
@@ -72,7 +69,6 @@
             "titleTwo": "Why is SEO important?",
             "lastPara": "Without SEO optimization, your website might remain unnoticed and unappealing to users. Through SEO, we ensure that your site is easily accessible to those searching for services or products like yours, thus boosting organic traffic and increasing the chances for conversions."
         },
-
         "webDesignCard": {
             "title": "Web Design",
             "description": "We create custom, user-friendly websites that adapt seamlessly to any device. Whether you need a landing page or a full e-commerce site, we design with your business goals in mind.",
@@ -92,7 +88,6 @@
             ],
             "lastPara": "These services offer tailored solutions for your website needs."
         },
-
         "webDesign": {
             "headerSloganBold": "Design that gets results",
             "headerSloganRegular": "Creative websites that achieve goals",
@@ -107,6 +102,91 @@
             "liElFourTitle": "WordPress Design",
             "liElFour": "WordPress is the most popular platform for creating websites, offering easy content management. Our team specializes in creating WordPress sites, including the installation and customization of themes like Elementor. Elementor lets you create and customize pages using drag-and-drop functionality, with no coding required.",
             "lastPara": "Whether you're a small business, a medium-sized enterprise, or a large organization, our goal is to create a website that reflects your unique vision and user needs. With our design solutions, your business will be presented in the best possible way, focusing on simplicity, functionality, and aesthetic appeal."
-        }
+        },
+        "cards": [
+            {
+                "title": "Web Development",
+                "description": "We create websites that work seamlessly across all devices, using modern technologies like React, Angular, and WordPress.",
+                "services": [
+                    {
+                        "name": "Custom Web Development"
+                    },
+                    {
+                        "name": "WordPress Development"
+                    }
+                ],
+                "icon": "webDev",
+                "learnMoreBtnLink": "/services/web-development",
+                "learnMoreBtnTxt": "Learn More",
+                "cardBgColor": "bg-cyan-100",
+                "cardIconColor": "brandColor"
+            },
+            {
+                "title": "Web Design",
+                "description": "We create custom, user-friendly websites that adapt seamlessly to any device. Whether you need a landing page or a full e-commerce site, we design with your business goals in mind.",
+                "services": [
+                    {
+                        "name": "Responsive Design"
+                    },
+                    {
+                        "name": "UI/UX Design"
+                    },
+                    {
+                        "name": "Custom Design"
+                    },
+                    {
+                        "name": "WordPress Design"
+                    }
+                ],
+                "icon": "webDesign",
+                "learnMoreBtnLink": "/services/web-design",
+                "learnMoreBtnTxt": "Learn More",
+                "cardBgColor": "bg-violet-100",
+                "cardIconColor": "violet-500"
+            },
+            {
+                "title": "SEO Optimization",
+                "description": "We optimize your website to rank higher in search results on Google, Bing, and other search engines using the latest SEO techniques.",
+                "services": [
+                    {
+                        "name": "On-page SEO"
+                    },
+                    {
+                        "name": "Technical SEO Optimization"
+                    },
+                    {
+                        "name": "SEO Analytics and Reporting"
+                    },
+                    {
+                        "name": "Google Maps and Other Service Integrations"
+                    }
+                ],
+                "icon": "seo",
+                "learnMoreBtnLink": "/services/seo-optimization",
+                "learnMoreBtnTxt": "Learn More",
+                "cardBgColor": "bg-green-100",
+                "cardIconColor": "green-500"
+            },
+            {
+                "title": "Web Hosting",
+                "description": "Reliable shared web hosting with cPanel, perfect for individuals and small businesses. Easily manage multiple websites from one place with full control and flexibility.",
+                "services": [
+                    {
+                        "name": "Shared Hosting"
+                    },
+                    {
+                        "name": "cPanel Access"
+                    },
+                    {
+                        "name": "Host Multiple Websites"
+                    }
+                ],
+                "icon": "hosting",
+                "learnMoreBtnLink": "/services/seo-optimization",
+                "learnMoreBtnTxt": "Learn More",
+                "cardBgColor": "bg-indigo-100",
+                "cardIconColor": "indigo-500"
+            }
+        ]
     }
 }

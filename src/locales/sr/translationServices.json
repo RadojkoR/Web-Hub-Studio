@@ -9,7 +9,6 @@
         },
         "ourServicesTitle": "Naše usluge",
         "ourServicesPara": "Pružamo moderna i prilagođena veb rešenja koristeći najnovije tehnologije. Bilo da vam je potrebna veb stranica, SEO optimizacija ili kreativni dizajn, naši usluge su osmišljene da unaprede vaš online nastup i poslovanje.",
-
         "webDevelopmentCard": {
             "title": "Web Razvoj",
             "description": "Razvijamo sajtove koji funkcionišu besprekorno na svim uređajima, koristeći moderne tehnologije kao što su React, Angular, i WordPress",
@@ -23,8 +22,6 @@
             ],
             "lastPara": "Ove usluge nude prilagođena rešenja za potrebe vašeg sajta."
         },
-
-       
         "webDevelopment": {
             "headerSloganBold": "Kreiramo web iskustva",
             "headerSloganRegular": "Izrađujemo digitalna rešenja prilagođena vama.",
@@ -37,8 +34,7 @@
             "liElTwo": "Ovi sajtovi su potpuno prilagođeni vašim potrebama i ne zahtevaju redovna ažuriranja, kao što je to slučaj kod WordPress sajtova, pružajući vam stabilno i dugoročno rešenje. Kreiramo prilagođene sajtove koristeći HTML, CSS i JavaScript. Za kompleksnije i profesionalnije projekte koristimo napredne tehnologije kao što su React, Angular i Node.js kako bismo isporučili dinamična i skalabilna rešenja.",
             "lastPara": "Pomažemo vam da kreirate veb-sajt koji oslikava vašu viziju i prilagođava se potrebama vašeg poslovanja."
         },
-
-         "seoOptimizationCard": {
+        "seoOptimizationCard": {
             "title": "SEO Optimization",
             "description": "Optimizujemo vaš sajt kako bi se pojavljivao na vrhu pretraga na Google-u, Bing-u i drugim pretraživačima, koristeći najsavremenije SEO tehnike",
             "services": [
@@ -57,7 +53,6 @@
             ],
             "lastPara": "These services offer tailored solutions for your website needs."
         },
-
         "seoOptimization": {
             "headerSloganBold": "Postanite viši u pretragama",
             "headerSloganRegular": "SEO koji vas stavlja na vrh.",
@@ -74,8 +69,7 @@
             "titleTwo": "Zašto je SEO važan?",
             "lastPara": "Bez SEO optimizacije, vaš sajt može ostati neprepoznatljiv i neprivlačan korisnicima. Kroz SEO, osiguravamo da vaš sajt bude lako dostupan onima koji traže usluge ili proizvode poput vaših, čime poboljšavamo organsku posetu i povećavamo šanse za konverzije."
         },
-
-         "webDesignCard": {
+        "webDesignCard": {
             "title": "Web Dizajn",
             "description": "Kreiramo prilagođene sajtove koji su jednostavni za korišćenje i funkcionišu besprekorno na svim uređajima. Bilo da vam je potrebna jednostavna odredišna stranica ili kompletan e-commerce sajt, fokusiramo se na ispunjavanje vaših poslovnih potreba",
             "services": [
@@ -94,7 +88,6 @@
             ],
             "lastPara": "These services offer tailored solutions for your website needs."
         },
-
         "webDesign": {
             "headerSloganBold": "Dizajn koji donosi rezultate",
             "headerSloganRegular": "Kreativni sajtovi koji ostvaruju ciljeve.",
@@ -109,6 +102,91 @@
             "liElFourTitle": "WordPress Dizajn",
             "liElFour": "WordPress je najpopularnija platforma za izradu sajtova, koja omogućava jednostavno upravljanje sadržajem. Naš tim je specijalizovan za kreiranje WordPress sajtova, uključujući instalaciju i prilagođavanje tema kao što je Elementor. Elementor vam omogućava da kreirate i prilagodite stranice pomoću povuci-i-spusti funkcionalnosti, bez potrebe za kodiranjem.",
             "lastPara": "Bez obzira na to da li ste mali preduzetnik, srednje preduzeće ili velika organizacija, naš cilj je da stvorimo web sajt koji odražava vašu jedinstvenu viziju i potrebe korisnika. Sa našim dizajnerskim rešenjima, vaše poslovanje će biti predstavljeno na najbolji mogući način, sa naglaskom na jednostavnost, funkcionalnost i estetski izgled."
-        }
+        },
+        "cards": [
+            {
+                "title": "Web Razvoj",
+                "description": "Razvijamo sajtove koji funkcionišu besprekorno na svim uređajima, koristeći moderne tehnologije kao što su React, Angular, i WordPress",
+                "services": [
+                    {
+                        "name": "Prilagođeni web razvoj"
+                    },
+                    {
+                        "name": "Razvoj na WordPress-u"
+                    }
+                ],
+                "icon": "webDev",
+                "learnMoreBtnLink": "/services/web-development",
+                "learnMoreBtnTxt": "Learn More",
+                "cardBgColor": "bg-cyan-100",
+                "cardIconColor": "brandColor"
+            },
+            {
+                "title": "Web Dizajn",
+                "description": "Kreiramo prilagođene sajtove koji su jednostavni za korišćenje i funkcionišu besprekorno na svim uređajima. Bilo da vam je potrebna jednostavna odredišna stranica ili kompletan e-commerce sajt, fokusiramo se na ispunjavanje vaših poslovnih potreba",
+                "services": [
+                    {
+                        "name": "Responsive Dizajn"
+                    },
+                    {
+                        "name": "UI/UX Dizajn"
+                    },
+                    {
+                        "name": "Prilagođeni Dizajn"
+                    },
+                    {
+                        "name": "WordPress Dizajn"
+                    }
+                ],
+                "icon": "webDesign",
+                "learnMoreBtnLink": "/services/web-design",
+                "learnMoreBtnTxt": "Learn More",
+                "cardBgColor": "bg-violet-100",
+                "cardIconColor": "violet-500"
+            },
+            {
+                "title": "SEO Optimization",
+                "description": "Optimizujemo vaš sajt kako bi se pojavljivao na vrhu pretraga na Google-u, Bing-u i drugim pretraživačima, koristeći najsavremenije SEO tehnike",
+                "services": [
+                    {
+                        "name": "SEO Optimizacija na stranici"
+                    },
+                    {
+                        "name": "Tehnička SEO optimizacija"
+                    },
+                    {
+                        "name": "SEO analitika i izveštaji"
+                    },
+                    {
+                        "name": "Integracije sa Google Mapama i drugim relevantnim servisima"
+                    }
+                ],
+                "icon": "seo",
+                "learnMoreBtnLink": "/services/seo-optimization",
+                "learnMoreBtnTxt": "Learn More",
+                "cardBgColor": "bg-green-100",
+                "cardIconColor": "green-500"
+            },
+            {
+                "title": "Web Hosting",
+                "description": "Pouzdan shared web hosting sa cPanel-om, idealan za pojedince i male firme. Jednostavno upravljajte više sajtova sa jednog mesta, uz potpunu kontrolu i fleksibilnost.",
+                "services": [
+                    {
+                        "name": "Shared Hosting"
+                    },
+                    {
+                        "name": "Pristup cPanel-u"
+                    },
+                    {
+                        "name": "Više sajtova na jednom hostingu"
+                    }
+                ],
+                "icon": "hosting",
+                "learnMoreBtnLink": "/services/seo-optimization",
+                "learnMoreBtnTxt": "Learn More",
+                "cardBgColor": "bg-indigo-100",
+                "cardIconColor": "indigo-500"
+            }
+        ]
     }
 }

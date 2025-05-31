@@ -1,15 +1,25 @@
 import { SecondaryHeader } from "../Components/Layout"
 import { useTranslation } from "react-i18next";
-import { SeoOptimizationCard, WebDesignCard, WebDevelopmentCard } from "../Components/Services";
+// import {  WebDevelopmentCard } from "../Components/Services";
 import { Outlet } from "react-router-dom";
 import Hero from "../Components/Hero/Hero";
 import { Helmet } from "react-helmet";
 import { MetaProps } from "../types/interfaces";
+import { ServicesCard } from "../Components/Cards";
+import { ServiceCardType } from "../types/interfaces";
 
 function Services({ metaTitle, metaDescription }: MetaProps) {
   const { t } = useTranslation("services");
   const servicesHeroTitle = t("services.hero.title");
   const servicesHeroPara = t("services.hero.para");
+  const services = t("services.cards", {
+    returnObjects: true,
+  }) as ServiceCardType[];
+  console.log(services);
+  
+  
+  
+
 
   const servicesHeader = [
     {
@@ -28,7 +38,7 @@ function Services({ metaTitle, metaDescription }: MetaProps) {
   return (
     <>
       <Helmet>
-        <title>Web Hub Studio -  {metaTitle}</title>
+        <title>Web Hub Studio - {metaTitle}</title>
         <meta name="description" content={metaDescription} />
       </Helmet>
       <SecondaryHeader headerInfo={servicesHeader} />
@@ -43,12 +53,16 @@ function Services({ metaTitle, metaDescription }: MetaProps) {
               {t("services.ourServicesPara")}
             </p>
           </article>
-          <article className="grid grid-cols-1 md:grid-cols-3 gap-6 pb-20">
-            <div className="flex h-full">
+          <article className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-6 pb-20">
+            {/* <div className="flex h-full">
               <WebDevelopmentCard />
-            </div>
-            <SeoOptimizationCard />
-            <WebDesignCard />
+            </div> */}
+            {/* <SeoOptimizationCard />
+            <WebDesignCard /> */}
+            {Array.isArray(services) &&
+              services.map((service, index) => (
+                <ServicesCard key={index} service={service} />
+              ))}
           </article>
         </div>
       </section>
