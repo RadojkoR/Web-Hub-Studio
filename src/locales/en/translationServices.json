@@ -182,7 +182,7 @@
                     }
                 ],
                 "icon": "hosting",
-                "learnMoreBtnLink": "/services/seo-optimization",
+                "learnMoreBtnLink": "/services/web-hosting",
                 "learnMoreBtnTxt": "Learn More",
                 "cardBgColor": "bg-blue-100",
                 "cardIconColor": "blue-500"

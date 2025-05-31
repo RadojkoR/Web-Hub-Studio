@@ -12,7 +12,6 @@ import { LinkBtn } from "../Buttons";
   };
 
 function ServicesCard({service}: CardProps) { 
-    console.log(service);
     const serviceTitle = service.title
     const ServiceDescription = service.description;
     const learnMoreBtnLink = service.learnMoreBtnLink;
