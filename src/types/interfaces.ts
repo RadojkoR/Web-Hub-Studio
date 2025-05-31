@@ -18,9 +18,9 @@ export interface SecondaryHeaderProps {
 }
 
 // SERVICE
-// export interface Service {
-//   name: string;
-// }
+export interface Service {
+  name: string;
+}
 
 export interface ServiceCardType {
   title: string;
