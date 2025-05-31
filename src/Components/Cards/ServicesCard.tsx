@@ -37,12 +37,14 @@ function ServicesCard({service}: CardProps) {
     
     
   return (
-    <section className="seoOptimizationCard flex h-full">
+    <section className={`seoOptimizationCard flex h-full`}>
       <article
         className={`flex flex-col justify-between p-3 ${cardBgColor} shadow-lg rounded-lg`}
       >
         {IconComponent ? (
-          <IconComponent className={`mx-auto text-5xl text-${cardIconColor} `} />
+          <IconComponent
+            className={`mx-auto text-5xl text-${cardIconColor} `}
+          />
         ) : (
           <div className="text-center text-red-500">Ikonica nije pronađena</div>
         )}

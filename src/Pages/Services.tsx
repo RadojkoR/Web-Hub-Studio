@@ -15,11 +15,6 @@ function Services({ metaTitle, metaDescription }: MetaProps) {
   const services = t("services.cards", {
     returnObjects: true,
   }) as ServiceCardType[];
-  console.log(services);
-  
-  
-  
-
 
   const servicesHeader = [
     {
@@ -54,11 +49,6 @@ function Services({ metaTitle, metaDescription }: MetaProps) {
             </p>
           </article>
           <article className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-6 pb-20">
-            {/* <div className="flex h-full">
-              <WebDevelopmentCard />
-            </div> */}
-            {/* <SeoOptimizationCard />
-            <WebDesignCard /> */}
             {Array.isArray(services) &&
               services.map((service, index) => (
                 <ServicesCard key={index} service={service} />

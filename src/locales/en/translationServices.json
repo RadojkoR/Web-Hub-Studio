@@ -119,7 +119,7 @@
                 "learnMoreBtnLink": "/services/web-development",
                 "learnMoreBtnTxt": "Learn More",
                 "cardBgColor": "bg-cyan-100",
-                "cardIconColor": "brandColor"
+                "cardIconColor": "cyan-500"
             },
             {
                 "title": "Web Design",
@@ -184,8 +184,8 @@
                 "icon": "hosting",
                 "learnMoreBtnLink": "/services/seo-optimization",
                 "learnMoreBtnTxt": "Learn More",
-                "cardBgColor": "bg-indigo-100",
-                "cardIconColor": "indigo-500"
+                "cardBgColor": "bg-blue-100",
+                "cardIconColor": "blue-500"
             }
         ]
     }
