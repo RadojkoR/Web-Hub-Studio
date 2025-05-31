@@ -54,8 +54,9 @@ function Nav() {
 
   return (
     <nav
-      className={`mainNav w-full fixed z-50 text-2xl ${hasScrolled ? "navHasScrolled" : ""
-        }`}
+      className={`mainNav w-full fixed z-50 text-2xl ${
+        hasScrolled ? "navHasScrolled" : ""
+      }`}
     >
       <div className="2xl:md:container-80 h-full flex items-center uppercase text-slate-100 font-semibold">
         <div className="xxs:w-52 xs:ms-5 xxxs:w-36 xxxxs:w-28">
@@ -69,15 +70,17 @@ function Nav() {
         </div>
         {/* Desktop menu */}
         <ul
-          className={`navUlEl lg:flex mx-auto [&>li>a]:ease-linear [&>li>a]:duration-200 ${isMobileMenuOpen ? "!right-0" : ""
-            }`}
+          className={`navUlEl lg:flex mx-auto [&>li>a]:ease-linear [&>li>a]:duration-200 ${
+            isMobileMenuOpen ? "!right-0" : ""
+          }`}
         >
           <li className="me-8">
             <NavLink
               to={"/"}
               end
               className={({ isActive }) =>
-                `${isActive ? "active" : ""
+                `${
+                  isActive ? "active" : ""
                 } hover:text-brandColor focus:text-brandColor focus:outline-none`
               }
             >
@@ -99,13 +102,15 @@ function Nav() {
             >
               <IoIosArrowDown
                 id="dropdownBtn"
-                className={`${isServicesDropDownOpen ? "!text-brandColor !rotate-180" : ""
-                  } servicesDropdownIcon ease-linear duration-100`}
+                className={`${
+                  isServicesDropDownOpen ? "!text-brandColor !rotate-180" : ""
+                } servicesDropdownIcon ease-linear duration-100`}
               />
             </button>
             <ul
-              className={`servicesDropdownMenu absolute top-14 p-5 !bg-cyan-950 lg:!cyan-950-opacity w-80 ${isServicesDropDownOpen ? "block" : "hidden"
-                }`}
+              className={`servicesDropdownMenu absolute top-14 p-5 !bg-cyan-950 lg:!cyan-950-opacity w-80 ${
+                isServicesDropDownOpen ? "block" : "hidden"
+              }`}
             >
               <li className="hover:text-brandColor focus:text-brandColor mb-3">
                 <NavLink to={"/services/web-development"}>
@@ -117,10 +122,13 @@ function Nav() {
                   {t("servicesDropdownMenu.seoOptimization")}
                 </NavLink>
               </li>
-              <li className="hover:text-brandColor focus:text-brandColor">
+              <li className="hover:text-brandColor focus:text-brandColor mb-3">
                 <NavLink to={"/services/web-design"}>
                   {t("servicesDropdownMenu.webDesign")}
                 </NavLink>
+              </li>
+              <li className="hover:text-brandColor focus:text-brandColor">
+                <NavLink to={"/services/web-hosting"}>Web Hosting</NavLink>
               </li>
             </ul>
           </li>

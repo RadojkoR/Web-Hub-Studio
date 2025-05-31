@@ -1,20 +1,8 @@
 // import { useTranslation } from "react-i18next";
 import { GiPalette } from "react-icons/gi";
 import { FaLaptopCode, FaChartLine, FaServer } from "react-icons/fa";
-import { ServiceCardType } from "../../types/interfaces";
+import { CardProps } from "../../types/interfaces";
 import { LinkBtn } from "../Buttons";
-// import { LinkBtn } from "../Buttons";
-// import { Service } from "../../types/interfaces";
-// import { Services } from "../../Pages";
-
-
-interface CardProps {
-    service: ServiceCardType;
-  }
-
-  export interface IconType {
-    icon: keyof typeof iconMap; // ključ mora odgovarati ključu iz iconMap
-  }
 
   const iconMap = {
     webDev: FaLaptopCode,
@@ -34,8 +22,7 @@ function ServicesCard({service}: CardProps) {
     const services = service.services
     
     const IconComponent = iconMap[service.icon as keyof typeof iconMap];
-    
-    
+       
   return (
     <section className={`seoOptimizationCard flex h-full`}>
       <article
