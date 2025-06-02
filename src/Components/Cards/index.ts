@@ -1,3 +1,4 @@
 import ServicesCard from "./ServicesCard";
+import HostingCard from "./HostingCard";
 
-export {ServicesCard}
+export {ServicesCard, HostingCard}

@@ -37,3 +37,15 @@ export interface ServiceCardType {
 export interface CardProps {
   service: ServiceCardType;
 }
+
+export interface HostingCardType {
+  "price": string,
+  "currency": string,
+  "billingCycle": string,
+  "title": string;
+  "ulEl": { name: string }[];
+}
+
+export interface HostPackageProps {
+  hostPackage: HostingCardType;
+}

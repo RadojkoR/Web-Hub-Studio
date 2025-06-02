@@ -127,9 +127,9 @@ function Nav() {
                   {t("servicesDropdownMenu.webDesign")}
                 </NavLink>
               </li>
-              {/* <li className="hover:text-brandColor focus:text-brandColor">
+              <li className="hover:text-brandColor focus:text-brandColor">
                 <NavLink to={"/services/web-hosting"}>Web Hosting</NavLink>
-              </li> */}
+              </li>
             </ul>
           </li>
           <li className="me-8">

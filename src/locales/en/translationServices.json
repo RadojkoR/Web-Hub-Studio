@@ -9,19 +9,6 @@
         },
         "ourServicesTitle": "Our Services",
         "ourServicesPara": "We provide modern and customized web solutions using the latest technologies. Whether you need a website, SEO optimization, or creative design, our services are designed to enhance your online presence and business performance.",
-        "webDevelopmentCard": {
-            "title": "Web Development",
-            "description": "We create websites that work seamlessly across all devices, using modern technologies like React, Angular, and WordPress.",
-            "services": [
-                {
-                    "name": "Custom Web Development"
-                },
-                {
-                    "name": "WordPress Development"
-                }
-            ],
-            "lastPara": "These services offer tailored solutions for your website needs."
-        },
         "webDevelopment": {
             "headerSloganBold": "Crafting Web Experiences",
             "headerSloganRegular": "Building digital solutions tailored to you.",
@@ -33,25 +20,6 @@
             "liElTwoTitle": "Custom Web Development",
             "liElTwo": "These websites are fully tailored to your needs and do not require regular updates, unlike WordPress sites, providing you with a stable and long-term solution. We create custom websites using HTML, CSS, and JavaScript. For more complex and professional projects, we utilize advanced technologies such as React, Angular, and Node.js to deliver dynamic and scalable solutions.",
             "lastPara": "Let us help you create a website that reflects your vision and meets your business needs."
-        },
-        "seoOptimizationCard": {
-            "title": "SEO Optimization",
-            "description": "We optimize your website to rank higher in search results on Google, Bing, and other search engines using the latest SEO techniques.",
-            "services": [
-                {
-                    "name": "On-page SEO"
-                },
-                {
-                    "name": "Technical SEO Optimization"
-                },
-                {
-                    "name": "SEO Analytics and Reporting"
-                },
-                {
-                    "name": "Google Maps and Other Service Integrations"
-                }
-            ],
-            "lastPara": "These services offer tailored solutions for your website needs."
         },
         "seoOptimization": {
             "headerSloganBold": "Rank Higher",
@@ -69,25 +37,6 @@
             "titleTwo": "Why is SEO important?",
             "lastPara": "Without SEO optimization, your website might remain unnoticed and unappealing to users. Through SEO, we ensure that your site is easily accessible to those searching for services or products like yours, thus boosting organic traffic and increasing the chances for conversions."
         },
-        "webDesignCard": {
-            "title": "Web Design",
-            "description": "We create custom, user-friendly websites that adapt seamlessly to any device. Whether you need a landing page or a full e-commerce site, we design with your business goals in mind.",
-            "services": [
-                {
-                    "name": "Responsive Design"
-                },
-                {
-                    "name": "UI/UX Design"
-                },
-                {
-                    "name": "Custom Design"
-                },
-                {
-                    "name": "WordPress Design"
-                }
-            ],
-            "lastPara": "These services offer tailored solutions for your website needs."
-        },
         "webDesign": {
             "headerSloganBold": "Design that gets results",
             "headerSloganRegular": "Creative websites that achieve goals",
@@ -102,6 +51,22 @@
             "liElFourTitle": "WordPress Design",
             "liElFour": "WordPress is the most popular platform for creating websites, offering easy content management. Our team specializes in creating WordPress sites, including the installation and customization of themes like Elementor. Elementor lets you create and customize pages using drag-and-drop functionality, with no coding required.",
             "lastPara": "Whether you're a small business, a medium-sized enterprise, or a large organization, our goal is to create a website that reflects your unique vision and user needs. With our design solutions, your business will be presented in the best possible way, focusing on simplicity, functionality, and aesthetic appeal."
+        },
+        "webHosting": {
+            "headerSloganBold": "Reliable web hosting",
+            "headerSloganRegular": "Fast. Secure. Always online.",
+            "title": "Web Hosting",
+            "para": "We offer reliable, fast, and secure web hosting services tailored to meet the needs of individuals, businesses, and developers. Our hosting packages are designed to work seamlessly with your website — whether you're building a simple portfolio or a complex web application.",
+            "liElOneTitle": "What Is Web Hosting?",
+            "liElOne": "Web hosting is a service that allows your website to be visible and accessible on the internet — 24 hours a day, 7 days a week. When a website is hosted, its files are stored on a special computer called a server, which delivers the site’s content to visitors when they type in your domain name. Without hosting, your website cannot be seen online.",
+            "liElTwoTitle": "Our Web Hosting + Website Service",
+            "liElTwo": "We don’t just offer hosting — we design and build your website, then host it on a fast, secure, and reliable server, so you don’t have to deal with technical setup or maintenance.",
+            "liElTwoPara": "Interested in more hosting plans? Contact us for details tailored to your needs.",
+            "liElThreeTitle": "Secure and Stable Platform",
+            "liElThree": "Your website’s security and stability are our top priority. Every site we host comes with an SSL certificate, ensuring all data is encrypted and safely transmitted via HTTPS. We perform daily backups, so your content is always restorable in case of unexpected changes or issues. To keep your site protected around the clock, we also include firewall protection and malware scanning, minimizing security risks and keeping your visitors safe.",
+            "liElFourTitle": "Built on cPanel Hosting",
+            "liElFour": "We use the cPanel platform — a trusted industry standard that gives you access to key features like email accounts, domains, and file management, all within a user-friendly dashboard.",
+            "lastPara": "Whether you're a small business, a growing brand, or an established company, our web hosting is designed to give your website the stability, speed, and security it needs to succeed online. Combined with our custom web development service, you get a complete solution that reflects your goals — while we ensure your site stays live, protected, and easy to manage."
         },
         "cards": [
             {
@@ -186,6 +151,47 @@
                 "learnMoreBtnTxt": "Learn More",
                 "cardBgColor": "bg-blue-100",
                 "cardIconColor": "blue-500"
+            },
+            {
+                "title": "Web Hosting",
+                "description": "Reliable shared web hosting with cPanel, perfect for individuals and small businesses. Easily manage multiple websites from one place with full control and flexibility.",
+                "services": [
+                    {
+                        "name": "Shared Hosting"
+                    },
+                    {
+                        "name": "cPanel Access"
+                    },
+                    {
+                        "name": "Host Multiple Websites"
+                    }
+                ],
+                "icon": "hosting",
+                "learnMoreBtnLink": "/services/web-hosting",
+                "learnMoreBtnTxt": "Learn More",
+                "cardBgColor": "bg-blue-100",
+                "cardIconColor": "blue-500"
+            }
+
+        ],
+        "hostingCard": [
+            {
+                "price": "200",
+                "currency": "C$",
+                "billingCycle": "Yearly",
+                "title": "Basic Plan – SpeedLite",
+                "ulEl": [
+                        {"name":"LiteSpeed: Fast and reliable server for faster website performance."},
+                        {"name":"1 website"},
+                        {"name":"2 GB SSD storage"},
+                        {"name":"Free SSL certificate"},
+                        {"name":"Weekly backups"},
+                        {"name":"Access to cPanel dashboard"},
+                        {"name":"20 Email addresses "},
+                        {"name":"FTP access"},
+                        {"name":"Free simple website (WordPress, up to 5 pages)"}
+                ]
+                
             }
         ]
     }
