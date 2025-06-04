@@ -2,9 +2,20 @@ import { useTranslation } from "react-i18next";
 import { SecondaryHeader } from "../Components/Layout";
 import { MetaProps } from "../types/interfaces";
 import { Helmet } from "react-helmet";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 function WebDesign({ metaTitle, metaDescription }: MetaProps) {
   const { t } = useTranslation("services");
+  const location = useLocation();
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.slice(1));
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
 
   const servicesHeader = [
     {
@@ -29,8 +40,36 @@ function WebDesign({ metaTitle, metaDescription }: MetaProps) {
             <p className="text-xl sm:text-2xl text-gray-700 font-semibold pb-5">
               {t("services.webDesign.para")}
             </p>
+            <ul className="mb-14 flex flex-col gap-2 text-brandColor font-semibold">
+              <li className="list-disc list-inside marker:text-neutral-600">
+                <Link to="#responsiveDesign">
+                  {t("services.webDesign.liElOneTitle")}
+                </Link>
+              </li>
+              <li className="list-disc list-inside marker:text-neutral-600">
+                <Link to="#uiUxDesign">
+                  {t("services.webDesign.liElTwoTitle")}
+                </Link>
+              </li>
+              <li
+                id="responsiveDesign"
+                className="list-disc list-inside marker:text-neutral-600"
+              >
+                <Link to="#customDesign">
+                  {t("services.webDesign.liElThreeTitle")}
+                </Link>
+              </li>
+              <li
+                id="onPage"
+                className="list-disc list-inside marker:text-neutral-600"
+              >
+                <Link to="#wordPressDesign">
+                  {t("services.webDesign.liElFourTitle")}
+                </Link>
+              </li>
+            </ul>
           </article>
-          <article>
+          <article id="uiUxDesign">
             <h4 className="text-3xl font-semibold text-gray-700 mt-5 border-b-4 border-cyan-500 pb-2 w-fit">
               {t("services.webDesign.liElOneTitle")}
             </h4>
@@ -38,7 +77,7 @@ function WebDesign({ metaTitle, metaDescription }: MetaProps) {
               {t("services.webDesign.liElOne")}
             </p>
           </article>
-          <article>
+          <article id="customDesign">
             <h4 className="text-3xl font-semibold text-gray-700 mt-5 border-b-4 border-cyan-500 pb-2 w-fit">
               {t("services.webDesign.liElTwoTitle")}
             </h4>
@@ -46,7 +85,7 @@ function WebDesign({ metaTitle, metaDescription }: MetaProps) {
               {t("services.webDesign.liElTwo")}
             </p>
           </article>
-          <article>
+          <article id="wordPressDesign">
             <h4 className="text-3xl font-semibold text-gray-700 mt-5 border-b-4 border-cyan-500 pb-2 w-fit">
               {t("services.webDesign.liElThreeTitle")}
             </h4>

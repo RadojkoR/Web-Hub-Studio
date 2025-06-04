@@ -1,5 +1,12 @@
 @use "./variables.scss" as var;
 
+.mainHeader {
+    background-image: url("../Images/HeaderImg/headerBg3.webp");
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 .servicesHeader,
 .projectsHeader,
 .contactHeader {
@@ -8,6 +15,7 @@
     background-size: cover;
     height: 70vh;
 }
+
 
 // SERVICES HEADER
 .servicesHeader {
