@@ -9,7 +9,7 @@ import { Helmet } from 'react-helmet';
 import ScrollToTop from './ScrollToTop';
 
 function App() {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   return (
     <>
       <Helmet>
@@ -19,16 +19,16 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<Home metaTitle={t("meta.homeTitle")} metaDescription={t("meta.homeDescription")} />} />
+          <Route path="/" element={<Home />} />
           <Route path="services">
-            <Route index element={<Services metaTitle={t("meta.servicesTitle")} metaDescription={t("meta.servicesDescription")} />} />
-            <Route path="web-development" element={<WebDevelopment metaTitle={t("meta.webDevelopmentTitle")} metaDescription={t("meta.webDevelopmentDescription")} />} />
-            <Route path="seo-optimization" element={<SeoOptimization metaTitle={t("meta.seoOptimizationTitle")} metaDescription={t("meta.seoOptimizationDescription")} />} />
-            <Route path="web-design" element={<WebDesign metaTitle={t("meta.webDesignTitle")} metaDescription={t("meta.webDesignDescription")} />} />
+            <Route index element={<Services />} />
+            <Route path="web-development" element={<WebDevelopment />} />
+            <Route path="seo-optimization" element={<SeoOptimization />} />
+            <Route path="web-design" element={<WebDesign />} />
             <Route path="web-hosting" element={<WebHosting  />} />
           </Route>
-          <Route path="/projects" element={<Projects metaTitle={t("meta.projectsTitle")} metaDescription={t("meta.projectsDescription")} />} />
-          <Route path="/contact" element={<Contact metaTitle={t("meta.contactTitle")} metaDescription={t("meta.contactDescription")} />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </>
