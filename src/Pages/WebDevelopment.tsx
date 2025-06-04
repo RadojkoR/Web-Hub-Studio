@@ -1,11 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { SecondaryHeader } from "../Components/Layout";
 import { Link, Outlet, useLocation } from "react-router-dom";
-import { Helmet } from "react-helmet";
-import { MetaProps } from "../types/interfaces";
 import { useEffect } from "react";
+import MetaTags from "../Components/SEO/MetaTags";
 
-function WebDevelopment({ metaTitle, metaDescription }: MetaProps) {
+function WebDevelopment() {
   const location = useLocation();
   useEffect(() => {
     if(location.hash) {
@@ -27,10 +26,7 @@ function WebDevelopment({ metaTitle, metaDescription }: MetaProps) {
   ];
   return (
     <>
-      <Helmet>
-        <title>Web Hub Studio - {metaTitle}</title>
-        <meta name="description" content={metaDescription} />
-      </Helmet>
+      <MetaTags />
       <SecondaryHeader headerInfo={servicesHeader} />
       <section className="webDevelopment bg-slate-100">
         <div className="md:container-80 px-5 md:px-0 py-10">

@@ -1,15 +1,13 @@
-import { Helmet } from "react-helmet";
 import { AboutHome, HeroHome, ProjectsHome, ServicesHome, WhyItMatters } from "../Components/Home";
 import { Header } from "../Components/Layout"
-import { MetaProps } from "../types/interfaces";
+// import { MetaProps } from "../types/interfaces";
+import MetaTags from "../Components/SEO/MetaTags";
 
-function Home({ metaTitle, metaDescription }: MetaProps) {
+function Home() {
+
   return (
     <>
-      <Helmet>
-        <title>Web Hub Studio - {metaTitle}</title>
-        <meta name="description" content={metaDescription} />
-      </Helmet>
+      <MetaTags />
       <Header />
       <section className="mainHome">
         <HeroHome />

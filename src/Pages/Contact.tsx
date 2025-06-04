@@ -1,6 +1,4 @@
-import { Helmet } from "react-helmet";
 import { SecondaryHeader } from "../Components/Layout";
-import { MetaProps } from "../types/interfaces";
 import { useTranslation } from "react-i18next";
 import AOS from "aos";
 import { useEffect } from "react";
@@ -9,8 +7,9 @@ import { MdOutlineEmail } from "react-icons/md";
 import { SocialMedia } from "../Components/Footer";
 import { FaViber } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import MetaTags from "../Components/SEO/MetaTags";
 
-function Contact({ metaTitle, metaDescription }: MetaProps) {
+function Contact() {
   const { t } = useTranslation();
 
   useEffect(() => {
@@ -29,10 +28,7 @@ function Contact({ metaTitle, metaDescription }: MetaProps) {
 
   return (
     <>
-      <Helmet>
-        <title>Web Hub Studio - {metaTitle}</title>
-        <meta name="description" content={metaDescription} />
-      </Helmet>
+      <MetaTags />
       <SecondaryHeader headerInfo={contactHeader} />
       <section className="mainProjects bg-slate-100 pt-16 pb-20">
         <div className="md:container-80 px-3 md:px-0">

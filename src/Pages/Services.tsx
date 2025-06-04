@@ -1,14 +1,12 @@
 import { SecondaryHeader } from "../Components/Layout"
 import { useTranslation } from "react-i18next";
-// import {  WebDevelopmentCard } from "../Components/Services";
 import { Outlet } from "react-router-dom";
 import Hero from "../Components/Hero/Hero";
-import { Helmet } from "react-helmet";
-import { MetaProps } from "../types/interfaces";
 import { ServicesCard } from "../Components/Cards";
 import { ServiceCardType } from "../types/interfaces";
+import MetaTags from "../Components/SEO/MetaTags";
 
-function Services({ metaTitle, metaDescription }: MetaProps) {
+function Services() {
   const { t } = useTranslation("services");
   const servicesHeroTitle = t("services.hero.title");
   const servicesHeroPara = t("services.hero.para");
@@ -32,10 +30,7 @@ function Services({ metaTitle, metaDescription }: MetaProps) {
 
   return (
     <>
-      <Helmet>
-        <title>Web Hub Studio - {metaTitle}</title>
-        <meta name="description" content={metaDescription} />
-      </Helmet>
+      <MetaTags />
       <SecondaryHeader headerInfo={servicesHeader} />
       <Hero heroT={servicesHero} />
       <section className="mainProjects bg-slate-100 pt-16">

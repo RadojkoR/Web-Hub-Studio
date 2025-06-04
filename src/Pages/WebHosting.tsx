@@ -4,6 +4,7 @@ import { SecondaryHeader } from "../Components/Layout";
 import { HostingCardType } from "../types/interfaces";
 import { HostingCard } from "../Components/Cards";
 import { useEffect } from "react";
+import MetaTags from "../Components/SEO/MetaTags";
 
 
 function WebHosting() {
@@ -30,6 +31,7 @@ function WebHosting() {
   ];
   return (
     <>
+      <MetaTags />
       <SecondaryHeader headerInfo={servicesHeader} />
       <section className="seoOptimization bg-slate-100">
         <div className="md:container-80 px-5 md:px-0 py-10">
