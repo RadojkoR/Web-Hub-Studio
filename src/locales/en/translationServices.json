@@ -151,26 +151,6 @@
                 "learnMoreBtnTxt": "Learn More",
                 "cardBgColor": "bg-blue-100",
                 "cardIconColor": "blue-500"
-            },
-            {
-                "title": "Web Hosting",
-                "description": "Reliable shared web hosting with cPanel, perfect for individuals and small businesses. Easily manage multiple websites from one place with full control and flexibility.",
-                "services": [
-                    {
-                        "name": "Shared Hosting"
-                    },
-                    {
-                        "name": "cPanel Access"
-                    },
-                    {
-                        "name": "Host Multiple Websites"
-                    }
-                ],
-                "icon": "hosting",
-                "learnMoreBtnLink": "/services/web-hosting",
-                "learnMoreBtnTxt": "Learn More",
-                "cardBgColor": "bg-blue-100",
-                "cardIconColor": "blue-500"
             }
 
         ],

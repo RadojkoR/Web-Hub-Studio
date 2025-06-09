@@ -12,8 +12,7 @@ export const useMeta = () => {
     const baseUrl = "https://www.webhubstudio.com";
     const cleanPath = path !== "/" && path.endsWith("/") ? path.slice(0, -1) : path;
     const canonicalUrl = `${baseUrl}${cleanPath}`;
-
-
+    
     const pathToKeyMap: Record<string, string> = {
         "/": "home",
         "/services": "services",
@@ -26,7 +25,7 @@ export const useMeta = () => {
       };
 
       const key = pathToKeyMap[path] || "home";
-
+      
   return {
     title: `${t(`meta.${key}Title`)} | Web Hub Studio`,
     description: t(`meta.${key}Description`),
